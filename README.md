@@ -2,7 +2,7 @@
 
 A public engineering practice repository for deliberate improvement in software design, code quality, testing, product thinking, and technical communication.
 
-This repository started as a place for code katas. It is now expanding into a broader practice lab for building senior-level engineering judgment through real exercises, reviewable artifacts, and steady iteration.
+This repository started as a place for code katas. It is now expanding into a broader practice lab for building senior-level engineering judgment through real exercises, reviewable artifacts, product work, and steady iteration.
 
 ## Current Progress
 
@@ -39,6 +39,43 @@ The goal is to practice the full loop of senior engineering:
 - System design and architecture
 - Product requirement breakdowns and pitch writing
 - Senior-level technical communication
+- Building a local progress dashboard over time
+
+## Development Modes
+
+This repository supports several kinds of engineering practice. Not everything is a kata.
+
+| Mode | Purpose | Example Artifact |
+|---|---|---|
+| Code kata | Repeated practice with variation | Rebuild score calculation with different constraints |
+| Project work | Real product development | Build the local TypeScript/Kotlin progress dashboard |
+| Pitch/design doc | Shape vague ideas into clear work | Progress dashboard pitch |
+| Architecture exercise | Practice boundaries, contracts, and tradeoffs | Frontend/backend contract design |
+| Communication drill | Practice senior technical writing | PR comment, Slack update, risk summary |
+| Review/reflection | Score work and identify the next gap | Cycle review or exercise review |
+| Adoption decision | Decide whether practice work should become product code | Promote kata result into the app or leave it as practice |
+
+## Kata Practice
+
+Code katas are practice reps. They are intentionally repeated with variation so the same skill can be exercised from different angles.
+
+Kata submissions are stored as learning artifacts. They are not automatically treated as production app code.
+
+When a kata produces a useful design or implementation, it can be promoted into the actual progress app through an explicit adoption decision.
+
+## Progress App Direction
+
+A long-running goal of this repository is to build a local TypeScript/Kotlin web app that visualizes progress through the training journey.
+
+The app should grow gradually from the training work rather than becoming a large side project. Some exercises will produce app-related artifacts, but the app and the katas remain separate concepts.
+
+Initial product direction:
+
+- TypeScript frontend for the visual dashboard
+- Kotlin backend for progress data and scoring APIs
+- Progress data stored simply at first
+- Visual indicators for readiness, weekly trend, momentum, current focus, and next action
+- Real training artifacts used as the eventual source of truth where practical
 
 ## Senior Readiness Scorecard
 
@@ -72,13 +109,25 @@ The goal is to practice the full loop of senior engineering:
 ## Repository Structure
 
 ```txt
-exercises/
+katas/
   typescript/
   kotlin/
   functional-programming/
+
+exercises/
   product-pitches/
   communication/
   system-design/
+
+apps/
+  progress-web/
+
+services/
+  progress-api/
+
+docs/
+  progress-app/
+  decisions/
 
 cycles/
   cycle-001/
@@ -91,6 +140,7 @@ templates/
   adr-template.md
   pr-review-template.md
   bug-investigation-template.md
+  adoption-decision-template.md
 ```
 
 ## Working Style
