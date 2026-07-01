@@ -89,6 +89,29 @@ docs/
   progress-app/        # pitch, architecture, decisions
 ```
 
+## Review-Based Coaching
+
+Pull request review is part of the training loop.
+
+Submitted work can be reviewed through GitHub comments instead of only through chat. This makes the training closer to real engineering work: feedback is anchored to specific files and lines, changes are made in follow-up commits, and review threads are resolved only after the requested change has been addressed.
+
+This review loop is useful for:
+
+- practicing how to receive and clarify feedback
+- practicing how to respond with focused follow-up commits
+- improving technical writing in PRs and review threads
+- making feedback traceable to exact code or documentation changes
+- deciding whether a change is ready, needs another pass, or should be split
+
+When reviewing submitted work, the expected loop is:
+
+1. Submit the exercise, kata, document, or project slice in a branch or PR.
+2. Review comments are added in GitHub.
+3. Actionable comments are grouped by theme.
+4. Follow-up commits address the selected feedback.
+5. Threads are resolved after the fix is made.
+6. The review ends with a clear next action.
+
 ## Two-Week Cycle
 
 ### Day 1 — Baseline Assessment
