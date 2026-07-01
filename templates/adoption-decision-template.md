@@ -1,5 +1,11 @@
 # Adoption Decision
 
+Use this template when a practice result might become part of the real product app or shared project code.
+
+This is usually filled out when a kata, exercise, or prototype produces something useful enough to consider promoting.
+
+The decision can be submitted by itself, or included in the same pull request that moves the selected code into the product area.
+
 ## Source
 
 - Training mode:
