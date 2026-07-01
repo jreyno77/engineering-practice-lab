@@ -22,6 +22,7 @@ The app should eventually show:
 - vocabulary growth
 - pitch/design progress
 - code quality trend
+- refactoring skill and effectiveness trend
 - next action
 
 ## Training Goal
@@ -34,6 +35,8 @@ Use the app to practice real senior engineering skills:
 - functional transformations
 - type-safe parsing
 - TDD and regression testing
+- incremental refactoring
+- measuring refactoring effectiveness
 - architecture boundaries
 - product pitch writing
 - PR-style communication
@@ -83,3 +86,4 @@ The app is successful when it helps answer:
 3. What changed this week?
 4. What should I do next?
 5. Which areas need more practice?
+6. Is my refactoring skill improving over time?
