@@ -1,4 +1,148 @@
-# code-katas
-A repository for anyone interested in my code development or workflow.  This is my own practice projects taken from an idea I learned about for practicing code called code katas.
+# Engineering Practice Lab
 
-Commits are not allowed to be pushed directly to main
+A public engineering practice repository for deliberate improvement in software design, code quality, testing, product thinking, and technical communication.
+
+This repository started as a place for code katas. It is now expanding into a broader practice lab for building senior-level engineering judgment through real exercises, reviewable artifacts, product work, and steady iteration.
+
+## Current Progress
+
+| Metric | Status |
+|---|---|
+| Current Cycle | Cycle 001 |
+| Senior Readiness | TBD / 100 |
+| Weekly Trend | TBD |
+| Momentum | 🟡 Baseline Pending |
+| Primary Focus | TypeScript, Kotlin, functional design, communication |
+| Current Exercise | Day 01 Baseline Assessment |
+
+## Senior Engineering Readiness
+
+The readiness score is a coaching metric used to track growth over time. It is not a job title claim or a certification.
+
+The goal is to practice the full loop of senior engineering:
+
+1. Understand the problem.
+2. Identify constraints and tradeoffs.
+3. Design a maintainable solution.
+4. Implement with clear, type-safe code.
+5. Test the behavior.
+6. Communicate the reasoning clearly.
+
+## Focus Areas
+
+- TypeScript and Kotlin
+- Type-safe design
+- Functional programming patterns where they improve clarity
+- Test-driven development
+- Refactoring and maintainability
+- Debugging and performance reasoning
+- System design and architecture
+- Product requirement breakdowns and pitch writing
+- Senior-level technical communication
+- Building a local progress dashboard over time
+
+## Development Modes
+
+This repository supports several kinds of engineering practice. Not everything is a kata.
+
+| Mode | Purpose | Example Artifact |
+|---|---|---|
+| Code kata | Repeated practice with variation | Rebuild score calculation with different constraints |
+| Project work | Real product development | Build the local TypeScript/Kotlin progress dashboard |
+| Pitch/design doc | Shape vague ideas into clear work | Progress dashboard pitch |
+| Architecture exercise | Practice boundaries, contracts, and tradeoffs | Frontend/backend contract design |
+| Communication drill | Practice senior technical writing | PR comment, Slack update, risk summary |
+| Review/reflection | Score work and identify the next gap | Cycle review or exercise review |
+| Adoption decision | Decide whether practice work should become product code | Promote kata result into the app or leave it as practice |
+
+## Kata Practice
+
+Code katas are practice reps. They are intentionally repeated with variation so the same skill can be exercised from different angles.
+
+Kata submissions are stored as learning artifacts. They are not automatically treated as production app code.
+
+When a kata produces a useful design or implementation, it can be promoted into the actual progress app through an explicit adoption decision.
+
+## Progress App Direction
+
+A long-running goal of this repository is to build a local TypeScript/Kotlin web app that visualizes progress through the training journey.
+
+The app should grow gradually from the training work rather than becoming a large side project. Some exercises will produce app-related artifacts, but the app and the katas remain separate concepts.
+
+Initial product direction:
+
+- TypeScript frontend for the visual dashboard
+- Kotlin backend for progress data and scoring APIs
+- Progress data stored simply at first
+- Visual indicators for readiness, weekly trend, momentum, current focus, and next action
+- Real training artifacts used as the eventual source of truth where practical
+
+## Senior Readiness Scorecard
+
+| Area | Weight | Current Score |
+|---|---:|---:|
+| Code quality/refactoring | 16% | TBD |
+| System design/architecture | 16% | TBD |
+| Debugging/performance | 12% | TBD |
+| Testing/reliability | 10% | TBD |
+| Product requirements → pitch shaping | 16% | TBD |
+| Communication/vocabulary | 20% | TBD |
+| Leadership/product judgment | 10% | TBD |
+
+**Overall Senior Readiness:** TBD / 100
+
+## Weekly Progress
+
+| Week | Cycle | Readiness | Trend | Momentum | Main Focus |
+|---|---|---:|---:|---|---|
+| Week 1 | Cycle 001 | TBD | TBD | 🟡 Baseline Pending | Baseline assessment |
+
+## Momentum Legend
+
+| Status | Meaning |
+|---|---|
+| 🟢 On Track | Completed the planned work and improved or held steady |
+| 🟡 Baseline / Steady | Work is active, but not enough data yet or progress is flat |
+| 🟠 Needs Attention | Missed work, unclear submission, or a skill gap needs focused practice |
+| 🔴 Recovery Focus | Multiple missed days or a repeated gap requires a reset exercise |
+
+## Repository Structure
+
+```txt
+katas/
+  typescript/
+  kotlin/
+  functional-programming/
+
+exercises/
+  product-pitches/
+  communication/
+  system-design/
+
+apps/
+  progress-web/
+
+services/
+  progress-api/
+
+docs/
+  progress-app/
+  decisions/
+
+cycles/
+  cycle-001/
+    day-01-baseline/
+    day-02-code-quality/
+    day-03-typescript-kata/
+
+templates/
+  pitch-template.md
+  adr-template.md
+  pr-review-template.md
+  bug-investigation-template.md
+  adoption-decision-template.md
+```
+
+## Working Style
+
+Changes are made through branches and pull requests. Direct commits to `main` are avoided so each exercise can be reviewed like real engineering work.
