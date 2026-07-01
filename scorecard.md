@@ -6,15 +6,15 @@ The Senior Readiness Score is a coaching metric. It estimates how closely the cu
 
 | Area | Weight | Current Score | Notes |
 |---|---:|---:|---|
-| Code quality/refactoring | 16% | TBD | TBD |
-| System design/architecture | 16% | TBD | TBD |
-| Debugging/performance | 12% | TBD | TBD |
-| Testing/reliability | 10% | TBD | TBD |
-| Product requirements → pitch shaping | 16% | TBD | TBD |
-| Communication/vocabulary | 20% | TBD | TBD |
-| Leadership/product judgment | 10% | TBD | TBD |
+| Code quality/refactoring | 16% | 8 / 16 | Good instinct toward discriminated unions; needs stronger boundary parsing and `unknown` narrowing. |
+| System design/architecture | 16% | 10 / 16 | Good separation direction; needs more explicit contracts and clearer component names. |
+| Debugging/performance | 12% | 7 / 12 | Shows awareness; needs sharper distinction between assembly, streaming, and UI materialization costs. |
+| Testing/reliability | 10% | 5 / 10 | Compile-time thinking is present; runtime testing for untrusted input needs work. |
+| Product requirements → pitch shaping | 16% | 8 / 16 | Solid problem awareness; needs tighter structure and clearer boundaries. |
+| Communication/vocabulary | 20% | 15 / 20 | Clear, direct writing is a relative strength. |
+| Leadership/product judgment | 10% | 8 / 10 | Strong judgment around preserving training history and moving forward after understanding feedback. |
 
-**Overall Senior Readiness:** TBD / 100
+**Overall Senior Readiness:** 61 / 100
 
 ## Score Interpretation
 
@@ -39,4 +39,10 @@ The Senior Readiness Score is a coaching metric. It estimates how closely the cu
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|
-| Week 1 | Cycle 001 | TBD | TBD | 🟡 Baseline Pending | Baseline assessment |
+| Week 1 | Cycle 001 | 61 | Baseline | 🟡 Baseline / Steady | Type-safe boundary parsing |
+
+## Review History
+
+| Date | Cycle | Day | Score | Summary | Review Record |
+|---|---|---|---:|---|---|
+| 2026-07-01 | Cycle 001 | Day 01 baseline | 61 | Baseline submitted, reviewed, understood, and preserved as training history. | `cycles/cycle-001/day-01-baseline/review.md` |
