@@ -4,6 +4,29 @@ This file tracks technical language worth practicing in design docs, code review
 
 The goal is not to define obvious words. The goal is to build a working vocabulary for senior-level TypeScript, Kotlin, functional design, refactoring, testing, and delivery conversations.
 
+## Core Terms to Keep Practicing
+
+| Term | Working Meaning |
+|---|---|
+| Invariant | A rule that should always remain true |
+| Coupling | How much two parts depend on each other |
+| Cohesion | How focused one module/component is |
+| Idempotent | Safe to run more than once with the same result |
+| Serialization | Converting an in-memory value into an external format like JSON, text, or bytes |
+| Deserialization | Converting external data into an in-memory value the program can use |
+| Codec | A paired encoder/decoder that defines how a value crosses a boundary |
+| DTO | A data transfer object used at a boundary instead of exposing the full domain model |
+| Domain model | Types that represent the business concept rather than the transport format |
+| Discriminated union | A TypeScript union where a tag field determines the valid shape |
+| Sealed type | A Kotlin type hierarchy where the allowed subtypes are closed and known |
+| Refinement | Narrowing a broad or unsafe value into a more specific validated type |
+| Side effect | A change outside the function, such as I/O, mutation, logging, or network calls |
+| Referential transparency | A property where an expression can be replaced by its value without changing behavior |
+| Boundary object | A type used specifically where data crosses a system or module boundary |
+| Contract test | A test that verifies two sides agree on a shared API or data shape |
+| Idempotency | Safe repeat execution with the same externally visible result |
+| Regression | Previously working behavior breaks again |
+
 ## Type Modeling and Data Boundaries
 
 | Term | Working Meaning |
@@ -59,10 +82,10 @@ The goal is not to define obvious words. The goal is to build a working vocabula
 | Tail latency | High-percentile latency, such as p95 or p99, that shows worst-user experience better than averages |
 | Backpressure | A mechanism that stops producers from overwhelming slower consumers |
 | Failure isolation | Designing so one failure does not cascade through unrelated parts of the system |
-| Progressive delivery | Releasing changes gradually with flags, staged rollout, monitoring, and rollback paths |
+| Progressive delivery | Releasing changes gradually with flags, staged delivery, monitoring, and rollback paths |
 
 ## Practice Rule
 
 For each exercise, use at least three relevant terms naturally in the written explanation.
 
-The target is not memorization. The target is using precise vocabulary to explain design pressure, tradeoffs, and risk.
+The target is not memorization. The target is using precise vocabulary to explain design pressure, design quality, and risk.
