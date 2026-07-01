@@ -61,17 +61,6 @@ The goal is not to define obvious words. The goal is to build a working vocabula
 | Failure isolation | Designing so one failure does not cascade through unrelated parts of the system |
 | Progressive delivery | Releasing changes gradually with flags, staged rollout, monitoring, and rollback paths |
 
-## Framing, Communication, and Product Direction
-
-| Term | Working Meaning |
-|---|---|
-| Constraint | Something the solution must respect |
-| Boundary | Where one responsibility ends and another begins |
-| Contract | Agreed behavior between components or teams |
-| Observability | How we know what the system is doing |
-| Stakeholder | Person or team affected by the problem |
-| Success criteria | How we know the work succeeded |
-
 ## Practice Rule
 
 For each exercise, use at least three relevant terms naturally in the written explanation.
