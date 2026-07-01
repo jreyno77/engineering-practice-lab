@@ -16,6 +16,10 @@ The goal is not to define obvious words. The goal is to build a working vocabula
 | Smart constructor | A function that validates or normalizes input before constructing a domain value |
 | Type-level invariant | A rule enforced by the type model instead of repeated runtime checks |
 | Boundary decoding | Parsing and validating data as it enters the system instead of spreading checks throughout the code |
+| Boundary object | A type used specifically where data crosses a system or module boundary |
+| DTO | A data transfer object used at a boundary instead of exposing the full domain model |
+| Domain model | Types that represent the business concept rather than the transport format |
+| Refinement | Narrowing a broad or unsafe value into a more specific validated type |
 | Schema evolution | Changing a data contract while preserving compatibility with existing data or callers |
 | Contract drift | When two sides of an API or data boundary slowly stop agreeing about the real shape or behavior |
 
@@ -26,6 +30,7 @@ The goal is not to define obvious words. The goal is to build a working vocabula
 | Total function | A function that returns a valid result for every input in its declared domain |
 | Partial function | A function that can fail, throw, or behave unexpectedly for some inputs |
 | Effect boundary | The edge where pure logic meets I/O, mutation, logging, network calls, or time |
+| Side effect | A change outside the function, such as I/O, mutation, logging, or network calls |
 | Error algebra | A typed set of possible failures that callers can handle explicitly |
 | Railway-oriented flow | A style where success and failure paths are composed without hiding errors in exceptions |
 | Equational reasoning | Understanding code by substituting expressions with their values when side effects are controlled |
@@ -61,6 +66,8 @@ The goal is not to define obvious words. The goal is to build a working vocabula
 | Tail latency | High-percentile latency, such as p95 or p99, that shows worst-user experience better than averages |
 | Backpressure | A mechanism that stops producers from overwhelming slower consumers |
 | Idempotency key | A key used to make retried operations safe from duplicate side effects |
+| Determinism | The same input produces the same output without hidden variation |
+| Regression | Previously working behavior breaks again |
 | Failure isolation | Designing so one failure does not cascade through unrelated parts of the system |
 | Progressive delivery | Releasing changes gradually with flags, staged rollout, monitoring, and rollback paths |
 
