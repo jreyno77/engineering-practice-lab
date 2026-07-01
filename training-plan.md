@@ -32,6 +32,62 @@ This plan is not only about solving code problems. It is about practicing the fu
 - System design and architecture
 - Product requirement breakdowns and pitch writing
 - Senior-level technical communication
+- Building a useful local progress dashboard over time
+
+## Training Modes
+
+The training system uses multiple modes. Code katas are important, but they are not the whole system.
+
+| Mode | Purpose | Output |
+|---|---|---|
+| Code kata | Repetition and focused practice | A stored practice run with review/reflection |
+| Project work | Build the real progress app | Production-intended app or service code |
+| Pitch/design doc | Shape vague requirements | Pitch, ADR, or design note |
+| Architecture exercise | Practice boundaries and tradeoffs | Architecture note or diagram |
+| Communication drill | Build senior vocabulary and writing skill | PR comment, Slack update, risk summary |
+| Review/reflection | Measure growth and identify gaps | Review file, score update, next action |
+| Adoption decision | Decide whether practice work becomes app code | Adopt / do not adopt / adopt with changes |
+
+## Kata Rules
+
+A kata is a practice rep.
+
+A good kata is:
+
+- focused on one or two skills
+- repeatable with variation
+- small enough to review
+- useful even when the result is not adopted
+- stored as evidence of practice
+
+A kata is not automatically production code. If a kata produces a useful implementation or design, it can be promoted into the progress app through an explicit adoption decision.
+
+## Progress App Direction
+
+A long-running goal is to build a local TypeScript/Kotlin web app that visualizes progress through the training journey.
+
+The app should grow gradually from the training work. It should not replace katas, pitch writing, architecture exercises, or communication drills.
+
+Initial app goals:
+
+- show current cycle, current day, readiness score, momentum, focus area, and next action
+- visualize weekly progress over time
+- keep TypeScript and Kotlin models aligned
+- use simple progress data first before parsing complex repo history
+- create a useful artifact while still preserving the training purpose
+
+Potential structure:
+
+```txt
+apps/
+  progress-web/        # TypeScript frontend
+services/
+  progress-api/        # Kotlin backend
+data/
+  progress.json        # simple initial source of truth
+docs/
+  progress-app/        # pitch, architecture, decisions
+```
 
 ## Two-Week Cycle
 
