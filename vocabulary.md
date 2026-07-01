@@ -2,34 +2,37 @@
 
 This file tracks words and phrases that are useful for senior-level engineering communication.
 
-The goal is not to sound fancy. The goal is to describe engineering decisions clearly.
+The goal is not to sound fancy. The goal is to describe engineering decisions clearly, especially in TypeScript, Kotlin, functional design, data modeling, and review conversations.
 
-## Core Vocabulary
+## Technical Vocabulary to Practice
 
 | Term | Working Meaning |
 |---|---|
-| Constraint | Something the solution must respect |
-| Tradeoff | What we gain and what we give up |
-| Invariant | A rule that should always remain true |
-| Failure mode | A way the system can break |
-| Boundary | Where one responsibility ends and another begins |
-| Contract | Agreed behavior between components |
-| Coupling | How much two parts depend on each other |
-| Cohesion | How focused one module/component is |
-| Surface area | How much API/config/behavior others must understand |
-| Migration path | How to move safely from old behavior to new behavior |
-| Observability | How we know what the system is doing |
-| Blast radius | How much damage a bug or change can cause |
-| Idempotent | Safe to run more than once with the same result |
-| Deterministic | Same input produces same output |
-| Regression | Old behavior breaks again |
-| Rollout | How a change is released safely |
-| Appetite | How much time and effort the team is willing to spend |
-| Scope | What is included |
-| Out of scope | What is intentionally not being solved |
-| Stakeholder | Person or team affected by the problem |
-| Success criteria | How we know the work succeeded |
+| Serialization | Converting an in-memory value into an external format like JSON, text, or bytes |
+| Deserialization | Converting external data into an in-memory value the program can use |
+| Codec | A paired encoder/decoder that defines how a value crosses a boundary |
+| Schema | The expected structure and rules for a data shape |
+| Parser | Code that turns raw input into a validated domain value |
+| Validation | Checking that input satisfies the rules before it enters the domain model |
+| Normalization | Converting equivalent inputs into one consistent shape |
+| Projection | Transforming a larger model into the smaller shape a caller needs |
+| DTO | A data transfer object used at a boundary instead of exposing the full domain model |
+| Domain model | Types that represent the business concept rather than the transport format |
+| Discriminated union | A TypeScript union where a tag field determines the valid shape |
+| Sealed type | A Kotlin type hierarchy where the allowed subtypes are closed and known |
+| Exhaustiveness | Handling every known case so new cases produce compile-time pressure |
+| Refinement | Narrowing a broad or unsafe value into a more specific validated type |
+| Side effect | A change outside the function, such as I/O, mutation, logging, or network calls |
+| Referential transparency | A property where an expression can be replaced by its value without changing behavior |
+| Adapter | Code that translates between an external contract and an internal model |
+| Boundary object | A type used specifically where data crosses a system or module boundary |
+| Contract test | A test that verifies two sides agree on a shared API or data shape |
+| Backward compatibility | Keeping existing callers working while changing or extending behavior |
+| Migration path | A safe sequence for moving from old behavior to new behavior |
+| Idempotency | Safe repeat execution with the same externally visible result |
+| Determinism | The same input produces the same output without hidden variation |
+| Regression | Previously working behavior breaks again |
 
 ## Practice Rule
 
-For each exercise, use at least three senior vocabulary terms naturally in the written explanation.
+For each exercise, use at least three relevant vocabulary terms naturally in the written explanation.
