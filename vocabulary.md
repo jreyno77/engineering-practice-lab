@@ -1,38 +1,71 @@
 # Senior Engineering Vocabulary
 
-This file tracks words and phrases that are useful for senior-level engineering communication.
+This file tracks technical language worth practicing in design docs, code reviews, and architecture discussions.
 
-The goal is not to sound fancy. The goal is to describe engineering decisions clearly, especially in TypeScript, Kotlin, functional design, data modeling, and review conversations.
+The goal is not to define obvious words. The goal is to build a working vocabulary for senior-level TypeScript, Kotlin, functional design, refactoring, testing, and delivery conversations.
 
-## Technical Vocabulary to Practice
+## Type Modeling and Data Boundaries
 
 | Term | Working Meaning |
 |---|---|
-| Serialization | Converting an in-memory value into an external format like JSON, text, or bytes |
-| Deserialization | Converting external data into an in-memory value the program can use |
-| Codec | A paired encoder/decoder that defines how a value crosses a boundary |
-| Schema | The expected structure and rules for a data shape |
-| Parser | Code that turns raw input into a validated domain value |
-| Validation | Checking that input satisfies the rules before it enters the domain model |
-| Normalization | Converting equivalent inputs into one consistent shape |
-| Projection | Transforming a larger model into the smaller shape a caller needs |
-| DTO | A data transfer object used at a boundary instead of exposing the full domain model |
-| Domain model | Types that represent the business concept rather than the transport format |
-| Discriminated union | A TypeScript union where a tag field determines the valid shape |
-| Sealed type | A Kotlin type hierarchy where the allowed subtypes are closed and known |
-| Exhaustiveness | Handling every known case so new cases produce compile-time pressure |
-| Refinement | Narrowing a broad or unsafe value into a more specific validated type |
-| Side effect | A change outside the function, such as I/O, mutation, logging, or network calls |
+| Algebraic data type | A model built from product types and sum types so invalid states are harder to represent |
+| Product type | A type made by combining fields, such as a Kotlin `data class` or TypeScript object type |
+| Sum type | A type that represents one of several alternatives, such as a TypeScript discriminated union or Kotlin sealed hierarchy |
+| Branded type | A TypeScript technique for making primitive values more specific, such as `UserId` instead of plain `string` |
+| Phantom type | A type parameter used to track compile-time state without changing the runtime representation |
+| Smart constructor | A function that validates or normalizes input before constructing a domain value |
+| Type-level invariant | A rule enforced by the type model instead of repeated runtime checks |
+| Boundary decoding | Parsing and validating data as it enters the system instead of spreading checks throughout the code |
+| Schema evolution | Changing a data contract while preserving compatibility with existing data or callers |
+| Contract drift | When two sides of an API or data boundary slowly stop agreeing about the real shape or behavior |
+
+## Functional Design
+
+| Term | Working Meaning |
+|---|---|
+| Total function | A function that returns a valid result for every input in its declared domain |
+| Partial function | A function that can fail, throw, or behave unexpectedly for some inputs |
+| Effect boundary | The edge where pure logic meets I/O, mutation, logging, network calls, or time |
+| Error algebra | A typed set of possible failures that callers can handle explicitly |
+| Railway-oriented flow | A style where success and failure paths are composed without hiding errors in exceptions |
+| Equational reasoning | Understanding code by substituting expressions with their values when side effects are controlled |
+| Function composition | Building larger behavior by connecting smaller functions with compatible inputs and outputs |
+| Persistent data structure | An immutable data structure that shares structure efficiently across versions |
 | Referential transparency | A property where an expression can be replaced by its value without changing behavior |
-| Adapter | Code that translates between an external contract and an internal model |
-| Boundary object | A type used specifically where data crosses a system or module boundary |
-| Contract test | A test that verifies two sides agree on a shared API or data shape |
-| Backward compatibility | Keeping existing callers working while changing or extending behavior |
-| Migration path | A safe sequence for moving from old behavior to new behavior |
-| Idempotency | Safe repeat execution with the same externally visible result |
-| Determinism | The same input produces the same output without hidden variation |
-| Regression | Previously working behavior breaks again |
+| Higher-order function | A function that accepts or returns another function to abstract behavior safely |
+
+## Refactoring and Design Pressure
+
+| Term | Working Meaning |
+|---|---|
+| Characterization test | A test that captures current behavior before refactoring legacy or unclear code |
+| Seam | A place where behavior can be isolated, replaced, or tested without invasive changes |
+| Temporal coupling | A hidden dependency on operations happening in a specific order |
+| Connascence | A measure of how strongly two pieces of code must change together |
+| Shotgun surgery | A smell where one behavior change requires edits in many places |
+| Divergent change | A smell where one module changes for many unrelated reasons |
+| Primitive obsession | Overusing raw primitives where domain-specific types would protect meaning |
+| Refactoring safety net | Tests, types, and review practices that make incremental design improvement safer |
+| Expand-contract migration | A safe migration pattern: add new behavior, migrate callers, then remove old behavior |
+| Strangler migration | Replacing a legacy path gradually by routing slices of behavior to the new path |
+
+## Testing, Reliability, and Delivery
+
+| Term | Working Meaning |
+|---|---|
+| Property-based testing | Testing general rules across many generated inputs instead of only hand-picked examples |
+| Mutation testing | Testing the tests by changing code and checking whether the test suite catches it |
+| Golden master | A captured output used to detect behavior changes during refactoring |
+| Contract test | A test that verifies two systems agree on a shared API or data contract |
+| Flake budget | A team threshold for how much nondeterminism is tolerated before tests must be fixed |
+| Tail latency | High-percentile latency, such as p95 or p99, that shows worst-user experience better than averages |
+| Backpressure | A mechanism that stops producers from overwhelming slower consumers |
+| Idempotency key | A key used to make retried operations safe from duplicate side effects |
+| Failure isolation | Designing so one failure does not cascade through unrelated parts of the system |
+| Progressive delivery | Releasing changes gradually with flags, staged rollout, monitoring, and rollback paths |
 
 ## Practice Rule
 
-For each exercise, use at least three relevant vocabulary terms naturally in the written explanation.
+For each exercise, use at least three relevant terms naturally in the written explanation.
+
+The target is not memorization. The target is using precise vocabulary to explain design pressure, tradeoffs, and risk.
