@@ -16,10 +16,6 @@ The goal is not to define obvious words. The goal is to build a working vocabula
 | Smart constructor | A function that validates or normalizes input before constructing a domain value |
 | Type-level invariant | A rule enforced by the type model instead of repeated runtime checks |
 | Boundary decoding | Parsing and validating data as it enters the system instead of spreading checks throughout the code |
-| Boundary object | A type used specifically where data crosses a system or module boundary |
-| DTO | A data transfer object used at a boundary instead of exposing the full domain model |
-| Domain model | Types that represent the business concept rather than the transport format |
-| Refinement | Narrowing a broad or unsafe value into a more specific validated type |
 | Schema evolution | Changing a data contract while preserving compatibility with existing data or callers |
 | Contract drift | When two sides of an API or data boundary slowly stop agreeing about the real shape or behavior |
 
@@ -30,13 +26,11 @@ The goal is not to define obvious words. The goal is to build a working vocabula
 | Total function | A function that returns a valid result for every input in its declared domain |
 | Partial function | A function that can fail, throw, or behave unexpectedly for some inputs |
 | Effect boundary | The edge where pure logic meets I/O, mutation, logging, network calls, or time |
-| Side effect | A change outside the function, such as I/O, mutation, logging, or network calls |
 | Error algebra | A typed set of possible failures that callers can handle explicitly |
 | Railway-oriented flow | A style where success and failure paths are composed without hiding errors in exceptions |
 | Equational reasoning | Understanding code by substituting expressions with their values when side effects are controlled |
 | Function composition | Building larger behavior by connecting smaller functions with compatible inputs and outputs |
 | Persistent data structure | An immutable data structure that shares structure efficiently across versions |
-| Referential transparency | A property where an expression can be replaced by its value without changing behavior |
 | Higher-order function | A function that accepts or returns another function to abstract behavior safely |
 
 ## Refactoring and Design Pressure
@@ -61,15 +55,22 @@ The goal is not to define obvious words. The goal is to build a working vocabula
 | Property-based testing | Testing general rules across many generated inputs instead of only hand-picked examples |
 | Mutation testing | Testing the tests by changing code and checking whether the test suite catches it |
 | Golden master | A captured output used to detect behavior changes during refactoring |
-| Contract test | A test that verifies two systems agree on a shared API or data contract |
 | Flake budget | A team threshold for how much nondeterminism is tolerated before tests must be fixed |
 | Tail latency | High-percentile latency, such as p95 or p99, that shows worst-user experience better than averages |
 | Backpressure | A mechanism that stops producers from overwhelming slower consumers |
-| Idempotency key | A key used to make retried operations safe from duplicate side effects |
-| Determinism | The same input produces the same output without hidden variation |
-| Regression | Previously working behavior breaks again |
 | Failure isolation | Designing so one failure does not cascade through unrelated parts of the system |
 | Progressive delivery | Releasing changes gradually with flags, staged rollout, monitoring, and rollback paths |
+
+## Framing, Communication, and Product Direction
+
+| Term | Working Meaning |
+|---|---|
+| Constraint | Something the solution must respect |
+| Boundary | Where one responsibility ends and another begins |
+| Contract | Agreed behavior between components or teams |
+| Observability | How we know what the system is doing |
+| Stakeholder | Person or team affected by the problem |
+| Success criteria | How we know the work succeeded |
 
 ## Practice Rule
 
