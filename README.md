@@ -2,18 +2,32 @@
 
 A public engineering practice repository for deliberate improvement in software design, code quality, testing, product thinking, and technical communication.
 
-This repository started as a place for code katas. It is now expanding into a broader practice lab for building senior-level engineering judgment through real exercises, reviewable artifacts, product work, and steady iteration.
+This repository is a broader practice lab for building senior-level engineering judgment through exercises, reviewable artifacts, product work, and steady iteration.
 
 ## Current Progress
 
 | Metric | Status |
 |---|---|
 | Current Cycle | Cycle 001 |
-| Senior Readiness | TBD / 100 |
-| Weekly Trend | TBD |
-| Momentum | 🟡 Baseline Pending |
-| Primary Focus | TypeScript, Kotlin, functional design, communication |
-| Current Exercise | Day 01 Baseline Assessment |
+| Senior Readiness | 61 / 100 |
+| Weekly Trend | Baseline |
+| Momentum | 🟡 Baseline / Steady |
+| Primary Focus | Type-safe boundary parsing, runtime guards, explicit contracts |
+| Last Completed Exercise | Day 01 Baseline Assessment |
+| Current / Next Exercise | Day 02 Code Quality and Fundamentals |
+
+## Latest Review Summary
+
+Day 01 established the baseline score and the first focused practice area.
+
+| Item | Result |
+|---|---|
+| Review Record | `cycles/cycle-001/day-01-baseline/review.md` |
+| Scorecard | `scorecard.md` |
+| Score | 61 / 100 |
+| Main Strength | Clear communication and good design instincts |
+| Main Growth Area | Turning instincts into complete, precise artifacts that satisfy constraints |
+| Next Focus | Parse untrusted input with `unknown`, narrowing helpers, runtime guards, clear errors, and tests |
 
 ## Senior Engineering Readiness
 
@@ -27,6 +41,24 @@ The goal is to practice the full loop of senior engineering:
 4. Implement with clear, type-safe code.
 5. Test the behavior.
 6. Communicate the reasoning clearly.
+7. Record the review, score, and next focus.
+
+## Coaching Rules
+
+The durable coaching rules live in:
+
+```txt
+docs/coaching-rules.md
+```
+
+Important rules:
+
+- Daily assignments should include a learning direction section first.
+- Learning direction can include a reading topic, documentation page, video topic, book concept, or small example.
+- Training examples must stay generic because this repo is public.
+- Do not include employer, client, team, private system, private domain, private URL, credential, header, log, screenshot, or internal workflow details.
+- For baseline and training submissions, preserve the original attempt, review, score, and user understanding instead of rewriting the work into a perfect final answer.
+- Continue back-and-forth only when there is disagreement, confusion, or production-intended project code that needs fixes.
 
 ## Focus Areas
 
@@ -81,21 +113,21 @@ Initial product direction:
 
 | Area | Weight | Current Score |
 |---|---:|---:|
-| Code quality/refactoring | 16% | TBD |
-| System design/architecture | 16% | TBD |
-| Debugging/performance | 12% | TBD |
-| Testing/reliability | 10% | TBD |
-| Product requirements → pitch shaping | 16% | TBD |
-| Communication/vocabulary | 20% | TBD |
-| Leadership/product judgment | 10% | TBD |
+| Code quality/refactoring | 16% | 8 / 16 |
+| System design/architecture | 16% | 10 / 16 |
+| Debugging/performance | 12% | 7 / 12 |
+| Testing/reliability | 10% | 5 / 10 |
+| Product requirements → pitch shaping | 16% | 8 / 16 |
+| Communication/vocabulary | 20% | 15 / 20 |
+| Leadership/product judgment | 10% | 8 / 10 |
 
-**Overall Senior Readiness:** TBD / 100
+**Overall Senior Readiness:** 61 / 100
 
 ## Weekly Progress
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|
-| Week 1 | Cycle 001 | TBD | TBD | 🟡 Baseline Pending | Baseline assessment |
+| Week 1 | Cycle 001 | 61 | Baseline | 🟡 Baseline / Steady | Type-safe boundary parsing |
 
 ## Momentum Legend
 
@@ -126,12 +158,16 @@ services/
   progress-api/
 
 docs/
+  coaching-rules.md
   progress-app/
   decisions/
 
 cycles/
   cycle-001/
     day-01-baseline/
+      prompt.md
+      submission.md
+      review.md
     day-02-code-quality/
     day-03-typescript-kata/
 
