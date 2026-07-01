@@ -93,24 +93,29 @@ docs/
 
 Pull request review is part of the training loop.
 
-Submitted work can be reviewed through GitHub comments instead of only through chat. This makes the training closer to real engineering work: feedback is anchored to specific files and lines, changes are made in follow-up commits, and review threads are resolved only after the requested change has been addressed.
+Submitted work can be reviewed through GitHub comments instead of only through chat. This makes the training closer to real engineering work: feedback is anchored to specific files and lines, changes are made in follow-up commits when useful, and review threads preserve the discussion around the submitted work.
 
 This review loop is useful for:
 
 - practicing how to receive and clarify feedback
-- practicing how to respond with focused follow-up commits
+- practicing how to respond with focused follow-up commits when needed
 - improving technical writing in PRs and review threads
 - making feedback traceable to exact code or documentation changes
 - deciding whether a change is ready, needs another pass, or should be split
+- preserving the history of the assignment, submission, review, score, and response
 
 When reviewing submitted work, the expected loop is:
 
 1. Submit the exercise, kata, document, or project slice in a branch or PR.
 2. Review comments are added in GitHub.
 3. Actionable comments are grouped by theme.
-4. Follow-up commits address the selected feedback.
-5. Threads are resolved after the fix is made.
-6. The review ends with a clear next action.
+4. The score and review summary are recorded in the repo.
+5. If the feedback is understood, preserve the submission and move forward.
+6. If there is disagreement or confusion, continue the review thread.
+7. If the work is production-intended project code, fix blocking issues before merge.
+8. The review ends with a clear next action.
+
+For baseline and training submissions, the goal is not to rewrite the original answer into the reviewer’s ideal version. The repo should preserve the evidence of the attempt, the feedback, the user’s understanding, and the next focus area.
 
 ## Two-Week Cycle
 
@@ -151,7 +156,7 @@ Retest key areas, update the senior readiness score, and choose focus areas for 
 1. Receive the day’s task.
 2. Submit the answer in the repo or chat.
 3. Get a scored review.
-4. Complete a follow-up drill if needed.
-5. Move to the next day or rest until tomorrow.
+4. Record the review summary and score in the repo.
+5. Move to the next day, unless there is disagreement, confusion, or production code that needs fixes.
 
 Every review should end with a clear next action.
