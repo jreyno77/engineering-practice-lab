@@ -15,17 +15,11 @@ The goal is not to define obvious words. The goal is to build a working vocabula
 | Serialization | Converting an in-memory value into an external format like JSON, text, or bytes |
 | Deserialization | Converting external data into an in-memory value the program can use |
 | Codec | A paired encoder/decoder that defines how a value crosses a boundary |
-| DTO | A data transfer object used at a boundary instead of exposing the full domain model |
-| Domain model | Types that represent the business concept rather than the transport format |
 | Discriminated union | A TypeScript union where a tag field determines the valid shape |
 | Sealed type | A Kotlin type hierarchy where the allowed subtypes are closed and known |
-| Refinement | Narrowing a broad or unsafe value into a more specific validated type |
-| Side effect | A change outside the function, such as I/O, mutation, logging, or network calls |
 | Referential transparency | A property where an expression can be replaced by its value without changing behavior |
 | Boundary object | A type used specifically where data crosses a system or module boundary |
-| Contract test | A test that verifies two sides agree on a shared API or data shape |
 | Idempotency | Safe repeat execution with the same externally visible result |
-| Regression | Previously working behavior breaks again |
 
 ## Type Modeling and Data Boundaries
 
