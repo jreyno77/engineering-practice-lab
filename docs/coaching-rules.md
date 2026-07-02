@@ -50,6 +50,21 @@ The normal loop is:
 
 Do not rewrite the submitted work into the reviewer’s ideal answer just to make the record look perfect. The original attempt, feedback, and understanding are the useful evidence.
 
+## Judgment Versus Compliance
+
+The user should not blindly do exactly what the assignment or reviewer says every time. Senior-level practice includes deciding when requested work is useful, when it is too much, and when a smaller tradeoff is better.
+
+Reviews should distinguish between:
+
+- assignment compliance
+- engineering judgment
+- production readiness
+- intentional tradeoff or disagreement
+
+If the user intentionally rejects part of a prompt or review comment, the submission or review response should briefly explain why. That makes the disagreement part of the engineering record instead of treating it as an accidental omission.
+
+The reviewer should avoid asking for more code, tests, or process than the situation justifies. For training exercises, the reviewer can still note when the submitted artifact does not meet the prompt, but should separate that from whether the user's engineering judgment is reasonable.
+
 ## Practice Variety
 
 Assignments should include concepts the user does not necessarily think about every day at work.

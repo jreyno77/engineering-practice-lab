@@ -9,10 +9,10 @@ The Senior Readiness Score is a coaching metric. It estimates how closely the cu
 | Code quality/refactoring | 16% | 8 / 16 | Good instinct toward discriminated unions; needs stronger boundary parsing and `unknown` narrowing. |
 | System design/architecture | 16% | 10 / 16 | Good separation direction; needs more explicit contracts and clearer component names. |
 | Debugging/performance | 12% | 7 / 12 | Shows awareness; needs sharper distinction between assembly, streaming, and UI materialization costs. |
-| Testing/reliability | 10% | 5 / 10 | Compile-time thinking is present; runtime testing for untrusted input needs work. |
+| Testing/reliability | 10% | 5 / 10 | Testing philosophy is reasonable; submitted test plans need clearer risk-based concrete cases when requested. |
 | Product requirements → pitch shaping | 16% | 8 / 16 | Solid problem awareness; needs tighter structure and clearer boundaries. |
-| Communication/vocabulary | 20% | 15 / 20 | Clear, direct writing is a relative strength. |
-| Leadership/product judgment | 10% | 8 / 10 | Strong judgment around preserving training history and moving forward after understanding feedback. |
+| Communication/vocabulary | 20% | 15 / 20 | Clear, direct writing is a relative strength; PR responses should stay shorter. |
+| Leadership/product judgment | 10% | 8 / 10 | Strong judgment around preserving training history, moving forward after understanding feedback, and pushing back when review asks for too much. |
 
 **Overall Senior Readiness:** 61 / 100
 
@@ -39,10 +39,11 @@ The Senior Readiness Score is a coaching metric. It estimates how closely the cu
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|
-| Week 1 | Cycle 001 | 61 | Baseline | 🟡 Baseline / Steady | Type-safe boundary parsing |
+| Week 1 | Cycle 001 | 61 | Baseline | 🟡 Baseline / Steady | Boundary parsing and intentional tradeoffs |
 
 ## Review History
 
 | Date | Cycle | Day | Score | Summary | Review Record |
 |---|---|---|---:|---|---|
 | 2026-07-01 | Cycle 001 | Day 01 baseline | 61 | Baseline submitted, reviewed, understood, and preserved as training history. | `cycles/cycle-001/day-01-baseline/review.md` |
+| 2026-07-02 | Cycle 001 | Day 02 code quality | 55 | Boundary parsing improved from Day 01; review identified runtime proof gaps and recorded user disagreement on test-plan detail. | `cycles/cycle-001/day-02-code-quality/review.md` |
