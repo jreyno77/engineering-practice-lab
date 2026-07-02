@@ -21,15 +21,19 @@ Use generic examples instead. If a real work scenario inspires an exercise, rewr
 
 Daily assignments should include a small learning direction section before the task.
 
-Each assignment should usually include one or more of:
+Each assignment should usually include:
 
+- 2–4 concrete learning resources when practical
+- at least one official documentation link when the topic has good official docs
 - a short reading topic
 - a documentation page to look up
-- a book chapter or concept to review
-- a YouTube/video topic to search for
+- a book chapter or concept to review when useful
+- a YouTube/video topic or direct video link when useful
 - a small example to study before starting
 
 The learning direction should point the user toward the concept without giving away the whole answer.
+
+Prefer stable, public resources. Avoid linking to private docs, employer docs, internal systems, private examples, or anything that exposes work context.
 
 ## Training Review Closure
 

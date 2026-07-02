@@ -16,6 +16,23 @@ Before starting, spend 20–30 minutes reviewing these concepts:
 - Runtime validation at system boundaries
 - Clear error messages for invalid configuration input
 
+Use these resources first:
+
+1. TypeScript Handbook — Narrowing  
+   https://www.typescriptlang.org/docs/handbook/2/narrowing.html
+
+2. TypeScript Handbook — Everyday Types  
+   https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+
+3. Parse, don’t validate — Alexis King  
+   https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/
+
+Suggested YouTube search topics:
+
+- `TypeScript unknown vs any`
+- `TypeScript type guards explained`
+- `TypeScript discriminated unions explained`
+
 Suggested search terms:
 
 - `TypeScript unknown type narrowing`
