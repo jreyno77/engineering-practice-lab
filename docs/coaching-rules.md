@@ -35,6 +35,22 @@ The learning direction should point the user toward the concept without giving a
 
 Prefer stable, public resources. Avoid linking to private docs, employer docs, internal systems, private examples, or anything that exposes work context.
 
+## Daily Exercise Sizing
+
+Daily exercises should usually be small runnable reps, not broad multi-part assignments.
+
+Preferred daily shape:
+
+- one small helper, parser slice, refactor, or communication drill
+- one `.ts` or `.kt` file when the exercise is code-focused
+- tests included or explicitly requested when the skill is code behavior
+- about 30–60 minutes of work
+- short written explanation only when it helps the skill being practiced
+
+Longer exercises should be clearly labeled as longer assignments. Ask whether the user is ready before using a longer exercise. If the user is not ready, keep the longer exercise for later and offer a smaller rep instead.
+
+Favor TDD-style reps when practicing code: write or update the test next to the implementation so behavior is visible and reviewable.
+
 ## Training Review Closure
 
 For training and baseline submissions, the goal is to preserve the learning history.
