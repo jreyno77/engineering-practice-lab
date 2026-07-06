@@ -6,15 +6,15 @@ The Senior Readiness Score is a coaching metric. It estimates how closely the cu
 
 | Area | Weight | Current Score | Notes |
 |---|---:|---:|---|
-| Code quality/refactoring | 16% | 8 / 16 | Good instinct toward discriminated unions; needs stronger boundary parsing and `unknown` narrowing. |
+| Code quality/refactoring | 16% | 8 / 16 | Good instinct toward discriminated unions; needs stronger boundary parsing and new-object construction. |
 | System design/architecture | 16% | 10 / 16 | Good separation direction; needs more explicit contracts and clearer component names. |
 | Debugging/performance | 12% | 7 / 12 | Shows awareness; needs sharper distinction between assembly, streaming, and UI materialization costs. |
-| Testing/reliability | 10% | 5 / 10 | Testing philosophy is reasonable; submitted test plans need clearer risk-based concrete cases when requested. |
+| Testing/reliability | 10% | 6 / 10 | Improved by adding Vitest and writing runnable tests; still needs tighter risk-based coverage. |
 | Product requirements → pitch shaping | 16% | 8 / 16 | Solid problem awareness; needs tighter structure and clearer boundaries. |
 | Communication/vocabulary | 20% | 15 / 20 | Clear, direct writing is a relative strength; PR responses should stay shorter. |
-| Leadership/product judgment | 10% | 8 / 10 | Strong judgment around preserving training history, moving forward after understanding feedback, and pushing back when review asks for too much. |
+| Leadership/product judgment | 10% | 9 / 10 | Strong judgment around preserving training history, pushing back on exercise scope, and asking for better practice sizing. |
 
-**Overall Senior Readiness:** 61 / 100
+**Overall Senior Readiness:** 63 / 100
 
 ## Score Interpretation
 
@@ -39,7 +39,7 @@ The Senior Readiness Score is a coaching metric. It estimates how closely the cu
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|
-| Week 1 | Cycle 001 | 61 | Baseline | 🟡 Baseline / Steady | Boundary parsing and intentional tradeoffs |
+| Week 1 | Cycle 001 | 63 | +2 | 🟢 On Track | Smaller TDD-style boundary parsing reps |
 
 ## Review History
 
@@ -47,3 +47,4 @@ The Senior Readiness Score is a coaching metric. It estimates how closely the cu
 |---|---|---|---:|---|---|
 | 2026-07-01 | Cycle 001 | Day 01 baseline | 61 | Baseline submitted, reviewed, understood, and preserved as training history. | `cycles/cycle-001/day-01-baseline/review.md` |
 | 2026-07-02 | Cycle 001 | Day 02 code quality | 55 | Boundary parsing improved from Day 01; review identified runtime proof gaps and recorded user disagreement on test-plan detail. | `cycles/cycle-001/day-02-code-quality/review.md` |
+| 2026-07-06 | Cycle 001 | Day 03 boundary parser rep | 58 | Added runnable TypeScript and Vitest tests; review identified clean-output gaps and corrected future exercise sizing. | `cycles/cycle-001/day-03-boundary-parser-rep/review.md` |
