@@ -7,12 +7,12 @@ The Senior Readiness Score is a coaching metric. It estimates how closely the cu
 | Area | Weight | Current Score | Notes |
 |---|---:|---:|---|
 | Code quality/refactoring | 16% | 9 / 16 | Improved small-helper boundary parsing; needs more explicit null/undefined checks and simpler control flow. |
-| System design/architecture | 16% | 10 / 16 | Good separation direction; needs more explicit contracts and clearer component names. |
+| System design/architecture | 16% | 10 / 16 | Good separation direction; next block should test boundaries, contracts, tradeoffs, and failure modes. |
 | Debugging/performance | 12% | 7 / 12 | Shows awareness; needs sharper distinction between assembly, streaming, and UI materialization costs. |
 | Testing/reliability | 10% | 7 / 10 | Improved runnable Vitest coverage; next step is targeted failure tests that expose edge-case bugs. |
-| Product requirements → pitch shaping | 16% | 8 / 16 | Solid problem awareness; needs tighter structure and clearer boundaries. |
-| Communication/vocabulary | 20% | 15 / 20 | Clear, direct writing is a relative strength; PR responses should stay shorter. |
-| Leadership/product judgment | 10% | 9 / 10 | Strong judgment around preserving training history, pushing back on review overreach, and keeping practice scope right-sized. |
+| Product requirements → pitch shaping | 16% | 8 / 16 | Important senior-readiness area; should remain a dedicated exercise block, not a side note. |
+| Communication/vocabulary | 20% | 15 / 20 | Clear, direct writing is a relative strength; continue practicing disagreement, risk summaries, and planning language. |
+| Leadership/product judgment | 10% | 9 / 10 | Strong judgment around preserving training history, pushing back on review overreach, and correcting scope drift. |
 
 **Overall Senior Readiness:** 65 / 100
 
@@ -39,7 +39,7 @@ The Senior Readiness Score is a coaching metric. It estimates how closely the cu
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|
-| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Small TDD-style boundary parsing reps |
+| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Balanced senior loop: architecture, pitch shaping, communication, and code quality |
 
 ## Review History
 
