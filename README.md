@@ -9,25 +9,25 @@ This repository is a broader practice lab for building senior-level engineering 
 | Metric | Status |
 |---|---|
 | Current Cycle | Cycle 001 |
-| Senior Readiness | 63 / 100 |
-| Weekly Trend | +2 |
+| Senior Readiness | 65 / 100 |
+| Weekly Trend | +4 |
 | Momentum | 🟢 On Track |
-| Primary Focus | Smaller TDD-style boundary parsing reps |
-| Last Completed Exercise | Day 03 Boundary Parser Rep |
-| Current / Next Exercise | Day 04 Small Helper Rep |
+| Primary Focus | Small TDD-style boundary parsing reps |
+| Last Completed Exercise | Day 04 Small Helper Rep |
+| Current / Next Exercise | Day 05 Small TDD Rep |
 
 ## Latest Review Summary
 
-Day 03 produced runnable TypeScript and Vitest tests, but also showed the daily exercise was too large.
+Day 04 was the first right-sized helper rep after the Day 03 scope correction.
 
 | Item | Result |
 |---|---|
-| Review Record | `cycles/cycle-001/day-03-boundary-parser-rep/review.md` |
+| Review Record | `cycles/cycle-001/day-04-small-helper-rep/review.md` |
 | Scorecard | `scorecard.md` |
-| Score | 58 / 100 technical, strong process signal |
-| Main Strength | TDD-style practice, clear pushback on exercise scope, and preserving learning history |
-| Main Growth Area | Constructing a new clean object from parsed fields instead of validating and returning a copied raw object |
-| Next Focus | One small helper or parser slice at a time with tests |
+| Score | 76 / 100 |
+| Main Strength | Focused helper implementation, direct `unknown` checks, tests in the same `.ts` file, and useful review pushback |
+| Main Growth Area | Avoid truthiness for boundary parsing; use explicit null/undefined checks and simpler control flow |
+| Next Focus | One small failing test or parser helper at a time |
 
 ## Senior Engineering Readiness
 
@@ -115,21 +115,21 @@ Initial product direction:
 
 | Area | Weight | Current Score |
 |---|---:|---:|
-| Code quality/refactoring | 16% | 8 / 16 |
+| Code quality/refactoring | 16% | 9 / 16 |
 | System design/architecture | 16% | 10 / 16 |
 | Debugging/performance | 12% | 7 / 12 |
-| Testing/reliability | 10% | 6 / 10 |
+| Testing/reliability | 10% | 7 / 10 |
 | Product requirements → pitch shaping | 16% | 8 / 16 |
 | Communication/vocabulary | 20% | 15 / 20 |
 | Leadership/product judgment | 10% | 9 / 10 |
 
-**Overall Senior Readiness:** 63 / 100
+**Overall Senior Readiness:** 65 / 100
 
 ## Weekly Progress
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|
-| Week 1 | Cycle 001 | 63 | +2 | 🟢 On Track | Smaller TDD-style boundary parsing reps |
+| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Small TDD-style boundary parsing reps |
 
 ## Momentum Legend
 
@@ -177,6 +177,10 @@ cycles/
     day-03-boundary-parser-rep/
       prompt.md
       submission.md
+      submission.ts
+      review.md
+    day-04-small-helper-rep/
+      prompt.md
       submission.ts
       review.md
 
