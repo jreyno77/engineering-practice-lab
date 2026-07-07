@@ -73,13 +73,25 @@ That type alias is erased by TypeScript. A runtime-distinguishable error would n
 
 This named-error nuance is recorded here, but it should not become a future lesson item unless it becomes relevant.
 
+## Scope Correction
+
+This review should not turn the next training step into another code-only helper rep.
+
+Days 2–4 were the code-quality block. Day 04 closes that block with a useful code lesson: avoid truthiness when parsing boundary values.
+
+The larger senior-engineer plan still includes architecture, product shaping, communication, debugging, and leadership judgment. The code lesson is one input to the plan, not the whole plan.
+
 ## Next Focus
 
-Continue with small TDD-style reps.
+Move back to the planned two-week cycle.
 
-Day 05 should stay small and focus on one of:
+Day 05 should start the system design / architecture block:
 
-- fixing truthiness vs explicit checks,
-- parsing one primitive value,
-- writing one targeted failing test before implementation,
-- simplifying control flow without adding abstraction.
+- boundaries,
+- contracts,
+- tradeoffs,
+- failure modes,
+- rollout thinking,
+- maintainability.
+
+The truthiness lesson can appear later as a small reinforcing test, but the next primary training area should not be another parser helper.

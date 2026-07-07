@@ -12,9 +12,9 @@ This repository is a broader practice lab for building senior-level engineering 
 | Senior Readiness | 65 / 100 |
 | Weekly Trend | +4 |
 | Momentum | 🟢 On Track |
-| Primary Focus | Small TDD-style boundary parsing reps |
+| Primary Focus | Skill loop: architecture next, code-quality refreshers stay active |
 | Last Completed Exercise | Day 04 Small Helper Rep |
-| Current / Next Exercise | Day 05 Small TDD Rep |
+| Current / Next Exercise | System Design / Architecture Skill Area |
 
 ## Latest Review Summary
 
@@ -27,7 +27,7 @@ Day 04 was the first right-sized helper rep after the Day 03 scope correction.
 | Score | 76 / 100 |
 | Main Strength | Focused helper implementation, direct `unknown` checks, tests in the same `.ts` file, and useful review pushback |
 | Main Growth Area | Avoid truthiness for boundary parsing; use explicit null/undefined checks and simpler control flow |
-| Next Focus | One small failing test or parser helper at a time |
+| Next Focus | Move to system design / architecture while keeping code-quality lessons fresh with short quizzes |
 
 ## Senior Engineering Readiness
 
@@ -42,6 +42,34 @@ The goal is to practice the full loop of senior engineering:
 5. Test the behavior.
 6. Communicate the reasoning clearly.
 7. Record the review, score, and next focus.
+
+## Skill Loop
+
+The durable training loop lives in:
+
+```txt
+training-loop.md
+```
+
+The loop is ordered, but it is not a rigid day-by-day calendar. Each cycle touches the major senior skill areas, records progress, moves on, and brings weak areas back in later cycles.
+
+| Order | Skill Area |
+|---:|---|
+| 1 | Code quality and fundamentals |
+| 2 | System design and architecture |
+| 3 | Communication and disagreement |
+| 4 | Product requirement to pitch shaping |
+| 5 | Debugging and performance |
+| 6 | Testing and reliability |
+| 7 | Senior simulation and ownership |
+
+Current position:
+
+```txt
+Code-quality pass complete enough to move on.
+Next primary area: System design and architecture.
+Code-quality refreshers continue as short quizzes.
+```
 
 ## Coaching Rules
 
@@ -129,7 +157,7 @@ Initial product direction:
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|
-| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Small TDD-style boundary parsing reps |
+| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Skill loop: architecture next, code-quality refreshers stay active |
 
 ## Momentum Legend
 
@@ -143,6 +171,8 @@ Initial product direction:
 ## Repository Structure
 
 ```txt
+training-loop.md
+
 katas/
   typescript/
   kotlin/
@@ -188,6 +218,7 @@ templates/
   pitch-template.md
   adr-template.md
   pr-review-template.md
+  design-note-template.md
   bug-investigation-template.md
   adoption-decision-template.md
 ```
