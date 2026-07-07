@@ -12,9 +12,9 @@ This repository is a broader practice lab for building senior-level engineering 
 | Senior Readiness | 65 / 100 |
 | Weekly Trend | +4 |
 | Momentum | 🟢 On Track |
-| Primary Focus | Mastery map: architecture next, code-quality refreshers stay active |
+| Primary Focus | Skill loop: architecture next, code-quality refreshers stay active |
 | Last Completed Exercise | Day 04 Small Helper Rep |
-| Current / Next Exercise | System Design / Architecture Mastery |
+| Current / Next Exercise | System Design / Architecture Skill Area |
 
 ## Latest Review Summary
 
@@ -43,17 +43,17 @@ The goal is to practice the full loop of senior engineering:
 6. Communicate the reasoning clearly.
 7. Record the review, score, and next focus.
 
-## Mastery Map
+## Skill Loop
 
-The durable training map lives in:
+The durable training loop lives in:
 
 ```txt
-training-map.md
+training-loop.md
 ```
 
-The map is ordered, but it is not a rigid day-by-day calendar. The intent is mastery first: focus on one area deeply enough to improve, then keep earlier areas warm with short quizzes and refresh checks.
+The loop is ordered, but it is not a rigid day-by-day calendar. Each cycle touches the major senior skill areas, records progress, moves on, and brings weak areas back in later cycles.
 
-| Order | Mastery Area |
+| Order | Skill Area |
 |---:|---|
 | 1 | Code quality and fundamentals |
 | 2 | System design and architecture |
@@ -157,7 +157,7 @@ Initial product direction:
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|
-| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Mastery map: architecture next, code-quality refreshers stay active |
+| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Skill loop: architecture next, code-quality refreshers stay active |
 
 ## Momentum Legend
 
@@ -171,7 +171,7 @@ Initial product direction:
 ## Repository Structure
 
 ```txt
-training-map.md
+training-loop.md
 
 katas/
   typescript/
