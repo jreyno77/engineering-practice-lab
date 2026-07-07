@@ -12,9 +12,9 @@ This repository is a broader practice lab for building senior-level engineering 
 | Senior Readiness | 65 / 100 |
 | Weekly Trend | +4 |
 | Momentum | 🟢 On Track |
-| Primary Focus | Balanced senior loop: architecture, pitch shaping, communication, and code quality |
+| Primary Focus | Mastery map: architecture next, code-quality refreshers stay active |
 | Last Completed Exercise | Day 04 Small Helper Rep |
-| Current / Next Exercise | Day 05 System Design / Architecture |
+| Current / Next Exercise | System Design / Architecture Mastery |
 
 ## Latest Review Summary
 
@@ -27,7 +27,7 @@ Day 04 was the first right-sized helper rep after the Day 03 scope correction.
 | Score | 76 / 100 |
 | Main Strength | Focused helper implementation, direct `unknown` checks, tests in the same `.ts` file, and useful review pushback |
 | Main Growth Area | Avoid truthiness for boundary parsing; use explicit null/undefined checks and simpler control flow |
-| Next Focus | Return to the full senior cycle with system design / architecture next |
+| Next Focus | Move to system design / architecture while keeping code-quality lessons fresh with short quizzes |
 
 ## Senior Engineering Readiness
 
@@ -43,20 +43,33 @@ The goal is to practice the full loop of senior engineering:
 6. Communicate the reasoning clearly.
 7. Record the review, score, and next focus.
 
-## Cycle 001 Plan
+## Mastery Map
 
-This cycle should not become code-only. Code quality is one block inside the larger senior loop.
+The durable training map lives in:
 
-| Day | Focus |
+```txt
+training-map.md
+```
+
+The map is ordered, but it is not a rigid day-by-day calendar. The intent is mastery first: focus on one area deeply enough to improve, then keep earlier areas warm with short quizzes and refresh checks.
+
+| Order | Mastery Area |
 |---:|---|
-| Day 01 | Baseline assessment |
-| Days 02–04 | Code quality and fundamentals |
-| Days 05–06 | System design and architecture |
-| Day 07 | Communication checkpoint |
-| Days 08–09 | Product requirement → pitch shaping |
-| Days 10–11 | Debugging and performance |
-| Days 12–13 | Senior simulation |
-| Day 14 | Retest and score update |
+| 1 | Code quality and fundamentals |
+| 2 | System design and architecture |
+| 3 | Communication and disagreement |
+| 4 | Product requirement to pitch shaping |
+| 5 | Debugging and performance |
+| 6 | Testing and reliability |
+| 7 | Senior simulation and ownership |
+
+Current position:
+
+```txt
+Code-quality pass complete enough to move on.
+Next primary area: System design and architecture.
+Code-quality refreshers continue as short quizzes.
+```
 
 ## Coaching Rules
 
@@ -144,7 +157,7 @@ Initial product direction:
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|
-| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Balanced senior loop: architecture, pitch shaping, communication, and code quality |
+| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Mastery map: architecture next, code-quality refreshers stay active |
 
 ## Momentum Legend
 
@@ -158,6 +171,8 @@ Initial product direction:
 ## Repository Structure
 
 ```txt
+training-map.md
+
 katas/
   typescript/
   kotlin/
