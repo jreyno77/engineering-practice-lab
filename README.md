@@ -12,9 +12,9 @@ This repository is a broader practice lab for building senior-level engineering 
 | Senior Readiness | 65 / 100 |
 | Weekly Trend | +4 |
 | Momentum | 🟢 On Track |
-| Primary Focus | Small TDD-style boundary parsing reps |
+| Primary Focus | Balanced senior loop: architecture, pitch shaping, communication, and code quality |
 | Last Completed Exercise | Day 04 Small Helper Rep |
-| Current / Next Exercise | Day 05 Small TDD Rep |
+| Current / Next Exercise | Day 05 System Design / Architecture |
 
 ## Latest Review Summary
 
@@ -27,7 +27,7 @@ Day 04 was the first right-sized helper rep after the Day 03 scope correction.
 | Score | 76 / 100 |
 | Main Strength | Focused helper implementation, direct `unknown` checks, tests in the same `.ts` file, and useful review pushback |
 | Main Growth Area | Avoid truthiness for boundary parsing; use explicit null/undefined checks and simpler control flow |
-| Next Focus | One small failing test or parser helper at a time |
+| Next Focus | Return to the full senior cycle with system design / architecture next |
 
 ## Senior Engineering Readiness
 
@@ -42,6 +42,21 @@ The goal is to practice the full loop of senior engineering:
 5. Test the behavior.
 6. Communicate the reasoning clearly.
 7. Record the review, score, and next focus.
+
+## Cycle 001 Plan
+
+This cycle should not become code-only. Code quality is one block inside the larger senior loop.
+
+| Day | Focus |
+|---:|---|
+| Day 01 | Baseline assessment |
+| Days 02–04 | Code quality and fundamentals |
+| Days 05–06 | System design and architecture |
+| Day 07 | Communication checkpoint |
+| Days 08–09 | Product requirement → pitch shaping |
+| Days 10–11 | Debugging and performance |
+| Days 12–13 | Senior simulation |
+| Day 14 | Retest and score update |
 
 ## Coaching Rules
 
@@ -129,7 +144,7 @@ Initial product direction:
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|
-| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Small TDD-style boundary parsing reps |
+| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Balanced senior loop: architecture, pitch shaping, communication, and code quality |
 
 ## Momentum Legend
 
@@ -188,6 +203,7 @@ templates/
   pitch-template.md
   adr-template.md
   pr-review-template.md
+  design-note-template.md
   bug-investigation-template.md
   adoption-decision-template.md
 ```
