@@ -12,22 +12,22 @@ This repository is a broader practice lab for building senior-level engineering 
 | Senior Readiness | 65 / 100 |
 | Weekly Trend | +4 |
 | Momentum | 🟢 On Track |
-| Primary Focus | Skill loop: architecture next, code-quality refreshers stay active |
-| Last Completed Exercise | Day 04 Small Helper Rep |
-| Current / Next Exercise | System Design / Architecture Skill Area |
+| Primary Focus | Skill loop: communication next, architecture revisit later |
+| Last Completed Exercise | Day 05 Architecture Rep |
+| Current / Next Exercise | Communication and disagreement skill area |
 
 ## Latest Review Summary
 
-Day 04 was the first right-sized helper rep after the Day 03 scope correction.
+Day 05 was the first architecture-focused rep in the senior skill loop.
 
 | Item | Result |
 |---|---|
-| Review Record | `cycles/cycle-001/day-04-small-helper-rep/review.md` |
+| Review Record | `cycles/cycle-001/day-05-architecture/review.md` |
 | Scorecard | `scorecard.md` |
-| Score | 76 / 100 |
-| Main Strength | Focused helper implementation, direct `unknown` checks, tests in the same `.ts` file, and useful review pushback |
-| Main Growth Area | Avoid truthiness for boundary parsing; use explicit null/undefined checks and simpler control flow |
-| Next Focus | Move to system design / architecture while keeping code-quality lessons fresh with short quizzes |
+| Score | 58 / 100 |
+| Main Strength | Strong instincts around cohesion, separation, ownership, testability, and changeability |
+| Main Growth Area | The lifecycle contract needs to be more decisive: allowed states, forbidden transitions, cleanup finality, regeneration, and concurrency cannot stay ambiguous |
+| Next Focus | Move to communication/disagreement while keeping lifecycle state-table work as a later architecture refresh |
 
 ## Senior Engineering Readiness
 
@@ -66,9 +66,9 @@ The loop is ordered, but it is not a rigid day-by-day calendar. Each cycle touch
 Current position:
 
 ```txt
-Code-quality pass complete enough to move on.
-Next primary area: System design and architecture.
-Code-quality refreshers continue as short quizzes.
+Architecture pass complete enough to move on.
+Next primary area: Communication and disagreement.
+Architecture refreshers should focus on lifecycle state tables and explicit transition rules.
 ```
 
 ## Coaching Rules
@@ -147,7 +147,7 @@ Initial product direction:
 | System design/architecture | 16% | 10 / 16 |
 | Debugging/performance | 12% | 7 / 12 |
 | Testing/reliability | 10% | 7 / 10 |
-| Product requirements → pitch shaping | 16% | 8 / 16 |
+| Product requirements to pitch shaping | 16% | 8 / 16 |
 | Communication/vocabulary | 20% | 15 / 20 |
 | Leadership/product judgment | 10% | 9 / 10 |
 
@@ -157,7 +157,7 @@ Initial product direction:
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|
-| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Skill loop: architecture next, code-quality refreshers stay active |
+| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Skill loop: communication next, architecture revisit later |
 
 ## Momentum Legend
 
@@ -212,6 +212,10 @@ cycles/
     day-04-small-helper-rep/
       prompt.md
       submission.ts
+      review.md
+    day-05-architecture/
+      prompt.md
+      submission.md
       review.md
 
 templates/
