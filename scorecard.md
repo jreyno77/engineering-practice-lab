@@ -7,7 +7,7 @@ The Senior Readiness Score is a coaching metric. It estimates current senior-eng
 | Area | Weight | Current Score | Notes |
 |---|---:|---:|---|
 | Code quality/refactoring | 16% | 9 / 16 | Improved small-helper boundary parsing; keep prior code lessons fresh with short checks. |
-| System design/architecture | 16% | 10 / 16 | Day 05 showed good instincts around cohesion and ownership; needs more decisive lifecycle state tables and transition rules. |
+| System design/architecture | 16% | 10 / 16 | Day 05 showed good instincts around cohesion and ownership; Day 06 remains in the architecture block and will focus on lifecycle states and transition rules. |
 | Debugging/performance | 12% | 7 / 12 | Shows awareness; needs sharper distinction between assembly, streaming, and UI materialization costs. |
 | Testing/reliability | 10% | 7 / 10 | Improved runnable Vitest coverage; continue with targeted tests that expose real edge-case bugs. |
 | Product requirements to pitch shaping | 16% | 8 / 16 | Stays in the loop as its own senior skill area. |
@@ -39,7 +39,7 @@ The Senior Readiness Score is a coaching metric. It estimates current senior-eng
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|
-| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Skill loop: communication next, architecture revisit later |
+| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Architecture block: Day 06 lifecycle state-table rep next |
 
 ## Review History
 
@@ -49,4 +49,4 @@ The Senior Readiness Score is a coaching metric. It estimates current senior-eng
 | 2026-07-02 | Cycle 001 | Day 02 code quality | 55 | Boundary parsing improved from Day 01; review identified runtime proof gaps and recorded user disagreement on test-plan detail. | `cycles/cycle-001/day-02-code-quality/review.md` |
 | 2026-07-06 | Cycle 001 | Day 03 boundary parser rep | 58 | Added runnable TypeScript and Vitest tests; review identified clean-output gaps and corrected future exercise sizing. | `cycles/cycle-001/day-03-boundary-parser-rep/review.md` |
 | 2026-07-07 | Cycle 001 | Day 04 small helper rep | 76 | Right-sized helper exercise with Vitest tests; review identified truthiness bug and recorded valid pushback on optional default and named-error feedback. | `cycles/cycle-001/day-04-small-helper-rep/review.md` |
-| 2026-07-13 | Cycle 001 | Day 05 architecture rep | 58 | First architecture rep showed good ownership and testability instincts; review identified lifecycle ambiguity and need for explicit state/transition contracts. | `cycles/cycle-001/day-05-architecture/review.md` |
+| 2026-07-13 | Cycle 001 | Day 05 architecture rep | 58 | First architecture rep showed good ownership and testability instincts; review identified lifecycle ambiguity and need for explicit state/transition contracts. Day 06 continues the architecture block. | `cycles/cycle-001/day-05-architecture/review.md` |

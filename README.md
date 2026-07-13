@@ -12,9 +12,9 @@ This repository is a broader practice lab for building senior-level engineering 
 | Senior Readiness | 65 / 100 |
 | Weekly Trend | +4 |
 | Momentum | 🟢 On Track |
-| Primary Focus | Skill loop: communication next, architecture revisit later |
+| Primary Focus | Architecture block: lifecycle states and transition rules |
 | Last Completed Exercise | Day 05 Architecture Rep |
-| Current / Next Exercise | Communication and disagreement skill area |
+| Current / Next Exercise | Day 06 Focused Architecture Rep |
 
 ## Latest Review Summary
 
@@ -27,7 +27,7 @@ Day 05 was the first architecture-focused rep in the senior skill loop.
 | Score | 58 / 100 |
 | Main Strength | Strong instincts around cohesion, separation, ownership, testability, and changeability |
 | Main Growth Area | The lifecycle contract needs to be more decisive: allowed states, forbidden transitions, cleanup finality, regeneration, and concurrency cannot stay ambiguous |
-| Next Focus | Move to communication/disagreement while keeping lifecycle state-table work as a later architecture refresh |
+| Next Focus | Complete Day 06 with a focused lifecycle state-table and transition-rules architecture rep |
 
 ## Senior Engineering Readiness
 
@@ -51,7 +51,7 @@ The durable training loop lives in:
 training-loop.md
 ```
 
-The loop is ordered, but it is not a rigid day-by-day calendar. Each cycle touches the major senior skill areas, records progress, moves on, and brings weak areas back in later cycles.
+The loop is ordered and uses planned multi-day blocks inside each cycle. Each cycle touches the major senior skill areas, records progress, moves on after the planned block, and brings weak areas back in later cycles.
 
 | Order | Skill Area |
 |---:|---|
@@ -66,9 +66,9 @@ The loop is ordered, but it is not a rigid day-by-day calendar. Each cycle touch
 Current position:
 
 ```txt
-Architecture pass complete enough to move on.
-Next primary area: Communication and disagreement.
-Architecture refreshers should focus on lifecycle state tables and explicit transition rules.
+Day 05 completed the first architecture rep.
+Day 06 remains in the architecture block.
+Communication and disagreement begins after Day 06.
 ```
 
 ## Coaching Rules
@@ -157,7 +157,7 @@ Initial product direction:
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|
-| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Skill loop: communication next, architecture revisit later |
+| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Architecture block: Day 06 lifecycle state-table rep next |
 
 ## Momentum Legend
 
@@ -217,6 +217,8 @@ cycles/
       prompt.md
       submission.md
       review.md
+    day-06-architecture-lifecycle/
+      prompt.md
 
 templates/
   pitch-template.md

@@ -80,8 +80,6 @@ This was a useful first architecture rep. The design thinking is present, but it
 
 ## Next Focus
 
-Continue the senior skill loop.
+Continue the architecture block for Day 06.
 
-The next primary area should be communication and disagreement.
-
-Architecture should come back in a later cycle with a narrower prompt focused only on lifecycle state tables and transition rules.
+Day 06 should be a narrow follow-up focused on the lifecycle state table and explicit transition rules. Communication and disagreement starts after that second architecture rep.
