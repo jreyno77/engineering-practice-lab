@@ -11,7 +11,7 @@ This repository is a broader practice lab for building senior-level engineering 
 | Current Cycle | Cycle 001 |
 | Senior Readiness | 65 / 100 |
 | Weekly Trend | +4 |
-| Momentum | On Track |
+| Momentum | 🟢 On Track |
 | Primary Focus | Skill loop: communication next, architecture revisit later |
 | Last Completed Exercise | Day 05 Architecture Rep |
 | Current / Next Exercise | Communication and disagreement skill area |
@@ -157,16 +157,16 @@ Initial product direction:
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|
-| Week 1 | Cycle 001 | 65 | +4 | On Track | Skill loop: communication next, architecture revisit later |
+| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Skill loop: communication next, architecture revisit later |
 
 ## Momentum Legend
 
 | Status | Meaning |
 |---|---|
-| On Track | Completed the planned work and improved or held steady |
-| Baseline / Steady | Work is active, but not enough data yet or progress is flat |
-| Needs Attention | Missed work, unclear submission, or a skill gap needs focused practice |
-| Recovery Focus | Multiple missed days or a repeated gap requires a reset exercise |
+| 🟢 On Track | Completed the planned work and improved or held steady |
+| 🟡 Baseline / Steady | Work is active, but not enough data yet or progress is flat |
+| 🟠 Needs Attention | Missed work, unclear submission, or a skill gap needs focused practice |
+| 🔴 Recovery Focus | Multiple missed days or a repeated gap requires a reset exercise |
 
 ## Repository Structure
 
