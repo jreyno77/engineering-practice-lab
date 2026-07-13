@@ -30,16 +30,16 @@ The Senior Readiness Score is a coaching metric. It estimates current senior-eng
 
 | Status | Meaning |
 |---|---|
-| On Track | Completed the planned work and improved or held steady |
-| Baseline / Steady | Work is active, but not enough data yet or progress is flat |
-| Needs Attention | Missed work, unclear submission, or a skill gap needs focused practice |
-| Recovery Focus | Multiple missed days or a repeated gap requires a reset exercise |
+| 🟢 On Track | Completed the planned work and improved or held steady |
+| 🟡 Baseline / Steady | Work is active, but not enough data yet or progress is flat |
+| 🟠 Needs Attention | Missed work, unclear submission, or a skill gap needs focused practice |
+| 🔴 Recovery Focus | Multiple missed days or a repeated gap requires a reset exercise |
 
 ## Weekly Progress
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|
-| Week 1 | Cycle 001 | 65 | +4 | On Track | Skill loop: communication next, architecture revisit later |
+| Week 1 | Cycle 001 | 65 | +4 | 🟢 On Track | Skill loop: communication next, architecture revisit later |
 
 ## Review History
 
