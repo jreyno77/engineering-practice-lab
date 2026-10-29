@@ -1,5 +1,23 @@
 # Senior Readiness Scorecard
 
+## Updated practice observations
+
+The new course emphasizes implementation fluency in TypeScript, Kotlin, and C#, algorithms/performance, security, and refactoring. The historical 65/100 below has **not** been recalculated: a curriculum change is not evidence of improved skill. Use this parallel record until enough new work supports a revised rubric.
+
+| Skill | Baseline | Evidence to collect |
+|---|---|---|
+| TypeScript idioms and ecosystem | Not yet assessed under new rubric | Independent rep, appropriate API, edge cases, changed repeat |
+| Kotlin idioms and ecosystem | Not yet assessed | Collections/nullability, coroutine ownership, tooling and test evidence |
+| C#/.NET idioms and ecosystem | Not yet assessed | Collections/LINQ, async/cancellation, framework API and test evidence |
+| Algorithm patterns | Not yet assessed | Invariant, time/space reasoning, unseen variation, correctness |
+| Refactoring recognition and execution | Prior reviews below; new drill baseline pending | Smell diagnosis, smallest useful move, preserved behavior, next-day recall |
+| Security recognition and prevention | Not yet assessed | Reproduction, trust boundary, allowed/denied cases, established mitigation |
+| Performance improvement | Prior qualitative reviews below; benchmark baseline pending | Same workload and assertions, runtime/space samples, tradeoff explanation |
+
+For each attempt, link its PR and timing artifact, language, assistance mode, result, and review. Optional active minutes and lookup/hint counts are self-reported. Compare similar tasks and retain unfinished/invalid attempts. Do not pool a pitch, refactor, and algorithm into one apparent speed ranking. See [practice review](templates/practice-review-template.md).
+
+## Historical rubric and results
+
 The Senior Readiness Score is a coaching metric. It estimates current senior-engineering readiness. It is not a certification or job title claim.
 
 ## Current Score

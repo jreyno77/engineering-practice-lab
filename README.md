@@ -4,6 +4,41 @@ A public engineering practice repository for deliberate improvement in software 
 
 This repository is a broader practice lab for building senior-level engineering judgment through exercises, reviewable artifacts, product work, and steady iteration.
 
+## Expanded curriculum and daily coaching
+
+The daily coaching loop remains the default: **assign the work → wait until you say it is submitted → review the actual PR → score it and record the next focus**. Architecture, communication, pitches, testing/reliability, senior simulations, project work, and the progress-app direction all stay in the lab and now have explicit curriculum cards alongside the new coding tracks. The optional 16-week route helps choose practice; it does not automatically advance you through assignments.
+
+**Starting a new coaching chat?** Copy the [starter prompt](docs/coaching-session.md#starter-prompt-for-a-new-chat). It explicitly tells the coach to read this complete README first, recover the latest work from the repository, and wait for your submission before reviewing or scoring. [AGENTS.md](AGENTS.md) preserves the same behavior for coding agents.
+
+| Addition | What it provides |
+|---|---|
+| [Curriculum and resources](docs/curriculum.md) · [Resource shelf](docs/resources.md) | Specific free videos/articles and selected Teach Yourself CS book sections, attached to concrete practice. |
+| [TypeScript, Kotlin, and C# fluency](docs/language-fluency.md) | Standard APIs, ecosystem choices, setup recipes, and repeated small implementation problems. |
+| [Recurring code katas](docs/code-katas.md) | Small repeated implementations that build fluency, testing, and refactoring skill, distinct from LeetCode-style algorithm drills. |
+| [Algorithms and performance](docs/algorithms-performance.md) | Twelve problem patterns, invariants, complexity, and measured optimization exercises. |
+| [Refactoring](docs/refactoring.md) | Fifteen original drills, smell recognition, Fowler catalog references, and a continuing rotation. |
+| [Security](docs/security.md) | Ten topics with narrow vulnerability/defense exercises, valid-use tests, and official resources. |
+| [Broader engineering practice](docs/engineering-practice.md) | Explicit architecture, pitch, communication, debugging, testing/reliability, ownership, adoption, and real project assignments. |
+| [Cycle 002 starter menu](cycles/cycle-002/README.md) | Ten ready-to-use assignment prompts, including a C# entry point; no completed learner solutions. |
+| [Implementation practice plan](docs/implementation-practice-plan.md) · [Practice/recall loop](docs/implementation-practice-loop.md) | Optional study blocks, AI assistance modes, and delayed repetitions to use within daily coaching. |
+
+Every separately assigned outcome gets its own PR and original start commit. A pitch, kata, and three refactors on one day mean **five PRs**, each with its own Markdown/JSON timing artifact. Follow the [assignment workflow](docs/assignment-workflow.md). Elapsed time runs from the first commit's committer timestamp to GitHub's actual merge timestamp; it includes study, breaks, review, and CI, so it is distinct from optional self-reported active time.
+
+Use the [assignment](templates/assignment-template.md), [API notebook](templates/api-notebook-template.md), [review](templates/practice-review-template.md), and [performance](templates/performance-record-template.md) templates when relevant. The existing scorecard and submissions remain historical evidence; adding material does not change their scores. The status below is the last recorded coaching position, not a newly assessed result.
+
+### Running practice
+
+With Node.js 22 and the locked dependencies installed using `npm ci`:
+
+```sh
+npm run test:practice
+npm run test:timing
+```
+
+New TypeScript attempts use `submission.ts` and `submission.test.ts` under Cycle 002 or later. The new practice suite reports no tests until submissions exist; prompts are not completed exercises. [Language setup](docs/language-fluency.md#run-the-smallest-real-test) covers Kotlin/C#. Their projects need their own language-specific test commands and are not executed by Vitest.
+
+`npm test` retains the original discovery and currently reproduces **7 passed / 1 failed** in Cycle 001. Day 03 leaks extra input fields, as its review already records; its code and failing assertion are preserved. CI checks new submissions, the timing tool, and the leap-year kata. Passing CI does not claim that historical defect was fixed.
+
 ## Current Progress
 
 | Metric | Status |
@@ -83,7 +118,7 @@ Important rules:
 
 - Daily assignments should include a learning direction section first.
 - Daily code exercises should usually be small runnable reps: one helper, parser slice, refactor, or communication drill.
-- Code-focused reps should prefer `.ts` or `.kt` files with tests when practical.
+- Code-focused reps should prefer `.ts`, `.kt`, or `.cs` files with tests when practical.
 - Longer exercises should be clearly labeled and should ask for readiness first.
 - Training examples must stay generic because this repo is public.
 - Do not include employer, client, team, private system, private domain, private URL, credential, header, log, screenshot, or internal workflow details.
@@ -92,7 +127,7 @@ Important rules:
 
 ## Focus Areas
 
-- TypeScript and Kotlin
+- TypeScript, Kotlin, and C#
 - Type-safe design
 - Functional programming patterns where they improve clarity
 - Test-driven development

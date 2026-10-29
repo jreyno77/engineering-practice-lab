@@ -1,12 +1,36 @@
-name: Leap-Years-1-CI
+name: Practice lab CI
 on:
   pull_request:
     branches: [ "main" ]
+  push:
+    branches: [ "main" ]
   workflow_dispatch:
+permissions:
+  contents: read
 jobs:
-  build:
+  practice:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-      - name: Test
-        run: cd leap-years-1; npm i; npm test; cd ../;
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            leap-years-1/package-lock.json
+      - name: Install practice dependencies
+        run: npm ci
+      - name: Test current TypeScript submissions (empty until exercises are submitted)
+        run: npm run test:practice
+      - name: Test timing reports
+        run: node --test tests/assignment-timing.test.mjs
+      - name: Install leap-year dependencies
+        working-directory: leap-years-1
+        run: npm ci
+      - name: Test leap-year kata
+        working-directory: leap-years-1
+        run: npm test

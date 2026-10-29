@@ -2,6 +2,10 @@
 
 ## Goal
 
+**How the additions fit:** daily coaching continues to generate assignments from current progress and feedback. The original modes and cycle below remain available. Use the new [resource-backed curriculum](docs/curriculum.md) and [implementation practice plan](docs/implementation-practice-plan.md) as additional material for language fluency, algorithms, security, and refactoring. Its 16-week sequence is optional; it does not replace the daily coaching plan or require finishing an entire course before returning to a pitch, architecture exercise, or project.
+
+Every separately assigned deliverable now uses [one PR and one original start commit](docs/assignment-workflow.md), including each individual refactor on a multi-assignment day. Learning resources and feedback remain attached to the relevant assignment.
+
 Build senior-level engineering judgment, vocabulary, communication, and implementation skill through deliberate practice.
 
 This plan is not only about solving code problems. It is about practicing the full senior engineering loop:
@@ -19,6 +23,7 @@ This plan is not only about solving code problems. It is about practicing the fu
 
 - TypeScript
 - Kotlin
+- C# / .NET
 
 ## Technical Emphasis
 
@@ -29,6 +34,9 @@ This plan is not only about solving code problems. It is about practicing the fu
 - Test-driven development
 - Refactoring and maintainability
 - Debugging and performance reasoning
+- Language, standard-library, and ecosystem fluency
+- Algorithm problem solving and measured optimization
+- Security vulnerability recognition and prevention
 - System design and architecture
 - Product requirement breakdowns and pitch writing
 - Senior-level technical communication

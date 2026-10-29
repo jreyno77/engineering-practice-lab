@@ -15,7 +15,9 @@
   "type": "module",
   "scripts": {
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "test:practice": "vitest run --config vitest.practice.config.ts",
+    "test:timing": "node --test tests/assignment-timing.test.mjs"
   },
   "devDependencies": {
     "mocha": "^11.1.0",

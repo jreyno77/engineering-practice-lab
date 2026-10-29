@@ -12,6 +12,10 @@ A strict mastery-first path can overfit one isolated skill. A repeated loop give
 
 ## How To Use This Loop
 
+Daily coaching remains the default way to choose and generate the next exercise. Draw additional examples and exact learning resources from the [implementation curriculum](docs/curriculum.md), [language track](docs/language-fluency.md), [algorithm track](docs/algorithms-performance.md), [security labs](docs/security.md), and [refactoring drills](docs/refactoring.md). The optional sequence can guide a sustained practice block without displacing the broader skill loop below.
+
+Each independent assignment gets its own PR and clock using [the assignment workflow](docs/assignment-workflow.md). This applies to a pitch, kata, and every individual refactor even when assigned on the same day. The [implementation practice loop](docs/implementation-practice-loop.md) adds study, assistance disclosure, review, and delayed recall within those assignments.
+
 - Follow the planned block length for each skill area before moving on.
 - Move on after the block even when the area is not mastered.
 - Record the prompt, submission, review, score, and next focus.
