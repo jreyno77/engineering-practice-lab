@@ -95,7 +95,23 @@ Good areas to rotate through:
 - testing strategy
 - refactoring safety
 - performance reasoning
+- language and standard-library recall in TypeScript, Kotlin, and C#
+- choosing existing ecosystem tools before inventing replacements
+- algorithm patterns and measured complexity
+- vulnerability recognition, secure defaults, and prevention tests
 - architecture boundaries
 - product shaping
 - technical writing
 - disagreement and tradeoff communication
+
+## Additional practice tracks and assignment boundaries
+
+Keep generating daily assignments from current progress and feedback. Use the [course map](curriculum.md) as additional material for the implementation gaps: language fluency, algorithms, security, and refactoring. Its sustained TypeScript, Kotlin, and C# blocks are an optional route. Architecture, communication, pitches, testing/reliability, simulations, and project work retain their place in the broader training loop; the new catalog does not replace them.
+
+Every independently assigned outcome gets its own PR, original start commit, and timing report. A pitch, kata, and three refactors are five assignments and five PRs, even on the same day. Tests and reflection for one assignment belong in that assignment's PR. Follow [assignment-workflow.md](assignment-workflow.md); do not bundle a whole day's independent work or start clocks for future assignments.
+
+Preparing a prompt is not completing the learner's exercise. Do not pre-solve new practice assignments. Record whether the learner used documentation, hints, AI review, or generated code; compare independent attempts with independent attempts.
+
+Prefer exact lecture titles, documentation sections, and short article readings over broad homepages or entire-course assignments. State the expected learning and give concrete input/output examples without embedding the solution. Free videos and articles come first; selected Teach Yourself CS book sections and Fowler's Refactoring are optional depth. Label editions when chapter numbers depend on them.
+
+Each review should record correctness, clear use of an appropriate existing tool, explanation/recall, and the next changed repeat. Include security and performance evidence when relevant. Commit-to-merge time includes study, waiting, and breaks; it is not typing speed or active work time. Do not shorten a measured task by dropping cases, resetting its start, or relabeling incomplete work as complete.

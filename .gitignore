@@ -1,2 +1,8 @@
 node_modules
 dist
+.gradle/
+.kotlin/
+build/
+bin/
+obj/
+/reports/assignment-timing/
