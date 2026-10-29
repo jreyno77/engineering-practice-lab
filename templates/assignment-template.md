@@ -7,6 +7,18 @@
 - Prior attempt / prerequisite: link, or none
 - Assistance mode: independent / hinted / assisted
 
+## Start when ready
+
+Coach: replace both placeholders below with this assignment's actual ID and kind before giving the prompt. Provide the command for the learner to copy and paste; do not execute it or create their start marker.
+
+From a clean checkout on `main`, run this yourself immediately before the assigned reading and work:
+
+```sh
+npm run assignment:start -- <assignment-id> <kind>
+```
+
+If you already started this attempt, continue with its existing branch and original start commit. Copy the command's printed metadata into this assignment's PR. See the [assignment workflow](../docs/assignment-workflow.md) for prerequisites and recovery.
+
 ## Learning direction
 
 List 2–4 specific resources, normally one primary explanation/video and one official API reference. Name the section/lecture, estimated study portion, what to look for, and whether it is free or an optional owned-book reading. An entire documentation homepage is not an assigned reading.

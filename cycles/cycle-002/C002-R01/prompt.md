@@ -4,6 +4,14 @@ Kind: **refactor** · Language: **TypeScript** · Appetite: **30 minutes** · On
 
 ## Learning direction
 
+When ready to begin, run this yourself from a clean checkout on `main`, before studying:
+
+```sh
+npm run assignment:start -- C002-R01 refactor
+```
+
+The coach provides this command without running it. If this attempt already has a branch and start commit, keep them instead of starting again. Copy the printed metadata into this assignment's PR. See the [assignment workflow](../../../docs/assignment-workflow.md) for prerequisites and recovery.
+
 Read [Extract Function](https://refactoring.com/catalog/extractFunction.html) and the “Two Hats” discussion in [Workflows of Refactoring](https://martinfowler.com/articles/workflowsOfRefactoring/). Optional book: *Refactoring*, second edition, Chapter 6's Extract Function entry.
 
 ## Refactor

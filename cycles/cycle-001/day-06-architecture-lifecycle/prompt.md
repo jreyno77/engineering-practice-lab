@@ -2,6 +2,14 @@
 
 ## Learning Direction
 
+When ready to begin, run this yourself from a clean checkout on `main`, before studying:
+
+```sh
+npm run assignment:start -- cycle-001/day-06/architecture-lifecycle architecture
+```
+
+The coach provides this command without running it. If this attempt already has a branch and start commit, keep them instead of starting again. Copy the printed metadata into this assignment's PR. See the [assignment workflow](../../../docs/assignment-workflow.md) for prerequisites and recovery.
+
 Day 05 explored the architecture broadly. Day 06 narrows the problem to one senior design skill: defining lifecycle states and transition rules before implementation.
 
 The goal is not to invent more components. The goal is to make the behavior unambiguous.

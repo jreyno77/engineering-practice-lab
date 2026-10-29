@@ -28,6 +28,14 @@ Use the [assignment](templates/assignment-template.md), [API notebook](templates
 
 ### Running practice
 
+Each assignment prompt includes its own copy-paste start command. Run it yourself from a clean checkout on `main` when you are ready to begin studying. For the pending Day 06 assignment:
+
+```sh
+npm run assignment:start -- cycle-001/day-06/architecture-lifecycle architecture
+```
+
+With Git, Node.js 22/npm, configured Git identity, and push access through `origin`, this updates `main` by fast-forward, creates and pushes the assignment branch and original start commit, and prints metadata to paste into its PR. No dependency installation is needed for the starter. An existing attempt keeps its original branch and clock. The coach gives you the command and waits; it does not start assignments for you. See the [workflow](docs/assignment-workflow.md#start-an-assignment) for prerequisites, failures, and PR creation.
+
 With Node.js 22 and the locked dependencies installed using `npm ci`:
 
 ```sh

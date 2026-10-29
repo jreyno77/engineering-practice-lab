@@ -4,6 +4,14 @@ Kind: **fluency** · Language: **TypeScript** · Appetite: **40 minutes** · One
 
 ## Learning direction
 
+When ready to begin, run this yourself from a clean checkout on `main`, before studying:
+
+```sh
+npm run assignment:start -- C002-F01 fluency
+```
+
+The coach provides this command without running it. If this attempt already has a branch and start commit, keep them instead of starting again. Copy the printed metadata into this assignment's PR. See the [assignment workflow](../../../docs/assignment-workflow.md) for prerequisites and recovery.
+
 Read [MDN Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), focusing on `get`, `has`, `set`, and iteration. Then read the comparator and mutation sections of [Array.sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort). Predict which two capabilities the task needs before opening the docs. Optional video: [MIT 6.006 Lecture 4, Hashing](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/).
 
 Study this input: `["pear", "apple", "pear"]`. Explain the difference between the list's encounter order, a count lookup, and a ranked result. Do not write a general collection library.

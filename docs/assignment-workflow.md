@@ -8,26 +8,35 @@ This workflow applies equally to TypeScript, Kotlin, C#, and document assignment
 
 ## Start an assignment
 
-From a clean checkout, update `main`, create the assignment branch, and immediately create and push a start marker:
+Each assignment prompt includes its own complete copy-paste command. Run it yourself when you are ready to begin the assigned study and work. The coach supplies the command and waits; preparing or reading a prompt does not execute it or start a clock.
+
+Prerequisites: Git, Node.js 22/npm, a configured Git author identity, and push access through `origin`. Start from the repository root in a clean checkout on `main`, with no staged, unstaged, or untracked files. The starter uses only Node's built-in modules, so it does not require `npm ci`.
+
+For the pending Day 06 assignment:
 
 ```sh
-git switch main
-git pull --ff-only
-git switch -c practice/cycle-002-day-01-kata-01
-git commit --allow-empty -m "start: cycle-002/day-01/kata-01"
-git rev-parse HEAD
-git push -u origin practice/cycle-002-day-01-kata-01
+npm run assignment:start -- cycle-001/day-06/architecture-lifecycle architecture
 ```
 
-Copy the full SHA printed by `git rev-parse HEAD` into a draft PR's description. GitHub's PR template includes this block:
+The command fetches `origin/main`, fast-forwards local `main`, creates `practice/<assignment-id>`, creates an empty `start: <assignment-id>` commit, and pushes the new branch with upstream tracking. It preserves slashes in the ID. It refuses an existing local or remote assignment branch, a dirty checkout, a branch other than `main`, or local `main` that is ahead of or diverged from `origin/main`. It does not reset, rebase, or force-push history.
+
+Copy the printed `practice` block into a draft PR's description. The command prints your actual full start SHA in this form:
 
 ````markdown
 ```practice
-{"assignment":"cycle-002/day-01/kata-01","kind":"kata","start_commit":"0123456789abcdef0123456789abcdef01234567"}
+{"assignment":"cycle-001/day-06/architecture-lifecycle","kind":"architecture","start_commit":"0123456789abcdef0123456789abcdef01234567"}
 ```
 ````
 
-The SHA above is illustrative; use your actual marker SHA. If GitHub will not open a PR containing only an empty commit, commit the assignment prompt or a short `submission.md` intent note, push, and then open the draft PR. Keep the original marker SHA as the start. Starting a clock before studying means the elapsed interval includes the assigned learning resources.
+The SHA above is illustrative; use the block printed for your attempt. The starter does not create the PR. If GitHub will not open a PR containing only an empty commit, commit the assignment prompt or a short `submission.md` intent note, push, and then open the draft PR. Keep the original marker SHA as the start. Starting a clock before studying means the elapsed interval includes the assigned learning resources.
+
+If you already began the assignment, continue on its existing branch with its original marker. Do not rerun the starter to replace that clock. If pushing fails after the marker is created, the command exits with an error but keeps the branch and commit, prints their metadata, and gives the exact `git push -u origin <branch>` command to retry after fixing access. Preserve that marker even if no remote branch was created. A failed commit leaves the new local branch for inspection; do not assume the clock started unless a marker commit exists.
+
+For usage without changing Git state:
+
+```sh
+npm run assignment:start -- --help
+```
 
 The block must contain exactly these three fields and exactly one assignment. Supported `kind` values are `fluency`, `kata`, `refactor`, `security`, `performance`, `pitch`, `architecture`, `communication`, `review`, `tooling`, `project`, `adoption`, `simulation`, `debugging`, `testing`, and `reliability`. Use `tooling` for maintaining this lab, `project` for production-intended slices, and `review` for a coaching-record assignment. IDs use ASCII letters, digits, `/`, `_`, and `-`; the course's IDs such as `C002-F01` work directly. Give every repeat a distinct ID, such as `C002-F01-repeat-1`.
 

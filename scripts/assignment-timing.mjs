@@ -1,8 +1,7 @@
 import { appendFile, mkdir, readFile, writeFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
-
-const kinds = new Set(['fluency', 'kata', 'refactor', 'security', 'performance', 'pitch', 'architecture', 'communication', 'review', 'tooling', 'project', 'adoption', 'simulation', 'debugging', 'testing', 'reliability']);
+import { validateAssignment } from './assignment-metadata.mjs';
 
 function assignmentFrom(body) {
   const blocks = [...(body ?? '').matchAll(/^```practice\s*\r?\n([\s\S]*?)^```[ \t]*$/gm)];
@@ -11,8 +10,7 @@ function assignmentFrom(body) {
   try { assignment = JSON.parse(blocks[0][1]); } catch { throw new Error('The practice block must contain valid JSON.'); }
   if (!assignment || Array.isArray(assignment) || typeof assignment !== 'object') throw new Error('The practice block must contain an object.');
   if (Object.keys(assignment).sort().join(',') !== 'assignment,kind,start_commit') throw new Error('The practice block needs exactly assignment, kind, and start_commit.');
-  if (typeof assignment.assignment !== 'string' || !/^[A-Za-z0-9][A-Za-z0-9/_-]{0,119}$/.test(assignment.assignment)) throw new Error('Use a single assignment ID containing ASCII letters, digits, slash, underscore, or hyphen.');
-  if (!kinds.has(assignment.kind)) throw new Error('Choose a supported assignment kind; see docs/assignment-workflow.md.');
+  validateAssignment(assignment.assignment, assignment.kind);
   if (typeof assignment.start_commit !== 'string' || !/^[a-f0-9]{40}$/.test(assignment.start_commit)) throw new Error('start_commit must be the full lowercase 40-character Git commit SHA.');
   return assignment;
 }

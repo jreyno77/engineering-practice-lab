@@ -14,10 +14,12 @@
   "author": "Joshua Reynolds",
   "type": "module",
   "scripts": {
+    "assignment:start": "node scripts/assignment-start.mjs",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:practice": "vitest run --config vitest.practice.config.ts",
-    "test:timing": "node --test tests/assignment-timing.test.mjs"
+    "test:timing": "node --test tests/assignment-timing.test.mjs",
+    "test:tooling": "node --test tests/assignment-start.test.mjs tests/assignment-timing.test.mjs"
   },
   "devDependencies": {
     "mocha": "^11.1.0",

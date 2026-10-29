@@ -110,6 +110,8 @@ Keep generating daily assignments from current progress and feedback. Use the [c
 
 Every independently assigned outcome gets its own PR, original start commit, and timing report. A pitch, kata, and three refactors are five assignments and five PRs, even on the same day. Tests and reflection for one assignment belong in that assignment's PR. Follow [assignment-workflow.md](assignment-workflow.md); do not bundle a whole day's independent work or start clocks for future assignments.
 
+Every new assignment prompt must include a complete copy-paste `npm run assignment:start -- <assignment-id> <kind>` command with its actual ID and kind filled in. Place it near the beginning, before the assigned reading. The coach supplies this command and waits; it must not run the command or create the learner's start marker automatically. The learner runs it when ready to begin. For an already-started attempt, keep the existing branch and original marker instead of starting again. Completed historical prompts remain part of the original record.
+
 Preparing a prompt is not completing the learner's exercise. Do not pre-solve new practice assignments. Record whether the learner used documentation, hints, AI review, or generated code; compare independent attempts with independent attempts.
 
 Prefer exact lecture titles, documentation sections, and short article readings over broad homepages or entire-course assignments. State the expected learning and give concrete input/output examples without embedding the solution. Free videos and articles come first; selected Teach Yourself CS book sections and Fowler's Refactoring are optional depth. Label editions when chapter numbers depend on them.
