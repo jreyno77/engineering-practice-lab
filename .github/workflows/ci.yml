@@ -26,8 +26,8 @@ jobs:
         run: npm ci
       - name: Test current TypeScript submissions (empty until exercises are submitted)
         run: npm run test:practice
-      - name: Test timing reports
-        run: node --test tests/assignment-timing.test.mjs
+      - name: Test assignment starter and timing reports
+        run: npm run test:tooling
       - name: Install leap-year dependencies
         working-directory: leap-years-1
         run: npm ci

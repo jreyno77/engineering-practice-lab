@@ -4,6 +4,14 @@ Kind: **kata** · Language: **TypeScript** · Appetite: **45 minutes** · One PR
 
 ## Learning direction
 
+When ready to begin, run this yourself from a clean checkout on `main`, before studying:
+
+```sh
+npm run assignment:start -- C002-A01 kata
+```
+
+The coach provides this command without running it. If this attempt already has a branch and start commit, keep them instead of starting again. Copy the printed metadata into this assignment's PR. See the [assignment workflow](../../../docs/assignment-workflow.md) for prerequisites and recovery.
+
 Watch the relevant part of [MIT 6.006 Lecture 4, Hashing](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/) and look up [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map). Optional owned reading: Skiena's algorithm-analysis and data-structure chapters. The external [Two Sum](https://leetcode.com/problems/two-sum/) problem is a variant; this lab also specifies no-match and tie behavior.
 
 Before reading an answer, explain why `[3]` cannot satisfy target 6 while `[3,3]` can.

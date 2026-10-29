@@ -6,6 +6,14 @@ This is an optional entry point for the C# block, not an extra translation requi
 
 ## Learning direction
 
+When ready to begin, run this yourself from a clean checkout on `main`, before studying:
+
+```sh
+npm run assignment:start -- C002-CS01 fluency
+```
+
+The coach provides this command without running it. If this attempt already has a branch and start commit, keep them instead of starting again. Copy the printed metadata into this assignment's PR. See the [assignment workflow](../../../docs/assignment-workflow.md) for prerequisites and recovery.
+
 Read Microsoft's [Selecting a Collection Class](https://learn.microsoft.com/en-us/dotnet/standard/collections/selecting-a-collection-class), especially key lookup. Watch [LINQ and IEnumerable, Part 15](https://learn.microsoft.com/en-us/shows/csharp-for-beginners/language-integrated-query-linq-and-ienumerable-csharp-for-beginners), focusing on when a query executes. Use [dotnet test](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test) for the chosen project's test platform.
 
 Study `["Build","build","Test"]`: decide which comparer expresses the requested equality without depending on the machine's culture.

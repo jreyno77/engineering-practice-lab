@@ -4,6 +4,14 @@ Kind: **fluency** · Language: **TypeScript** · Appetite: **45 minutes** · One
 
 ## Learning direction
 
+When ready to begin, run this yourself from a clean checkout on `main`, before studying:
+
+```sh
+npm run assignment:start -- C002-F02 fluency
+```
+
+The coach provides this command without running it. If this attempt already has a branch and start commit, keep them instead of starting again. Copy the printed metadata into this assignment's PR. See the [assignment workflow](../../../docs/assignment-workflow.md) for prerequisites and recovery.
+
 Read [TypeScript Narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html), specifically truthiness, discriminated unions, and exhaustive handling. Read [Zod Basic usage](https://zod.dev/basics), defining schemas and handling errors, to recognize the existing tool; this first attempt uses small manual checks so the runtime proof is visible.
 
 Study `{attempts: 0, enabled: false}`. Which checks establish the types without incorrectly rejecting either value?

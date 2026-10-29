@@ -14,7 +14,7 @@ Copy this prompt into the new coaching chat after the lab update is merged:
 >
 > Generate manageable daily work from my latest evidence and feedback. Attach specific free videos/articles and optional relevant chapters from Teach Yourself CS books or Refactoring. Prefer small 30–60 minute assignments and sustained language blocks. Use the optional course sequence for guidance, not as a requirement to abandon unfinished work or do every subject every day. Give concrete examples and a scoring rubric without providing the solution.
 >
-> Each independent assignment gets its own PR and original start commit: a pitch, a kata, and three refactors mean five PRs. Follow docs/assignment-workflow.md and preserve elapsed-time evidence. Do not start clocks for future assignments.
+> Each independent assignment gets its own PR and original start commit: a pitch, a kata, and three refactors mean five PRs. Include the complete copy-paste `npm run assignment:start -- <assignment-id> <kind>` command in every assignment prompt, with that assignment's actual ID and kind filled in. Give me the command; do not run it or start the assignment for me. Follow docs/assignment-workflow.md and preserve elapsed-time evidence. Do not start clocks for future assignments.
 >
 > After assigning the work, STOP and wait until I tell you I submitted it. Do not solve it for me or review it prematurely. When I say “submitted,” identify the actual assignment PR(s), read the prompt, diff, tests/checks, and reflection, and review my submitted revision. Post the review in the PR, score it against the stated rubric, and record the review and score in the repository through a separate coaching-record PR. Do not merge PRs or rewrite my solution unless I ask. If a PR is ambiguous, ask me which one.
 >
@@ -42,7 +42,7 @@ An open PR alone does not move the coach from awaiting submission to reviewing. 
 
 Choose a small set that fits the learner's available session. One normal assignment is enough; several independent assignments are valid when explicitly chosen. Keep katas recurring, and rotate the broader engineering skills instead of allowing every day to become only algorithms. Use the [assignment template](../templates/assignment-template.md).
 
-For each assignment, state its ID, kind, language, resource sections, outcome, literal examples, appetite, allowed assistance, score criteria, and submission location. Include the start-commit/PR instructions. If tests or environment setup are prerequisites, make them explicit before the learner starts. Then wait.
+For each assignment, state its ID, kind, language, resource sections, outcome, literal examples, appetite, allowed assistance, score criteria, and submission location. Include a copy-paste `npm run assignment:start -- <assignment-id> <kind>` command with the actual assignment ID and kind filled in, plus the PR instructions. Put the command near the start so the learner can run it before studying. The coach must not execute it or create a learner's branch/start commit merely by assigning work; the learner decides when to run it. If an attempt already started, preserve its branch and marker instead of offering a fresh clock. If tests or environment setup are prerequisites, make them explicit before the learner starts. Then wait.
 
 ## Review the actual PR
 
