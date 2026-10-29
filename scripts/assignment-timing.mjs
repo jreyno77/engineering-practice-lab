@@ -2,7 +2,7 @@ import { appendFile, mkdir, readFile, writeFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 
-const kinds = new Set(['fluency', 'kata', 'refactor', 'security', 'performance', 'pitch', 'architecture', 'communication', 'review', 'tooling']);
+const kinds = new Set(['fluency', 'kata', 'refactor', 'security', 'performance', 'pitch', 'architecture', 'communication', 'review', 'tooling', 'project', 'adoption', 'simulation', 'debugging', 'testing', 'reliability']);
 
 function assignmentFrom(body) {
   const blocks = [...(body ?? '').matchAll(/^```practice\s*\r?\n([\s\S]*?)^```[ \t]*$/gm)];

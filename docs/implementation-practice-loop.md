@@ -45,4 +45,3 @@ Compare similar tasks in the same language and assistance mode. Keep task diffic
 ## Block review
 
 Use five minutes to note one reusable API, one algorithm invariant, one smell or vulnerability, and one remaining gap. Choose the next small assignment. Update the [scorecard](../scorecard.md) only when new submitted work supports it; adding curriculum does not increase a score.
-

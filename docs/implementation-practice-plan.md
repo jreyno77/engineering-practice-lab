@@ -59,4 +59,3 @@ Use [practice review](../templates/practice-review-template.md) and [scorecard o
 At the end of a block, choose two things that improved, one repeated gap, and the next few assignments. Prefer fewer finished exercises to a large unfinished backlog. Rotate the problems while retaining the same skill so a faster repeat reflects transferable understanding instead of a memorized answer.
 
 The progress dashboard remains optional project work. A kata becomes app code only through the existing [adoption decision](../templates/adoption-decision-template.md).
-

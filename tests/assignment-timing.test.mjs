@@ -44,6 +44,15 @@ test('course card IDs can be used directly as assignment IDs', () => {
   assert.equal(report.assignment, 'C002-A01');
 });
 
+for (const kind of ['project', 'adoption', 'simulation', 'debugging', 'testing', 'reliability']) {
+  test(`${kind} work has its own reported kind instead of being counted as a kata`, () => {
+    const report = reportFor({ pullRequest: { ...merged, body: body.replace('"kind":"kata"', `"kind":"${kind}"`) } });
+    assert.equal(report.status, 'completed');
+    assert.equal(report.kind, kind);
+    assert.equal(report.elapsed_seconds, 5400);
+  });
+}
+
 test('an open PR has unfinished age and no completed duration', () => {
   const report = reportFor({ pullRequest: { ...merged, state: 'open', merged: false, merged_at: null } });
   assert.equal(report.status, 'in_progress');

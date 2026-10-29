@@ -1,7 +1,7 @@
 # Assignment: <one outcome>
 
 - ID: `<cycle/day/skill-attempt>` (unique per attempt; ASCII letters, digits, `/`, `_`, `-`)
-- Kind: fluency / kata / refactor / security / performance / pitch / architecture / communication / review / tooling
+- Kind: fluency / kata / refactor / security / performance / pitch / architecture / communication / review / tooling / project / adoption / simulation / debugging / testing / reliability
 - Language/runtime: TypeScript / Kotlin / C# + version
 - Appetite: 30–60 minutes, or an explicitly chosen smaller rep
 - Prior attempt / prerequisite: link, or none
