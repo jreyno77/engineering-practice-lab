@@ -3,14 +3,45 @@
 - Review date: 2026-10-29 (America/Denver).
 - Assignment: `cycle-001/day-06/architecture-lifecycle`.
 - Learner PR: [#25](https://github.com/jreyno77/engineering-practice-lab/pull/25).
-- Published review: [anchored PR review](https://github.com/jreyno77/engineering-practice-lab/pull/25#pullrequestreview-5707033006), including two inline comments.
+- Original published review: [anchored PR review](https://github.com/jreyno77/engineering-practice-lab/pull/25#pullrequestreview-5707033006), including two inline comments; superseded by reassessment below.
 - Reviewed head: `98abfacc3c8b3c7c24e63a52a6396d2d444836d5`.
 - Original learner start: `f1952250f4b40b7dc94ab07899d3e56b2ec690d2`.
 - Prompt: [Day 06](prompt.md), with the in-chat agreement accepting per-function invocation states.
 - Submitted design: [immutable submission](https://github.com/jreyno77/engineering-practice-lab/blob/98abfacc3c8b3c7c24e63a52a6396d2d444836d5/cycles/cycle-001/day-06-architecture-lifecycle/submission.md) and [ResultsRelay.expec](https://github.com/jreyno77/engineering-practice-lab/blob/98abfacc3c8b3c7c24e63a52a6396d2d444836d5/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec).
 - State: reviewed incomplete attempt; awaiting understanding/disagreement. No completion or merge claimed.
+- Reassessment published: [updated PR review](https://github.com/jreyno77/engineering-practice-lab/pull/25#pullrequestreview-5714855173).
 
-## Current clarification — 2026-10-30
+## Reassessment — 2026-10-30
+
+Reviewed the same submitted revision, `98abfacc3c8b3c7c24e63a52a6396d2d444836d5`, using the learner's clarification: section 1 gives state facts; section 2 gives execution flows. The coach supplied the replacement table without making the relationship explicit. The reassessment removes deductions based on table shape, repeated paths, missing state labels in those traces, or treating every `Working` row as a violation of section 1. The original invariant-violation finding and 51-point subtotal are superseded by this reassessment.
+
+**Updated assessed subtotal: 73 points across 90 assessed points.** The original rubric still totals 100. The 10-point test criterion remains unassessed because no test descriptions were submitted; this is not a finalized /100 assignment grade or a new overall readiness score.
+
+| Criterion | Score | Evidence and remaining gap |
+|---|---:|---|
+| State choice and invariants | 18 / 20 | Five useful distinctions and concrete resource/outcome facts. The scope of export-specific facts (Courier handoff, shipping complete, backup exists) remains unclear for download and failures before a backing file exists. This is incomplete scope, not a demonstrated contradiction with the execution trace. |
+| Transition completeness | 22 / 25 | Substantial validation, creation/retry, shipping failure, cleanup retry, successful completion, and download/stream-close flows. The remaining 3 points concern what makes a failure eligible for retry. No format deduction. |
+| Decisive lifecycle choices | 18 / 20 | All five decisions and consequences are present. Separate invocations and their own cleanup are accepted. For creation and export of the same payload, the allowed overlap still lacks an ordering/coordination guarantee for when export can consume that payload. Retry eligibility is not deducted again here. |
+| Cancellation/failure/cleanup paths | 8 / 15 | Credit for stream closure after failed writes, cleanup retries, and terminal cancellation as a stated policy. The public API exposes no separate cleanup operation, and the flows put export cleanup after shipping; this earns credit for avoiding an external cleanup/export race. The remaining gaps are caller results and file/resource guarantees after cancellation with partial backing data or failure with a partial target. |
+| Risk-based tests | Not assessed / 10 | Five behavioral test descriptions were requested but not submitted. Executable tests were not required for this design exercise. |
+| Caller contract | 3 / 5 | The `.expec` capabilities, types, errors, and promises count. Its download promise says persistence in memory while the trace writes to a supplied location; how that location is supplied is unstated. The scope of `getStatus()` when invocations overlap is also unclear. No object-owned state machine is required. |
+| Communication | 4 / 5 | The decisions and execution flows are understandable with the learner's explanation. Only the requested concise final architecture summary is missing; no deduction for using traces or repeating paths. |
+
+The score changes are **+8 states, +9 transitions, +1 decisions, +3 critical paths, +1 communication**. Caller contract retains its score. The additional critical-path credit recognizes internal cleanup ownership and ordering already present in the submitted API and flows. Each remaining gap is charged under the criterion shown, rather than repeatedly penalizing the same omission.
+
+### Two highest-value improvements
+
+1. **Finish the externally observable outcomes of interruption.** Closing the stream after a failed write is useful evidence, but it does not tell the caller what remains at the target or who owns it. Terminal cancellation likewise needs a settled caller outcome and file/resource guarantees. These are policy gaps an implementer would otherwise have to decide.
+2. **Make the public contract agree with the intended behavior.** Clarify what download persists, how its location reaches the operation, and which invocation or aggregate `getStatus()` describes. This can stay a per-function design; it needs a clear caller interpretation.
+
+**Compliance:** the difficult paths are incomplete; the proposed tests, final summary, and mini refresh were not submitted. The `.expec` material receives caller-contract credit regardless of section placement. **Engineering judgment:** per-function ownership, self-contained operations, explicit error categories, and the documented tradeoffs receive credit. **Production readiness:** the unresolved policies need definition and behavioral verification before relying on this design in production. This review does not require rewriting the first attempt.
+
+**Timing fixed at the learner's request:** PR #25's practice block now uses assignment `cycle-001/day-06/architecture-lifecycle`, kind `architecture`, and original start `f1952250f4b40b7dc94ab07899d3e56b2ec690d2`. The [new timing check passed](https://github.com/jreyno77/engineering-practice-lab/actions/runs/41083803656), with its [report artifact retained](https://github.com/jreyno77/engineering-practice-lab/actions/runs/41083803656/artifacts/12990423171). The earlier failed report remains historical evidence. No start or solution commit was changed. The PR remains unmerged, so no completed commit-to-merge duration or active-work total is claimed.
+
+Existing practice CI passed on this unchanged submission; it does not verify the lifecycle or the `.expec` runtime promises. Overall readiness remains the historical **65/100**. Preserve the attempt and review history; next focus is caller-visible interruption/resource outcomes. Await the learner's understanding or disagreement before another assignment.
+## Prior clarification — 2026-10-30, resolved by reassessment above
+
+This section preserves the correction made before reassessment. Its pending score status is historical.
 
 The learner explained that section 1 defines states and their invariants, while section 2 is a separate step-by-step execution trace: what happens within a state and how the operation progresses to the next state. They followed the coach's replacement table, `Current invocation state | Event or action | Outcome / next state`.
 
@@ -22,7 +53,7 @@ See the [published clarification](https://github.com/jreyno77/engineering-practi
 
 ## Original review — 2026-10-29, preserved as history
 
-The affected finding and scores in this historical snapshot are superseded by the clarification above; they are not the current assessment.
+The affected finding and scores in this historical snapshot are superseded by the reassessment above; they are not the current assessment.
 
 Reviewed PR #25 at `98abfacc3c8b3c7c24e63a52a6396d2d444836d5`. The learner confirmed in chat that this is the attempt to review, although the submission ends after section 3.
 
@@ -79,10 +110,11 @@ Focus: make each per-invocation invariant agree with one concrete success or int
 
 | Field | Current evidence |
 |---|---|
-| State | Discussing the learner's clarification of the two representations |
+| State | Reassessed the submitted revision using the clarified meaning; awaiting understanding/disagreement |
 | Assigned work | Day 06 architecture lifecycle; one learner PR; original marker retained |
 | Submission | PR #25, reviewed head `98abfacc3c8b3c7c24e63a52a6396d2d444836d5` |
-| Assessment | Original state/invariant and transition scores pending clarification; previous 51-point subtotal withdrawn; no replacement total; rubric 100 and readiness 65 unchanged |
+| Assessment | 73 points across 90 assessed; tests 10 unassessed; original rubric 100 and historical readiness 65 unchanged; previous 51 subtotal superseded |
 | Understanding | Learner intended section 1 as state definitions/invariants and section 2 as execution flow using the coach's template. Coach owns the unstated mapping assumption; per-function states and `.expec` remain accepted. |
-| Next focus | Clarify how the two views relate before reassessing affected criteria; no new assignment |
+| Next focus | Caller-visible outcomes and owned-file guarantees after cancellation or partial-target failure; no new assignment |
+| Timing | PR #25 metadata corrected at learner request; original start and solution unchanged; timing run 41083803656 passed; PR unmerged |
 | Review administration | Separate `review` PR; original marker `952f57e1fd1f11dd8bc39942c5e1888b99b54ff1`; learner solution excluded |
