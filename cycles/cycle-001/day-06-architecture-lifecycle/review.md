@@ -74,4 +74,3 @@ Focus: make each per-invocation invariant agree with one concrete success or int
 | Understanding | Learner requested no penalty for `.expec`; coach accepts the medium and per-function representation. No response to this review yet. |
 | Next focus | State invariants consistent with a concrete interruption trace; next assignment waits for acknowledgment |
 | Review administration | Separate `review` PR; original marker `952f57e1fd1f11dd8bc39942c5e1888b99b54ff1`; learner solution excluded |
-
