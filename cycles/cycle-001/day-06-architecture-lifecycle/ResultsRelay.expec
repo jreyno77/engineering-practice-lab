@@ -1,0 +1,53 @@
+
+opaque type URL
+opaque type anything
+
+type PayloadType = "remote" | "db" | "fs"
+
+type Payload {
+    item: anything
+    destination: URL
+    kind: PayloadType
+}
+
+error type CourierShippingError {
+    code: "invalid-destination" | "invalid-payload" | "shipping-issue"
+}
+
+concept Courier {
+    capability ship(payload: Payload) returns Nothing fails with CourierShippingError {
+        promises "item sent off to the destination"
+    }
+}
+
+type ResultPayload {
+    result: Text
+    cancelled: Boolean
+}
+error type ResultRelayDownloadError {
+    code: "persistance-issue" | "invalid-payload"
+}
+error type ResultRelayExportError {
+    code: "targetLocation-dne" | "invalid-payload" | "delivery-issue" | "partial-cleanup" | "unable-to-cleanup"
+}
+
+type SupportedDestinations = PayloadType
+
+concept ResultsRelay {
+    depends on URL
+    capability getSupportedDestinations() returns SupportedDestinations
+    capability getStatus() returns "complete" | "working" | "failed"
+    capability download(result: ResultPayload) returns Nothing fails with ResultRelayDownloadError {
+        promises "The result is persisted in memory"
+        promises "Can support large results"
+        promises "Can be cancelled"
+    }
+    
+    capability export(result: ResultPayload, targetLocation: URL) returns Nothing fails with ResultRelayExportError {
+        promises "The result has been sent to a provided target"
+        promises "Creates a temporary backing file"
+        promises "Can support large results"
+        promises "Can be cancelled"
+        promises "Cleanup"
+    }
+}
