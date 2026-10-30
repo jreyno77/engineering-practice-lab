@@ -79,7 +79,7 @@ A skill does not need to be mastered before moving on, but its planned block sho
 
 ## Current Position
 
-Day 05 completed the first architecture rep. Day 06 remains in the architecture block.
+Day 05 completed the first architecture rep. Day 06's submitted revision in [PR #25](https://github.com/jreyno77/engineering-practice-lab/pull/25) has a [provisional review](cycles/cycle-001/day-06-architecture-lifecycle/review.md). The learner confirmed review of this incomplete attempt; understanding/disagreement is pending. Keep the original attempt and wait before assigning the next day.
 
 Known code-quality lessons to keep fresh:
 
@@ -94,4 +94,4 @@ Current primary skill area:
 System design and architecture
 ```
 
-Day 06 should focus narrowly on lifecycle states, allowed and forbidden transitions, cleanup finality, regeneration behavior, concurrency, and error reporting.
+The same submission was reassessed on 2026-10-30 using the clarified distinction between section 1's state facts and section 2's execution traces. The current subtotal is 73 points across 90 assessed, with the test criterion's 10 points unassessed and the original 100-point rubric unchanged. The prior 51-point subtotal is superseded, with history preserved. Per-function state, execution traces, and `.expec` remain accepted; internal cleanup ownership receives credit. The next focus is the caller-visible outcome and owned-file guarantees after cancellation or a partial-target failure, then agreement between the public contract and intended behavior. PR timing metadata was corrected without changing the original start. Await understanding or disagreement before the next assignment; no new learner clock is started.
