@@ -94,4 +94,4 @@ Current primary skill area:
 System design and architecture
 ```
 
-The current learning focus is consistency between per-invocation state invariants and concrete cancellation/failure/file outcomes. The `.expec` representation is accepted as design evidence. The next assignment depends on the review discussion; no new learner clock is started.
+The current discussion clarifies how section 1's state definitions relate to section 2's execution traces. The coach supplied the replacement format without making that mapping explicit; the categorical invariant finding and affected scores are pending clarification, with the prior subtotal withdrawn. The `.expec` representation remains accepted as design evidence. Independent interruption/file-outcome gaps remain open. The next assignment depends on the review discussion; no new learner clock is started.

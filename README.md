@@ -51,7 +51,7 @@ New TypeScript attempts use `submission.ts` and `submission.test.ts` under Cycle
 | Senior Readiness | 65 / 100 |
 | Weekly Trend | +4 (historical; not recalculated) |
 | Momentum | 🟡 Day 06 review awaiting discussion |
-| Primary Focus | Architecture: consistent invariants and interruption outcomes |
+| Primary Focus | Architecture review discussion: state definitions and execution traces |
 | Last Completed Exercise | Day 05 Architecture Rep |
 | Current / Next Exercise | Day 06 submitted and reviewed; awaiting understanding/disagreement |
 
@@ -63,12 +63,14 @@ Day 06's submitted revision was reviewed as an incomplete training attempt. Its 
 |---|---|
 | Review Record | [Day 06 review](cycles/cycle-001/day-06-architecture-lifecycle/review.md) |
 | Scorecard | `scorecard.md` |
-| Assessment | Provisional: 51 points across 90 assessed; testing 10 points not assessed. Original rubric remains 100; no finalized /100 grade. |
+| Assessment | Under clarification: previous 51-point subtotal withdrawn; affected state/transition assessments pending. Rubric remains 100; no replacement total. |
 | Main Strength | Five explicit lifecycle decisions with consequences; detailed failure/retry paths and a concrete `.expec` caller contract |
-| Main Growth Area | State invariants contradict some traces; cancellation and partial-file outcomes remain incomplete |
+| Main Discussion | Clarify the mapping between state definitions and execution traces; cancellation and partial-file outcomes remain incomplete |
 | Next Focus | Discuss the review, then choose the next practice from that understanding. Preserve the original attempt. |
 
 The submitted head is `98abfacc3c8b3c7c24e63a52a6396d2d444836d5`. Existing practice CI passes, but does not exercise this design. Timing CI is invalid because PR #25 still has placeholder metadata; its real start marker is preserved. The review records the correction without resetting the clock. Overall readiness remains the historical 65/100.
+
+On 2026-10-30 the learner clarified that section 1 defines states/invariants and section 2 is a step-by-step execution trace using the coach's replacement template. The coach had not explicitly connected the two representations, so the earlier categorical invariant finding and affected scores are pending clarification. The original review remains visible in the record.
 
 ## Senior Engineering Readiness
 

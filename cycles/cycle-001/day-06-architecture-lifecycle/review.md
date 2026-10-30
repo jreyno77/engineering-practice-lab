@@ -10,7 +10,19 @@
 - Submitted design: [immutable submission](https://github.com/jreyno77/engineering-practice-lab/blob/98abfacc3c8b3c7c24e63a52a6396d2d444836d5/cycles/cycle-001/day-06-architecture-lifecycle/submission.md) and [ResultsRelay.expec](https://github.com/jreyno77/engineering-practice-lab/blob/98abfacc3c8b3c7c24e63a52a6396d2d444836d5/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec).
 - State: reviewed incomplete attempt; awaiting understanding/disagreement. No completion or merge claimed.
 
-## Day 06 review — submitted revision
+## Current clarification — 2026-10-30
+
+The learner explained that section 1 defines states and their invariants, while section 2 is a separate step-by-step execution trace: what happens within a state and how the operation progresses to the next state. They followed the coach's replacement table, `Current invocation state | Event or action | Outcome / next state`.
+
+The coach did not make explicit how that table's state column should map to section 1, then graded one interpretation as settled. The categorical invariant-violation finding below is **superseded, pending clarification** of that mapping. This does not establish that the design is correct or remove the need for consistent behavior; it distinguishes unresolved notation/meaning from a demonstrated design defect. Per-function state ownership and `.expec` remain accepted.
+
+The original **10/20 state/invariant** and **13/25 transition-completeness** assessments are under reconsideration. The **51-point provisional subtotal is withdrawn as the current assessment**. No replacement total, renormalization, or readiness change is made. The original review is preserved below as history. Independent observations about missing interruption/partial-file outcomes, unsubmitted test descriptions, and caller-contract ambiguity remain open on their own evidence.
+
+See the [published clarification](https://github.com/jreyno77/engineering-practice-lab/pull/25#issuecomment-6526779073). The submitted revision is unchanged. The immediate next step is to understand how the two views relate; the learner is not being asked to replace their design to match an unstated expectation. No new assignment or clock has been started.
+
+## Original review — 2026-10-29, preserved as history
+
+The affected finding and scores in this historical snapshot are superseded by the clarification above; they are not the current assessment.
 
 Reviewed PR #25 at `98abfacc3c8b3c7c24e63a52a6396d2d444836d5`. The learner confirmed in chat that this is the attempt to review, although the submission ends after section 3.
 
@@ -67,10 +79,10 @@ Focus: make each per-invocation invariant agree with one concrete success or int
 
 | Field | Current evidence |
 |---|---|
-| State | Awaiting understanding/disagreement |
+| State | Discussing the learner's clarification of the two representations |
 | Assigned work | Day 06 architecture lifecycle; one learner PR; original marker retained |
 | Submission | PR #25, reviewed head `98abfacc3c8b3c7c24e63a52a6396d2d444836d5` |
-| Assessment | Provisional 51 points across 90 assessed; testing 10 points unassessed; original rubric 100; no finalized /100 grade |
-| Understanding | Learner requested no penalty for `.expec`; coach accepts the medium and per-function representation. No response to this review yet. |
-| Next focus | State invariants consistent with a concrete interruption trace; next assignment waits for acknowledgment |
+| Assessment | Original state/invariant and transition scores pending clarification; previous 51-point subtotal withdrawn; no replacement total; rubric 100 and readiness 65 unchanged |
+| Understanding | Learner intended section 1 as state definitions/invariants and section 2 as execution flow using the coach's template. Coach owns the unstated mapping assumption; per-function states and `.expec` remain accepted. |
+| Next focus | Clarify how the two views relate before reassessing affected criteria; no new assignment |
 | Review administration | Separate `review` PR; original marker `952f57e1fd1f11dd8bc39942c5e1888b99b54ff1`; learner solution excluded |
