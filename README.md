@@ -28,11 +28,7 @@ Use the [assignment](templates/assignment-template.md), [API notebook](templates
 
 ### Running practice
 
-Each assignment prompt includes its own copy-paste start command. Run it yourself from a clean checkout on `main` when you are ready to begin studying. For the pending Day 06 assignment:
-
-```sh
-npm run assignment:start -- cycle-001/day-06/architecture-lifecycle architecture
-```
+Each assignment prompt includes its own copy-paste start command. Run it yourself from a clean checkout on `main` when you are ready to begin studying. Day 06 already has its original start commit and [submission PR #25](https://github.com/jreyno77/engineering-practice-lab/pull/25); continue that attempt without rerunning its start command.
 
 With Git, Node.js 22/npm, configured Git identity, and push access through `origin`, this updates `main` by fast-forward, creates and pushes the assignment branch and original start commit, and prints metadata to paste into its PR. No dependency installation is needed for the starter. An existing attempt keeps its original branch and clock. The coach gives you the command and waits; it does not start assignments for you. See the [workflow](docs/assignment-workflow.md#start-an-assignment) for prerequisites, failures, and PR creation.
 
@@ -53,24 +49,26 @@ New TypeScript attempts use `submission.ts` and `submission.test.ts` under Cycle
 |---|---|
 | Current Cycle | Cycle 001 |
 | Senior Readiness | 65 / 100 |
-| Weekly Trend | +4 |
-| Momentum | 🟢 On Track |
-| Primary Focus | Architecture block: lifecycle states and transition rules |
+| Weekly Trend | +4 (historical; not recalculated) |
+| Momentum | 🟡 Day 06 review awaiting discussion |
+| Primary Focus | Architecture: consistent invariants and interruption outcomes |
 | Last Completed Exercise | Day 05 Architecture Rep |
-| Current / Next Exercise | Day 06 Focused Architecture Rep |
+| Current / Next Exercise | Day 06 submitted and reviewed; awaiting understanding/disagreement |
 
 ## Latest Review Summary
 
-Day 05 was the first architecture-focused rep in the senior skill loop.
+Day 06's submitted revision was reviewed as an incomplete training attempt. Its `.expec` contract and per-function state representation count as design evidence. The learner confirmed that the current revision should be reviewed. No new assignment is active.
 
 | Item | Result |
 |---|---|
-| Review Record | `cycles/cycle-001/day-05-architecture/review.md` |
+| Review Record | [Day 06 review](cycles/cycle-001/day-06-architecture-lifecycle/review.md) |
 | Scorecard | `scorecard.md` |
-| Score | 58 / 100 |
-| Main Strength | Strong instincts around cohesion, separation, ownership, testability, and changeability |
-| Main Growth Area | The lifecycle contract needs to be more decisive: allowed states, forbidden transitions, cleanup finality, regeneration, and concurrency cannot stay ambiguous |
-| Next Focus | Complete Day 06 with a focused lifecycle state-table and transition-rules architecture rep |
+| Assessment | Provisional: 51 points across 90 assessed; testing 10 points not assessed. Original rubric remains 100; no finalized /100 grade. |
+| Main Strength | Five explicit lifecycle decisions with consequences; detailed failure/retry paths and a concrete `.expec` caller contract |
+| Main Growth Area | State invariants contradict some traces; cancellation and partial-file outcomes remain incomplete |
+| Next Focus | Discuss the review, then choose the next practice from that understanding. Preserve the original attempt. |
+
+The submitted head is `98abfacc3c8b3c7c24e63a52a6396d2d444836d5`. Existing practice CI passes, but does not exercise this design. Timing CI is invalid because PR #25 still has placeholder metadata; its real start marker is preserved. The review records the correction without resetting the clock. Overall readiness remains the historical 65/100.
 
 ## Senior Engineering Readiness
 
@@ -109,9 +107,9 @@ The loop is ordered and uses planned multi-day blocks inside each cycle. Each cy
 Current position:
 
 ```txt
-Day 05 completed the first architecture rep.
-Day 06 remains in the architecture block.
-Communication and disagreement begins after Day 06.
+Day 05 is the last closed coaching exercise.
+Day 06's incomplete submitted revision has a provisional review.
+Await understanding or disagreement before advancing the learning loop.
 ```
 
 ## Coaching Rules

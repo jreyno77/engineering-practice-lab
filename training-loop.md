@@ -79,7 +79,7 @@ A skill does not need to be mastered before moving on, but its planned block sho
 
 ## Current Position
 
-Day 05 completed the first architecture rep. Day 06 remains in the architecture block.
+Day 05 completed the first architecture rep. Day 06's submitted revision in [PR #25](https://github.com/jreyno77/engineering-practice-lab/pull/25) has a [provisional review](cycles/cycle-001/day-06-architecture-lifecycle/review.md). The learner confirmed review of this incomplete attempt; understanding/disagreement is pending. Keep the original attempt and wait before assigning the next day.
 
 Known code-quality lessons to keep fresh:
 
@@ -94,4 +94,4 @@ Current primary skill area:
 System design and architecture
 ```
 
-Day 06 should focus narrowly on lifecycle states, allowed and forbidden transitions, cleanup finality, regeneration behavior, concurrency, and error reporting.
+The current learning focus is consistency between per-invocation state invariants and concrete cancellation/failure/file outcomes. The `.expec` representation is accepted as design evidence. The next assignment depends on the review discussion; no new learner clock is started.
