@@ -4,5 +4,6 @@
 ],
   "mochaExplorer.require": ["mocha-suppress-logs"],
   "mochaExplorer.nodeArgv": ["--loader=ts-node/esm"],
-  "mochaExplorer.ui": "bdd"
+  "mochaExplorer.ui": "bdd",
+  "expec.configurationFile": "cycles/cycle-001/day-06-architecture-lifecycle/expec.json"
 }

@@ -1,0 +1,103 @@
+{
+  "context": "sha256:830d8e1215153817bc5300d19c6763dbc05e86e5e57cf9fc304ebda70a7f761b",
+  "deleted": [
+    "08638eba-fa7c-41f1-9e1b-8bedcb43bbd9",
+    "28cae4eb-450c-49fa-a2fd-c90fcbb9d880",
+    "2eea01f8-1f14-4064-ad1b-84413ff93e4a",
+    "3d92779d-bdcc-4fda-ba89-fce4b5bf3d72",
+    "42439e31-8233-443a-9d45-4045e4ba3c82",
+    "5a045a51-7ee7-424b-8492-ad2483b63e03",
+    "5f52d728-111d-47f4-9471-bdb858361e43",
+    "70a15d2a-a0ac-4aa0-a07a-1f6cff7faaa0",
+    "70b3c0ad-db42-4f5b-b452-5a4ab9a0643c",
+    "95527a87-d762-4c46-b192-88f0f21f9157",
+    "9e05c49d-0930-4718-85eb-126941592d99",
+    "a8fe0745-5e61-4d84-9b5f-76b8aff353b4",
+    "b5c0e7ea-1922-4a07-96d1-a71d3ac616ba",
+    "ce61f5b4-0127-4c0b-97cb-5380ea1ae087",
+    "e023f369-64d3-47c7-9680-87325eba7abd",
+    "e05262d4-ab2a-4aae-b224-b40ed09056c3",
+    "fea95700-3887-4f27-b399-c3238030a303"
+  ],
+  "directory": "diagrams",
+  "documents": [
+    {
+      "path": "diagrams/structure.d2",
+      "region": "713574866c6b5df4c6171c7ef3eacb151f2cf303c8b6f07e4114424e505e95b7",
+      "rendered": "c148952175c8a1a3444e794db65b350a3cd2f79a94f38b4e4aa1fbb439c3f363",
+      "subjects": [
+        {
+          "id": "793de8bc-1261-47b2-b99b-838cf6d2b68a",
+          "kind": "concept",
+          "name": "Courier"
+        },
+        {
+          "id": "f09ae883-53d6-44fd-a062-542996040540",
+          "kind": "capability",
+          "name": "ship",
+          "owner": "793de8bc-1261-47b2-b99b-838cf6d2b68a"
+        },
+        {
+          "id": "5bd454d6-b1e7-4f04-bdb6-862f6e06c226",
+          "kind": "parameter",
+          "name": "payload",
+          "owner": "f09ae883-53d6-44fd-a062-542996040540"
+        },
+        {
+          "id": "b35e94b9-4028-458e-a7ca-746ddf2fe1d8",
+          "kind": "concept",
+          "name": "ResultsRelay"
+        },
+        {
+          "id": "8215ff15-11c3-4a5a-89b2-ea654afe4dad",
+          "kind": "capability",
+          "name": "getSupportedDestinations",
+          "owner": "b35e94b9-4028-458e-a7ca-746ddf2fe1d8"
+        },
+        {
+          "id": "d2acb7b7-edc4-4e40-8f9c-e69ba9166763",
+          "kind": "capability",
+          "name": "getStatus",
+          "owner": "b35e94b9-4028-458e-a7ca-746ddf2fe1d8"
+        },
+        {
+          "id": "d5c96628-c7f5-4f8c-91b2-79ffcb6c506a",
+          "kind": "capability",
+          "name": "download",
+          "owner": "b35e94b9-4028-458e-a7ca-746ddf2fe1d8"
+        },
+        {
+          "id": "aff4c1fa-f619-4455-92ba-51ced43fa54f",
+          "kind": "parameter",
+          "name": "result",
+          "owner": "d5c96628-c7f5-4f8c-91b2-79ffcb6c506a"
+        },
+        {
+          "id": "4ea5eada-c636-4ce3-a513-e20a5952a85f",
+          "kind": "capability",
+          "name": "export",
+          "owner": "b35e94b9-4028-458e-a7ca-746ddf2fe1d8"
+        },
+        {
+          "id": "96c9bf79-0044-4e5b-b434-2fa42728e154",
+          "kind": "parameter",
+          "name": "result",
+          "owner": "4ea5eada-c636-4ce3-a513-e20a5952a85f"
+        },
+        {
+          "id": "13975ec3-6f1a-4148-8d0d-fd5721a0f70f",
+          "kind": "parameter",
+          "name": "targetLocation",
+          "owner": "4ea5eada-c636-4ce3-a513-e20a5952a85f"
+        }
+      ],
+      "svg": "b348ffe08e2ae37223b6c4232aa81f01d01bcc8fec380938eca0497dad4b759e",
+      "view": "structure"
+    }
+  ],
+  "format": 1,
+  "renderFormat": 1,
+  "views": [
+    "structure"
+  ]
+}

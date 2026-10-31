@@ -8,8 +8,6 @@
 
 <!-- expec-navigation-end -->
 
-Statically checked specification. Runtime behavior is not verified by this document.
-
 <!-- expec-page-end:486f6d65 -->
 
 ## Your notes
