@@ -15,6 +15,7 @@ error type CourierShippingError {
 }
 
 concept Courier {
+    public ship
     capability ship(payload: Payload) returns Nothing fails with CourierShippingError {
         promises "item sent off to the destination"
     }
@@ -34,6 +35,11 @@ error type ResultRelayExportError {
 type SupportedDestinations = PayloadType
 
 concept ResultsRelay {
+    public getStatus
+    public getSupportedDestinations
+    public download
+    public export
+    
     depends on URL
     capability getSupportedDestinations() returns SupportedDestinations
     capability getStatus() returns "complete" | "working" | "failed"
@@ -44,6 +50,7 @@ concept ResultsRelay {
     }
     
     capability export(result: ResultPayload, targetLocation: URL) returns Nothing fails with ResultRelayExportError {
+        calls Courier.ship  
         promises "The result has been sent to a provided target"
         promises "Creates a temporary backing file"
         promises "Can support large results"

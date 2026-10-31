@@ -1,0 +1,1715 @@
+{
+  "baseline": {
+    "artifacts": [
+      {
+        "locator": {
+          "format": "d2-object",
+          "outputId": "uml",
+          "value": {
+            "key": "s_e0e8ae1e8502098ac066c552c10ab3fd466531a3ec6b6898e8deb8e2cb5af61d",
+            "keyRange": {
+              "column": 0,
+              "end": 400,
+              "line": 5,
+              "start": 334
+            },
+            "path": "diagrams/structure.d2",
+            "range": {
+              "column": 0,
+              "end": 879,
+              "line": 5,
+              "start": 334
+            },
+            "subject": "793de8bc-1261-47b2-b99b-838cf6d2b68a"
+          }
+        },
+        "specId": "793de8bc-1261-47b2-b99b-838cf6d2b68a"
+      },
+      {
+        "locator": {
+          "format": "svg",
+          "outputId": "uml",
+          "value": {
+            "path": "diagrams/structure.svg",
+            "subject": "793de8bc-1261-47b2-b99b-838cf6d2b68a"
+          }
+        },
+        "specId": "793de8bc-1261-47b2-b99b-838cf6d2b68a"
+      },
+      {
+        "locator": {
+          "format": "d2-member",
+          "outputId": "uml",
+          "value": {
+            "keyRange": {
+              "column": 2,
+              "end": 795,
+              "line": 8,
+              "start": 780
+            },
+            "owner": "s_e0e8ae1e8502098ac066c552c10ab3fd466531a3ec6b6898e8deb8e2cb5af61d",
+            "path": "diagrams/structure.d2",
+            "range": {
+              "column": 2,
+              "end": 802,
+              "line": 8,
+              "start": 780
+            },
+            "subject": "f09ae883-53d6-44fd-a062-542996040540"
+          }
+        },
+        "specId": "f09ae883-53d6-44fd-a062-542996040540"
+      },
+      {
+        "locator": {
+          "format": "svg",
+          "outputId": "uml",
+          "value": {
+            "path": "diagrams/structure.svg",
+            "subject": "f09ae883-53d6-44fd-a062-542996040540"
+          }
+        },
+        "specId": "f09ae883-53d6-44fd-a062-542996040540"
+      },
+      {
+        "locator": {
+          "format": "d2-signature",
+          "outputId": "uml",
+          "value": {
+            "containing": "f09ae883-53d6-44fd-a062-542996040540",
+            "keyRange": {
+              "column": 2,
+              "end": 795,
+              "line": 8,
+              "start": 780
+            },
+            "path": "diagrams/structure.d2",
+            "range": {
+              "column": 2,
+              "end": 802,
+              "line": 8,
+              "start": 780
+            },
+            "subject": "5bd454d6-b1e7-4f04-bdb6-862f6e06c226"
+          }
+        },
+        "specId": "5bd454d6-b1e7-4f04-bdb6-862f6e06c226"
+      },
+      {
+        "locator": {
+          "format": "svg",
+          "outputId": "uml",
+          "value": {
+            "path": "diagrams/structure.svg",
+            "subject": "5bd454d6-b1e7-4f04-bdb6-862f6e06c226"
+          }
+        },
+        "specId": "5bd454d6-b1e7-4f04-bdb6-862f6e06c226"
+      },
+      {
+        "locator": {
+          "format": "d2-object",
+          "outputId": "uml",
+          "value": {
+            "key": "s_3619f571121225769adb9a36c21244975bea9702fdedc56b07e65c84855edf47",
+            "keyRange": {
+              "column": 0,
+              "end": 1175,
+              "line": 12,
+              "start": 1109
+            },
+            "path": "diagrams/structure.d2",
+            "range": {
+              "column": 0,
+              "end": 2978,
+              "line": 12,
+              "start": 1109
+            },
+            "subject": "b35e94b9-4028-458e-a7ca-746ddf2fe1d8"
+          }
+        },
+        "specId": "b35e94b9-4028-458e-a7ca-746ddf2fe1d8"
+      },
+      {
+        "locator": {
+          "format": "svg",
+          "outputId": "uml",
+          "value": {
+            "path": "diagrams/structure.svg",
+            "subject": "b35e94b9-4028-458e-a7ca-746ddf2fe1d8"
+          }
+        },
+        "specId": "b35e94b9-4028-458e-a7ca-746ddf2fe1d8"
+      },
+      {
+        "locator": {
+          "format": "d2-member",
+          "outputId": "uml",
+          "value": {
+            "keyRange": {
+              "column": 2,
+              "end": 1564,
+              "line": 15,
+              "start": 1536
+            },
+            "owner": "s_3619f571121225769adb9a36c21244975bea9702fdedc56b07e65c84855edf47",
+            "path": "diagrams/structure.d2",
+            "range": {
+              "column": 2,
+              "end": 1568,
+              "line": 15,
+              "start": 1536
+            },
+            "subject": "8215ff15-11c3-4a5a-89b2-ea654afe4dad"
+          }
+        },
+        "specId": "8215ff15-11c3-4a5a-89b2-ea654afe4dad"
+      },
+      {
+        "locator": {
+          "format": "svg",
+          "outputId": "uml",
+          "value": {
+            "path": "diagrams/structure.svg",
+            "subject": "8215ff15-11c3-4a5a-89b2-ea654afe4dad"
+          }
+        },
+        "specId": "8215ff15-11c3-4a5a-89b2-ea654afe4dad"
+      },
+      {
+        "locator": {
+          "format": "d2-member",
+          "outputId": "uml",
+          "value": {
+            "keyRange": {
+              "column": 2,
+              "end": 1878,
+              "line": 17,
+              "start": 1865
+            },
+            "owner": "s_3619f571121225769adb9a36c21244975bea9702fdedc56b07e65c84855edf47",
+            "path": "diagrams/structure.d2",
+            "range": {
+              "column": 2,
+              "end": 1882,
+              "line": 17,
+              "start": 1865
+            },
+            "subject": "d2acb7b7-edc4-4e40-8f9c-e69ba9166763"
+          }
+        },
+        "specId": "d2acb7b7-edc4-4e40-8f9c-e69ba9166763"
+      },
+      {
+        "locator": {
+          "format": "svg",
+          "outputId": "uml",
+          "value": {
+            "path": "diagrams/structure.svg",
+            "subject": "d2acb7b7-edc4-4e40-8f9c-e69ba9166763"
+          }
+        },
+        "specId": "d2acb7b7-edc4-4e40-8f9c-e69ba9166763"
+      },
+      {
+        "locator": {
+          "format": "d2-member",
+          "outputId": "uml",
+          "value": {
+            "keyRange": {
+              "column": 2,
+              "end": 2246,
+              "line": 19,
+              "start": 2228
+            },
+            "owner": "s_3619f571121225769adb9a36c21244975bea9702fdedc56b07e65c84855edf47",
+            "path": "diagrams/structure.d2",
+            "range": {
+              "column": 2,
+              "end": 2253,
+              "line": 19,
+              "start": 2228
+            },
+            "subject": "d5c96628-c7f5-4f8c-91b2-79ffcb6c506a"
+          }
+        },
+        "specId": "d5c96628-c7f5-4f8c-91b2-79ffcb6c506a"
+      },
+      {
+        "locator": {
+          "format": "svg",
+          "outputId": "uml",
+          "value": {
+            "path": "diagrams/structure.svg",
+            "subject": "d5c96628-c7f5-4f8c-91b2-79ffcb6c506a"
+          }
+        },
+        "specId": "d5c96628-c7f5-4f8c-91b2-79ffcb6c506a"
+      },
+      {
+        "locator": {
+          "format": "d2-signature",
+          "outputId": "uml",
+          "value": {
+            "containing": "d5c96628-c7f5-4f8c-91b2-79ffcb6c506a",
+            "keyRange": {
+              "column": 2,
+              "end": 2246,
+              "line": 19,
+              "start": 2228
+            },
+            "path": "diagrams/structure.d2",
+            "range": {
+              "column": 2,
+              "end": 2253,
+              "line": 19,
+              "start": 2228
+            },
+            "subject": "aff4c1fa-f619-4455-92ba-51ced43fa54f"
+          }
+        },
+        "specId": "aff4c1fa-f619-4455-92ba-51ced43fa54f"
+      },
+      {
+        "locator": {
+          "format": "svg",
+          "outputId": "uml",
+          "value": {
+            "path": "diagrams/structure.svg",
+            "subject": "aff4c1fa-f619-4455-92ba-51ced43fa54f"
+          }
+        },
+        "specId": "aff4c1fa-f619-4455-92ba-51ced43fa54f"
+      },
+      {
+        "locator": {
+          "format": "d2-member",
+          "outputId": "uml",
+          "value": {
+            "keyRange": {
+              "column": 2,
+              "end": 2680,
+              "line": 21,
+              "start": 2648
+            },
+            "owner": "s_3619f571121225769adb9a36c21244975bea9702fdedc56b07e65c84855edf47",
+            "path": "diagrams/structure.d2",
+            "range": {
+              "column": 2,
+              "end": 2687,
+              "line": 21,
+              "start": 2648
+            },
+            "subject": "4ea5eada-c636-4ce3-a513-e20a5952a85f"
+          }
+        },
+        "specId": "4ea5eada-c636-4ce3-a513-e20a5952a85f"
+      },
+      {
+        "locator": {
+          "format": "svg",
+          "outputId": "uml",
+          "value": {
+            "path": "diagrams/structure.svg",
+            "subject": "4ea5eada-c636-4ce3-a513-e20a5952a85f"
+          }
+        },
+        "specId": "4ea5eada-c636-4ce3-a513-e20a5952a85f"
+      },
+      {
+        "locator": {
+          "format": "d2-signature",
+          "outputId": "uml",
+          "value": {
+            "containing": "4ea5eada-c636-4ce3-a513-e20a5952a85f",
+            "keyRange": {
+              "column": 2,
+              "end": 2680,
+              "line": 21,
+              "start": 2648
+            },
+            "path": "diagrams/structure.d2",
+            "range": {
+              "column": 2,
+              "end": 2687,
+              "line": 21,
+              "start": 2648
+            },
+            "subject": "96c9bf79-0044-4e5b-b434-2fa42728e154"
+          }
+        },
+        "specId": "96c9bf79-0044-4e5b-b434-2fa42728e154"
+      },
+      {
+        "locator": {
+          "format": "svg",
+          "outputId": "uml",
+          "value": {
+            "path": "diagrams/structure.svg",
+            "subject": "96c9bf79-0044-4e5b-b434-2fa42728e154"
+          }
+        },
+        "specId": "96c9bf79-0044-4e5b-b434-2fa42728e154"
+      },
+      {
+        "locator": {
+          "format": "d2-signature",
+          "outputId": "uml",
+          "value": {
+            "containing": "4ea5eada-c636-4ce3-a513-e20a5952a85f",
+            "keyRange": {
+              "column": 2,
+              "end": 2680,
+              "line": 21,
+              "start": 2648
+            },
+            "path": "diagrams/structure.d2",
+            "range": {
+              "column": 2,
+              "end": 2687,
+              "line": 21,
+              "start": 2648
+            },
+            "subject": "13975ec3-6f1a-4148-8d0d-fd5721a0f70f"
+          }
+        },
+        "specId": "13975ec3-6f1a-4148-8d0d-fd5721a0f70f"
+      },
+      {
+        "locator": {
+          "format": "svg",
+          "outputId": "uml",
+          "value": {
+            "path": "diagrams/structure.svg",
+            "subject": "13975ec3-6f1a-4148-8d0d-fd5721a0f70f"
+          }
+        },
+        "specId": "13975ec3-6f1a-4148-8d0d-fd5721a0f70f"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-37393364653862632d313236312d343762322d623939622d383338636636643262363861",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "793de8bc-1261-47b2-b99b-838cf6d2b68a"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-66303961653838332d353364362d343466642d613036322d353432393936303430353430",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "f09ae883-53d6-44fd-a062-542996040540"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-35626434353464362d623165372d346630342d626462362d383632663665303663323236",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "5bd454d6-b1e7-4f04-bdb6-862f6e06c226"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-62333565393462392d343032382d343538652d613763612d373436646466326665316438",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "b35e94b9-4028-458e-a7ca-746ddf2fe1d8"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-38323135666631352d313163332d346135612d383962322d656136353461666534646164",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "8215ff15-11c3-4a5a-89b2-ea654afe4dad"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-64326163623762372d656463342d346534302d386639632d653639626139313636373633",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "d2acb7b7-edc4-4e40-8f9c-e69ba9166763"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-64356339363632382d633766352d346638632d393162322d373966666362366335303661",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "d5c96628-c7f5-4f8c-91b2-79ffcb6c506a"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-61666634633166612d663631392d343435352d393262612d353163656434336661353466",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "aff4c1fa-f619-4455-92ba-51ced43fa54f"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-34656135656164612d633633362d346365332d613531332d653230613539353261383566",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "4ea5eada-c636-4ce3-a513-e20a5952a85f"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-39366339626637392d303034342d346535622d623433342d326661343237323865313534",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "96c9bf79-0044-4e5b-b434-2fa42728e154"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-31333937356563332d366631612d343134382d386430642d666435373231613066373066",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "13975ec3-6f1a-4148-8d0d-fd5721a0f70f"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-35613034356135312d376565372d343234622d383439322d616432343833623633653033",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "5a045a51-7ee7-424b-8492-ad2483b63e03"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-33643932373739642d626463632d346664612d626138392d666365346235626633643732",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "3d92779d-bdcc-4fda-ba89-fce4b5bf3d72"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-39353532376138372d643736322d346334362d623139322d383866306632316639313537",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "95527a87-d762-4c46-b192-88f0f21f9157"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-61386665303734352d356536312d346438342d396235662d373662386166663335336234",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "a8fe0745-5e61-4d84-9b5f-76b8aff353b4"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-32656561303166382d316631342d343036342d616431622d383434313366663933653461",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "2eea01f8-1f14-4064-ad1b-84413ff93e4a"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-32386361653465622d343530632d343966612d613266642d633930666362623964383830",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "28cae4eb-450c-49fa-a2fd-c90fcbb9d880"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-30383633386562612d666137632d343166312d396531622d386265646362343362626439",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "08638eba-fa7c-41f1-9e1b-8bedcb43bbd9"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-63653631663562342d303132372d346330622d393763622d353338306561316165303837",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "ce61f5b4-0127-4c0b-97cb-5380ea1ae087"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-62356330653765612d313932322d346130372d393664312d613731643361633631366261",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "b5c0e7ea-1922-4a07-96d1-a71d3ac616ba"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-66656139353730302d333838372d346632372d623339392d633332333830333061333033",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "fea95700-3887-4f27-b399-c3238030a303"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-37306131356432612d613061632d346161302d613037612d316636636666376661616130",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "70a15d2a-a0ac-4aa0-a07a-1f6cff7faaa0"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-37306233633061642d646234322d346635622d623435322d356134616239613036343363",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "70b3c0ad-db42-4f5b-b452-5a4ab9a0643c"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-65303233663336392d363464332d343763372d393638302d383733323565626137616264",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "e023f369-64d3-47c7-9680-87325eba7abd"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-65303532363264342d616232612d346161652d623232342d623430656430393035366333",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "e05262d4-ab2a-4aae-b224-b40ed09056c3"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-39653035633439642d303933302d343731382d383565622d313236393431353932643939",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "9e05c49d-0930-4718-85eb-126941592d99"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-35663532643732382d313131642d343766342d393437312d626462383538333631653433",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "5f52d728-111d-47f4-9471-bdb858361e43"
+      },
+      {
+        "locator": {
+          "format": "expec-markdown-section-1",
+          "outputId": "markdown",
+          "value": {
+            "anchor": "expec-34323433396533312d383233332d343433612d396434352d343034356534626133633832",
+            "path": "docs/pages/ResultsRelay.md"
+          }
+        },
+        "specId": "42439e31-8233-443a-9d45-4045e4ba3c82"
+      }
+    ],
+    "context": "sha256:830d8e1215153817bc5300d19c6763dbc05e86e5e57cf9fc304ebda70a7f761b",
+    "elements": [
+      {
+        "address": {
+          "kind": "opaque-type-declaration",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "URL",
+          "owner": null
+        },
+        "capture": "sha256:68568cd27fc48b25ad540b75168942c5eef0daf9d11e8dd451c98a0636095c6e",
+        "id": "5a045a51-7ee7-424b-8492-ad2483b63e03",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 0,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 16,
+              "line": 2,
+              "offset": 17
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 1,
+              "line": 2,
+              "offset": 2
+            }
+          }
+        },
+        "references": [],
+        "structure": "sha256:58e6f8e6a8153132942028e0fe94a65422dcd978a708e07e1df45018d6061cf9"
+      },
+      {
+        "address": {
+          "kind": "opaque-type-declaration",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "anything",
+          "owner": null
+        },
+        "capture": "sha256:9cacf256ba35f162caf097607bce390ca02f319dd72379ad8238ed3146026f6c",
+        "id": "3d92779d-bdcc-4fda-ba89-fce4b5bf3d72",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 2,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 21,
+              "line": 3,
+              "offset": 39
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 1,
+              "line": 3,
+              "offset": 19
+            }
+          }
+        },
+        "references": [],
+        "structure": "sha256:58e6f8e6a8153132942028e0fe94a65422dcd978a708e07e1df45018d6061cf9"
+      },
+      {
+        "address": {
+          "kind": "alias-type-declaration",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "PayloadType",
+          "owner": null
+        },
+        "capture": "sha256:1c911067546105845e82cca624a2748b892719306f1fc7ab27d7fc4cf2bcdc15",
+        "id": "95527a87-d762-4c46-b192-88f0f21f9157",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 4,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 42,
+              "line": 5,
+              "offset": 84
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 1,
+              "line": 5,
+              "offset": 43
+            }
+          }
+        },
+        "references": [],
+        "structure": "sha256:8977eded3fc563986b5c7960d5b023b134dadf5c73569c765f5f857ded241fa7"
+      },
+      {
+        "address": {
+          "kind": "record-type-declaration",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "Payload",
+          "owner": null
+        },
+        "capture": "sha256:6cdee91ea2e333d752cc9f51678c52da57972abf654befcb114d988b1036e224",
+        "id": "a8fe0745-5e61-4d84-9b5f-76b8aff353b4",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 13,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 2,
+              "line": 11,
+              "offset": 170
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 1,
+              "line": 7,
+              "offset": 88
+            }
+          }
+        },
+        "references": [
+          "3d92779d-bdcc-4fda-ba89-fce4b5bf3d72",
+          "5a045a51-7ee7-424b-8492-ad2483b63e03",
+          "95527a87-d762-4c46-b192-88f0f21f9157"
+        ],
+        "structure": "sha256:6346815ac91873f3c18be27398142b3a5f986d8fc140528646513be0c88063f7"
+      },
+      {
+        "address": {
+          "kind": "field",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "item",
+          "owner": "a8fe0745-5e61-4d84-9b5f-76b8aff353b4"
+        },
+        "capture": "sha256:593a655d317515250f74561c771e1ebcdc9007b29ddddcd78d6b240f8ae0b1ab",
+        "id": "2eea01f8-1f14-4064-ad1b-84413ff93e4a",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 15,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 19,
+              "line": 8,
+              "offset": 122
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 5,
+              "line": 8,
+              "offset": 108
+            }
+          }
+        },
+        "references": [
+          "3d92779d-bdcc-4fda-ba89-fce4b5bf3d72"
+        ],
+        "structure": "sha256:dff605227158c54dffcda33636248f9cdc21a7d840d48d7c5a96b164330169a7"
+      },
+      {
+        "address": {
+          "kind": "field",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "destination",
+          "owner": "a8fe0745-5e61-4d84-9b5f-76b8aff353b4"
+        },
+        "capture": "sha256:799f48cdce29f8232837049273104a9257614eea2c12d44d0c8ae9a1f490a437",
+        "id": "28cae4eb-450c-49fa-a2fd-c90fcbb9d880",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 20,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 21,
+              "line": 9,
+              "offset": 144
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 5,
+              "line": 9,
+              "offset": 128
+            }
+          }
+        },
+        "references": [
+          "5a045a51-7ee7-424b-8492-ad2483b63e03"
+        ],
+        "structure": "sha256:f3e66efb22074a5b5a6b47502842ba958558951fe21860514632d9e3f1e94bd3"
+      },
+      {
+        "address": {
+          "kind": "field",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "kind",
+          "owner": "a8fe0745-5e61-4d84-9b5f-76b8aff353b4"
+        },
+        "capture": "sha256:3e765da409a654a50c2000774d4b0bbdd553fee6e448bffa4faac7af763be507",
+        "id": "08638eba-fa7c-41f1-9e1b-8bedcb43bbd9",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 25,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 22,
+              "line": 10,
+              "offset": 167
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 5,
+              "line": 10,
+              "offset": 150
+            }
+          }
+        },
+        "references": [
+          "95527a87-d762-4c46-b192-88f0f21f9157"
+        ],
+        "structure": "sha256:959ba7830c4d8232cee36796df8f96958920fd57ce9ed852692de214303bc6a1"
+      },
+      {
+        "address": {
+          "kind": "record-type-declaration",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "CourierShippingError",
+          "owner": null
+        },
+        "capture": "sha256:40ece28affa3ef08e6563548d626ac5dd055db5b194906f0e5c34b4b44224fce",
+        "id": "ce61f5b4-0127-4c0b-97cb-5380ea1ae087",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 30,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 2,
+              "line": 15,
+              "offset": 282
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 1,
+              "line": 13,
+              "offset": 174
+            }
+          }
+        },
+        "references": [],
+        "structure": "sha256:70c8c059ff8dd7ec0ba9b45893a6752c7e0e36e0a51f37a23de38dc2402d5cbe"
+      },
+      {
+        "address": {
+          "kind": "field",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "code",
+          "owner": "ce61f5b4-0127-4c0b-97cb-5380ea1ae087"
+        },
+        "capture": "sha256:202e6de11b27c14e65d1b32bff8a04327a5830210723f176be8cba4ebeed024e",
+        "id": "b5c0e7ea-1922-4a07-96d1-a71d3ac616ba",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 32,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 71,
+              "line": 14,
+              "offset": 279
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 5,
+              "line": 14,
+              "offset": 213
+            }
+          }
+        },
+        "references": [],
+        "structure": "sha256:3180dcf793f472832d7b8a1efa4b09583f12aff6c4877adbe08fc85dfb3180f0"
+      },
+      {
+        "address": {
+          "kind": "concept",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "Courier",
+          "owner": null
+        },
+        "capture": "sha256:d82ea0dfef76322b258b85622d69d35fccb112ec7ec2c68536afee269228b3c3",
+        "id": "793de8bc-1261-47b2-b99b-838cf6d2b68a",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 41,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 2,
+              "line": 22,
+              "offset": 472
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 1,
+              "line": 17,
+              "offset": 286
+            }
+          }
+        },
+        "references": [
+          "a8fe0745-5e61-4d84-9b5f-76b8aff353b4",
+          "ce61f5b4-0127-4c0b-97cb-5380ea1ae087",
+          "f09ae883-53d6-44fd-a062-542996040540"
+        ],
+        "structure": "sha256:b0b20734bbb4b8b1aea4897f902ce98ce5ca54692997417f2aed6a5f59b7bc1a"
+      },
+      {
+        "address": {
+          "kind": "capability",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "ship",
+          "owner": "793de8bc-1261-47b2-b99b-838cf6d2b68a"
+        },
+        "capture": "sha256:6d1758234f4a815d3dc5f253034bb17af83010c5066d78fd5cb204bee88eca77",
+        "id": "f09ae883-53d6-44fd-a062-542996040540",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 46,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 6,
+              "line": 21,
+              "offset": 469
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 5,
+              "line": 19,
+              "offset": 326
+            }
+          }
+        },
+        "references": [
+          "a8fe0745-5e61-4d84-9b5f-76b8aff353b4",
+          "ce61f5b4-0127-4c0b-97cb-5380ea1ae087"
+        ],
+        "structure": "sha256:b0a3cf6e17d5fe56722210e47ad0a9dc242f90cbfbe65f70d817681dad32fedc"
+      },
+      {
+        "address": {
+          "kind": "parameter",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "payload",
+          "owner": "f09ae883-53d6-44fd-a062-542996040540"
+        },
+        "capture": "sha256:f84796b0e35a9ef3b04611ad484c81febffe6f86fcb6a27e182bed67b2fb520e",
+        "id": "5bd454d6-b1e7-4f04-bdb6-862f6e06c226",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 48,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 37,
+              "line": 19,
+              "offset": 358
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 21,
+              "line": 19,
+              "offset": 342
+            }
+          }
+        },
+        "references": [
+          "a8fe0745-5e61-4d84-9b5f-76b8aff353b4"
+        ],
+        "structure": "sha256:d6c2dc9eb48baa6d18a85b7ff39f2d373d0b8facd4c7fb8ac5b9b764b205d472"
+      },
+      {
+        "address": {
+          "kind": "record-type-declaration",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "ResultPayload",
+          "owner": null
+        },
+        "capture": "sha256:c060d1108b6cb0ba8be3e813dc0df1cdb66a1045084a071fb0f550b46f426457",
+        "id": "fea95700-3887-4f27-b399-c3238030a303",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 62,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 2,
+              "line": 27,
+              "offset": 541
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 1,
+              "line": 24,
+              "offset": 476
+            }
+          }
+        },
+        "references": [],
+        "structure": "sha256:b2e5c1af32c501dceff2bc918daa82c24120e87e9d04631dd8ea3141d7194e0c"
+      },
+      {
+        "address": {
+          "kind": "field",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "result",
+          "owner": "fea95700-3887-4f27-b399-c3238030a303"
+        },
+        "capture": "sha256:26c808c04246e401188759d16fb57861a089e655064ebdffc88980cf58403cc0",
+        "id": "70a15d2a-a0ac-4aa0-a07a-1f6cff7faaa0",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 64,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 17,
+              "line": 25,
+              "offset": 514
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 5,
+              "line": 25,
+              "offset": 502
+            }
+          }
+        },
+        "references": [],
+        "structure": "sha256:b33343585b08207902ff5d801acc0c586a7db3b61efdb42e926dea6c32b71854"
+      },
+      {
+        "address": {
+          "kind": "field",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "cancelled",
+          "owner": "fea95700-3887-4f27-b399-c3238030a303"
+        },
+        "capture": "sha256:99bfb7147dee629107bb232c12dc13c69d11d64d9061ab075fccfab53a5d24d6",
+        "id": "70b3c0ad-db42-4f5b-b452-5a4ab9a0643c",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 69,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 23,
+              "line": 26,
+              "offset": 538
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 5,
+              "line": 26,
+              "offset": 520
+            }
+          }
+        },
+        "references": [],
+        "structure": "sha256:ab48fdac82a6a50389fa171e716b4b2eae33641a4cce6726c5f5f17a79012dfb"
+      },
+      {
+        "address": {
+          "kind": "record-type-declaration",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "ResultRelayDownloadError",
+          "owner": null
+        },
+        "capture": "sha256:cfec3e6c567ce77ee7f21fd16ba997e1416a25c194597be404064fb15fef7756",
+        "id": "e023f369-64d3-47c7-9680-87325eba7abd",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 74,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 2,
+              "line": 30,
+              "offset": 634
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 1,
+              "line": 28,
+              "offset": 543
+            }
+          }
+        },
+        "references": [],
+        "structure": "sha256:eae76248fe9990c1167c64ed35b58aef1401f277794b0383e6e529ba8f6dfaa1"
+      },
+      {
+        "address": {
+          "kind": "field",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "code",
+          "owner": "e023f369-64d3-47c7-9680-87325eba7abd"
+        },
+        "capture": "sha256:80bb74ca9f78fda6e9e0689caf37fa3b54ee163ed1634b89cec9bf86d7700ea9",
+        "id": "e05262d4-ab2a-4aae-b224-b40ed09056c3",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 76,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 50,
+              "line": 29,
+              "offset": 631
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 5,
+              "line": 29,
+              "offset": 586
+            }
+          }
+        },
+        "references": [],
+        "structure": "sha256:382b5a01c940c28c9ada377e471c839898a34de613da70395b3062eb6ae2e1fb"
+      },
+      {
+        "address": {
+          "kind": "record-type-declaration",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "ResultRelayExportError",
+          "owner": null
+        },
+        "capture": "sha256:6cd28acff6ab8bb7f3423c12d8c82dc3c4d999ca37a282d7ece9dc0d3c3fa239",
+        "id": "9e05c49d-0930-4718-85eb-126941592d99",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 83,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 2,
+              "line": 33,
+              "offset": 787
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 1,
+              "line": 31,
+              "offset": 636
+            }
+          }
+        },
+        "references": [],
+        "structure": "sha256:f55110cb5e7be59baae1237a8daacf52c4837b6ef6b31d260b4bdbd60eb2e5dd"
+      },
+      {
+        "address": {
+          "kind": "field",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "code",
+          "owner": "9e05c49d-0930-4718-85eb-126941592d99"
+        },
+        "capture": "sha256:8b6deb766a65c876dde2544c17649d335f6e1834d9b69a5a0a1bd5fd0deff1c5",
+        "id": "5f52d728-111d-47f4-9471-bdb858361e43",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 85,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 112,
+              "line": 32,
+              "offset": 784
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 5,
+              "line": 32,
+              "offset": 677
+            }
+          }
+        },
+        "references": [],
+        "structure": "sha256:918016476d3f83b5ac00b67719d4aa4de92b6c90a18775526c8bdf5c0a50f2fd"
+      },
+      {
+        "address": {
+          "kind": "alias-type-declaration",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "SupportedDestinations",
+          "owner": null
+        },
+        "capture": "sha256:69555f68484400bb2f2e0dbd7b55c8e3e393bcfdadb231601dd4ebffa51286a2",
+        "id": "42439e31-8233-443a-9d45-4045e4ba3c82",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 98,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 41,
+              "line": 35,
+              "offset": 831
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 1,
+              "line": 35,
+              "offset": 791
+            }
+          }
+        },
+        "references": [
+          "95527a87-d762-4c46-b192-88f0f21f9157"
+        ],
+        "structure": "sha256:81c6aeb0b09ab855a3ae8a5a1484cede36df7ebae0f9c79944f6789f3b86a657"
+      },
+      {
+        "address": {
+          "kind": "concept",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "ResultsRelay",
+          "owner": null
+        },
+        "capture": "sha256:e815a57d48aaf18d24bcc6663eb62d91f050609795cbc15118ea57843afa048d",
+        "id": "b35e94b9-4028-458e-a7ca-746ddf2fe1d8",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 103,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 2,
+              "line": 60,
+              "offset": 1766
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 1,
+              "line": 37,
+              "offset": 835
+            }
+          }
+        },
+        "references": [
+          "42439e31-8233-443a-9d45-4045e4ba3c82",
+          "4ea5eada-c636-4ce3-a513-e20a5952a85f",
+          "5a045a51-7ee7-424b-8492-ad2483b63e03",
+          "8215ff15-11c3-4a5a-89b2-ea654afe4dad",
+          "9e05c49d-0930-4718-85eb-126941592d99",
+          "d2acb7b7-edc4-4e40-8f9c-e69ba9166763",
+          "d5c96628-c7f5-4f8c-91b2-79ffcb6c506a",
+          "e023f369-64d3-47c7-9680-87325eba7abd",
+          "f09ae883-53d6-44fd-a062-542996040540",
+          "fea95700-3887-4f27-b399-c3238030a303"
+        ],
+        "structure": "sha256:adf29a77b1f99102eec01514d11b73c1e138a683ff7dd29d65e6d94eeb5e615c"
+      },
+      {
+        "address": {
+          "kind": "capability",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "getSupportedDestinations",
+          "owner": "b35e94b9-4028-458e-a7ca-746ddf2fe1d8"
+        },
+        "capture": "sha256:bfc409e7113a7395537ebb8237ab0cc3f2bb88481b828199f212fd015fb915c6",
+        "id": "8215ff15-11c3-4a5a-89b2-ea654afe4dad",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 120,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 72,
+              "line": 44,
+              "offset": 1055
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 5,
+              "line": 44,
+              "offset": 988
+            }
+          }
+        },
+        "references": [
+          "42439e31-8233-443a-9d45-4045e4ba3c82"
+        ],
+        "structure": "sha256:51b8fa384c9dfce6fb5f78f21cda52d32eb4c36d557ea2b6b52ff105eb4e31ad"
+      },
+      {
+        "address": {
+          "kind": "capability",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "getStatus",
+          "owner": "b35e94b9-4028-458e-a7ca-746ddf2fe1d8"
+        },
+        "capture": "sha256:f27d6b97d89206ab2ef346df65a0ba66a62c6e07d5c054af66899368d261c480",
+        "id": "d2acb7b7-edc4-4e40-8f9c-e69ba9166763",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 125,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 69,
+              "line": 45,
+              "offset": 1125
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 5,
+              "line": 45,
+              "offset": 1061
+            }
+          }
+        },
+        "references": [],
+        "structure": "sha256:56e5004451a6da2f0b1e273442c2bd700b4b61ef83f8ede3e6bd26b39220a6ea"
+      },
+      {
+        "address": {
+          "kind": "capability",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "download",
+          "owner": "b35e94b9-4028-458e-a7ca-746ddf2fe1d8"
+        },
+        "capture": "sha256:ee46ce204c1693507fa264ab1f473c6932f9eef9dd9c14cce8037edb842bdf27",
+        "id": "d5c96628-c7f5-4f8c-91b2-79ffcb6c506a",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 134,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 6,
+              "line": 50,
+              "offset": 1371
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 5,
+              "line": 46,
+              "offset": 1131
+            }
+          }
+        },
+        "references": [
+          "e023f369-64d3-47c7-9680-87325eba7abd",
+          "fea95700-3887-4f27-b399-c3238030a303"
+        ],
+        "structure": "sha256:3d15aa097a64129fec7879678eb9c0313df1ee1a07e946e375e0eb2b09368f08"
+      },
+      {
+        "address": {
+          "kind": "parameter",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "result",
+          "owner": "d5c96628-c7f5-4f8c-91b2-79ffcb6c506a"
+        },
+        "capture": "sha256:c9dc1cd188b7175240a02a79245d2b037bbcb1c86ca0d51c680cb4ad4db81454",
+        "id": "aff4c1fa-f619-4455-92ba-51ced43fa54f",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 136,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 46,
+              "line": 46,
+              "offset": 1172
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 25,
+              "line": 46,
+              "offset": 1151
+            }
+          }
+        },
+        "references": [
+          "fea95700-3887-4f27-b399-c3238030a303"
+        ],
+        "structure": "sha256:6f7396b39635040228a5a4872735d2ffc08f309d07eecee1a086cb48ca62fcc5"
+      },
+      {
+        "address": {
+          "kind": "capability",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "export",
+          "owner": "b35e94b9-4028-458e-a7ca-746ddf2fe1d8"
+        },
+        "capture": "sha256:ac6cfe458312d81b427c6babe24763e4d3112109fda2efb3a25b88b4c3f136a1",
+        "id": "4ea5eada-c636-4ce3-a513-e20a5952a85f",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 154,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 6,
+              "line": 59,
+              "offset": 1763
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 5,
+              "line": 52,
+              "offset": 1383
+            }
+          }
+        },
+        "references": [
+          "5a045a51-7ee7-424b-8492-ad2483b63e03",
+          "9e05c49d-0930-4718-85eb-126941592d99",
+          "f09ae883-53d6-44fd-a062-542996040540",
+          "fea95700-3887-4f27-b399-c3238030a303"
+        ],
+        "structure": "sha256:954f3a9c96319fdfac908717541bee6c5b7edde397f630e675ea3b3550ee04c5"
+      },
+      {
+        "address": {
+          "kind": "parameter",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "result",
+          "owner": "4ea5eada-c636-4ce3-a513-e20a5952a85f"
+        },
+        "capture": "sha256:c9dc1cd188b7175240a02a79245d2b037bbcb1c86ca0d51c680cb4ad4db81454",
+        "id": "96c9bf79-0044-4e5b-b434-2fa42728e154",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 156,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 44,
+              "line": 52,
+              "offset": 1422
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 23,
+              "line": 52,
+              "offset": 1401
+            }
+          }
+        },
+        "references": [
+          "fea95700-3887-4f27-b399-c3238030a303"
+        ],
+        "structure": "sha256:6f7396b39635040228a5a4872735d2ffc08f309d07eecee1a086cb48ca62fcc5"
+      },
+      {
+        "address": {
+          "kind": "parameter",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "name": "targetLocation",
+          "owner": "4ea5eada-c636-4ce3-a513-e20a5952a85f"
+        },
+        "capture": "sha256:9063be52d4e4af76abe6de1af676a2bb54584e06ed30108d16b1a5ae60e52462",
+        "id": "13975ec3-6f1a-4148-8d0d-fd5721a0f70f",
+        "occurrence": 0,
+        "origin": {
+          "kind": "source",
+          "module": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+          "node": {
+            "ordinal": 161,
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+          },
+          "range": {
+            "end": {
+              "column": 65,
+              "line": 52,
+              "offset": 1443
+            },
+            "sourceId": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+            "start": {
+              "column": 46,
+              "line": 52,
+              "offset": 1424
+            }
+          }
+        },
+        "references": [
+          "5a045a51-7ee7-424b-8492-ad2483b63e03"
+        ],
+        "structure": "sha256:be18fdb4d79d4da8c92aed0a83cdf1a50cba569882901472a12806e46b22527d"
+      }
+    ],
+    "entry": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+    "format": 1,
+    "modules": [
+      "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec"
+    ],
+    "projection": "expec-structure-1",
+    "retired": []
+  },
+  "format": 1,
+  "manifest": "C:\\Users\\jreys\\Documents\\github\\engineering-practice-lab\\cycles\\cycle-001\\day-06-architecture-lifecycle\\expec.json",
+  "project": {
+    "identity": "3260448421:16888498602771282:C:\\Users\\jreys\\Documents\\github\\engineering-practice-lab\\cycles\\cycle-001\\day-06-architecture-lifecycle",
+    "path": "C:\\Users\\jreys\\Documents\\github\\engineering-practice-lab\\cycles\\cycle-001\\day-06-architecture-lifecycle"
+  }
+}

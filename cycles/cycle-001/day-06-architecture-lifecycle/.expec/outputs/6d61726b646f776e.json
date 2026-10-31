@@ -1,0 +1,139 @@
+{
+  "context": "sha256:830d8e1215153817bc5300d19c6763dbc05e86e5e57cf9fc304ebda70a7f761b",
+  "deleted": [],
+  "directory": "docs",
+  "format": 2,
+  "notes": "## Your notes\n\nEdit this area for your own notes. Content above it is generated from .expec.\n\n",
+  "outputId": "markdown",
+  "pages": [
+    {
+      "hash": "318a2a61b6b986c848aadf0aad37dd31e64f6eb44e0696efd64390fb34419f38",
+      "key": "Home",
+      "kind": "home",
+      "path": "docs/Home.md",
+      "subjects": []
+    },
+    {
+      "hash": "2d01a73cf77d15a9bc7e9961f19c6b0517184046c23d4092fc505e192c43ee50",
+      "key": "file:///C:/Users/jreys/Documents/github/engineering-practice-lab/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec",
+      "kind": "source",
+      "path": "docs/pages/ResultsRelay.md",
+      "subjects": [
+        {
+          "id": "793de8bc-1261-47b2-b99b-838cf6d2b68a",
+          "structure": "sha256:b0b20734bbb4b8b1aea4897f902ce98ce5ca54692997417f2aed6a5f59b7bc1a"
+        },
+        {
+          "id": "f09ae883-53d6-44fd-a062-542996040540",
+          "structure": "sha256:b0a3cf6e17d5fe56722210e47ad0a9dc242f90cbfbe65f70d817681dad32fedc"
+        },
+        {
+          "id": "5bd454d6-b1e7-4f04-bdb6-862f6e06c226",
+          "structure": "sha256:d6c2dc9eb48baa6d18a85b7ff39f2d373d0b8facd4c7fb8ac5b9b764b205d472"
+        },
+        {
+          "id": "b35e94b9-4028-458e-a7ca-746ddf2fe1d8",
+          "structure": "sha256:adf29a77b1f99102eec01514d11b73c1e138a683ff7dd29d65e6d94eeb5e615c"
+        },
+        {
+          "id": "8215ff15-11c3-4a5a-89b2-ea654afe4dad",
+          "structure": "sha256:51b8fa384c9dfce6fb5f78f21cda52d32eb4c36d557ea2b6b52ff105eb4e31ad"
+        },
+        {
+          "id": "d2acb7b7-edc4-4e40-8f9c-e69ba9166763",
+          "structure": "sha256:56e5004451a6da2f0b1e273442c2bd700b4b61ef83f8ede3e6bd26b39220a6ea"
+        },
+        {
+          "id": "d5c96628-c7f5-4f8c-91b2-79ffcb6c506a",
+          "structure": "sha256:3d15aa097a64129fec7879678eb9c0313df1ee1a07e946e375e0eb2b09368f08"
+        },
+        {
+          "id": "aff4c1fa-f619-4455-92ba-51ced43fa54f",
+          "structure": "sha256:6f7396b39635040228a5a4872735d2ffc08f309d07eecee1a086cb48ca62fcc5"
+        },
+        {
+          "id": "4ea5eada-c636-4ce3-a513-e20a5952a85f",
+          "structure": "sha256:954f3a9c96319fdfac908717541bee6c5b7edde397f630e675ea3b3550ee04c5"
+        },
+        {
+          "id": "96c9bf79-0044-4e5b-b434-2fa42728e154",
+          "structure": "sha256:6f7396b39635040228a5a4872735d2ffc08f309d07eecee1a086cb48ca62fcc5"
+        },
+        {
+          "id": "13975ec3-6f1a-4148-8d0d-fd5721a0f70f",
+          "structure": "sha256:be18fdb4d79d4da8c92aed0a83cdf1a50cba569882901472a12806e46b22527d"
+        },
+        {
+          "id": "5a045a51-7ee7-424b-8492-ad2483b63e03",
+          "structure": "sha256:58e6f8e6a8153132942028e0fe94a65422dcd978a708e07e1df45018d6061cf9"
+        },
+        {
+          "id": "3d92779d-bdcc-4fda-ba89-fce4b5bf3d72",
+          "structure": "sha256:58e6f8e6a8153132942028e0fe94a65422dcd978a708e07e1df45018d6061cf9"
+        },
+        {
+          "id": "95527a87-d762-4c46-b192-88f0f21f9157",
+          "structure": "sha256:8977eded3fc563986b5c7960d5b023b134dadf5c73569c765f5f857ded241fa7"
+        },
+        {
+          "id": "a8fe0745-5e61-4d84-9b5f-76b8aff353b4",
+          "structure": "sha256:6346815ac91873f3c18be27398142b3a5f986d8fc140528646513be0c88063f7"
+        },
+        {
+          "id": "2eea01f8-1f14-4064-ad1b-84413ff93e4a",
+          "structure": "sha256:dff605227158c54dffcda33636248f9cdc21a7d840d48d7c5a96b164330169a7"
+        },
+        {
+          "id": "28cae4eb-450c-49fa-a2fd-c90fcbb9d880",
+          "structure": "sha256:f3e66efb22074a5b5a6b47502842ba958558951fe21860514632d9e3f1e94bd3"
+        },
+        {
+          "id": "08638eba-fa7c-41f1-9e1b-8bedcb43bbd9",
+          "structure": "sha256:959ba7830c4d8232cee36796df8f96958920fd57ce9ed852692de214303bc6a1"
+        },
+        {
+          "id": "ce61f5b4-0127-4c0b-97cb-5380ea1ae087",
+          "structure": "sha256:70c8c059ff8dd7ec0ba9b45893a6752c7e0e36e0a51f37a23de38dc2402d5cbe"
+        },
+        {
+          "id": "b5c0e7ea-1922-4a07-96d1-a71d3ac616ba",
+          "structure": "sha256:3180dcf793f472832d7b8a1efa4b09583f12aff6c4877adbe08fc85dfb3180f0"
+        },
+        {
+          "id": "fea95700-3887-4f27-b399-c3238030a303",
+          "structure": "sha256:b2e5c1af32c501dceff2bc918daa82c24120e87e9d04631dd8ea3141d7194e0c"
+        },
+        {
+          "id": "70a15d2a-a0ac-4aa0-a07a-1f6cff7faaa0",
+          "structure": "sha256:b33343585b08207902ff5d801acc0c586a7db3b61efdb42e926dea6c32b71854"
+        },
+        {
+          "id": "70b3c0ad-db42-4f5b-b452-5a4ab9a0643c",
+          "structure": "sha256:ab48fdac82a6a50389fa171e716b4b2eae33641a4cce6726c5f5f17a79012dfb"
+        },
+        {
+          "id": "e023f369-64d3-47c7-9680-87325eba7abd",
+          "structure": "sha256:eae76248fe9990c1167c64ed35b58aef1401f277794b0383e6e529ba8f6dfaa1"
+        },
+        {
+          "id": "e05262d4-ab2a-4aae-b224-b40ed09056c3",
+          "structure": "sha256:382b5a01c940c28c9ada377e471c839898a34de613da70395b3062eb6ae2e1fb"
+        },
+        {
+          "id": "9e05c49d-0930-4718-85eb-126941592d99",
+          "structure": "sha256:f55110cb5e7be59baae1237a8daacf52c4837b6ef6b31d260b4bdbd60eb2e5dd"
+        },
+        {
+          "id": "5f52d728-111d-47f4-9471-bdb858361e43",
+          "structure": "sha256:918016476d3f83b5ac00b67719d4aa4de92b6c90a18775526c8bdf5c0a50f2fd"
+        },
+        {
+          "id": "42439e31-8233-443a-9d45-4045e4ba3c82",
+          "structure": "sha256:81c6aeb0b09ab855a3ae8a5a1484cede36df7ebae0f9c79944f6789f3b86a657"
+        }
+      ]
+    }
+  ],
+  "renderFormat": 2,
+  "sourceRoot": "."
+}
