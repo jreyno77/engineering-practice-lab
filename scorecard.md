@@ -73,7 +73,7 @@ The Senior Readiness Score is a coaching metric. It estimates current senior-eng
 | 🟠 Needs Attention | Missed work, unclear submission, or a skill gap needs focused practice |
 | 🔴 Recovery Focus | Multiple missed days or a repeated gap requires a reset exercise |
 
-## Weekly Progress
+## Historical Weekly Progress
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|

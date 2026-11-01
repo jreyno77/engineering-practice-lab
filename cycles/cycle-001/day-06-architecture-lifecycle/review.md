@@ -120,7 +120,8 @@ Next assignment: [Day 07 communication](../day-07-communication/prompt.md), ID `
 |---|---|
 | State | Day 06 discussion closed for progression; Day 07 assigned and awaiting submission |
 | Assigned work | Day 07 communication, 30 minutes, independent with linked articles; one learner PR; start not performed by coach |
-| Submission | PR #25, reviewed head `98abfacc3c8b3c7c24e63a52a6396d2d444836d5` |
+| Latest reviewed submission — Day 06 | PR #25, reviewed head `98abfacc3c8b3c7c24e63a52a6396d2d444836d5` |
+| Day 07 submission | Not submitted; no learner start performed by coach |
 | Assessment | 73 points across 90 assessed; tests 10 unassessed; original rubric 100 and historical readiness 65 unchanged; previous 51 subtotal superseded |
 | Understanding | Learner intended section 1 as state definitions/invariants and section 2 as execution flow using the coach's template. Coach owns the unstated mapping assumption; per-function states and `.expec` remain accepted. |
 | Next focus | One precise review comment connecting a supplied partial-download observation to caller impact and a verifiable next action |

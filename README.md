@@ -196,7 +196,7 @@ Initial product direction:
 
 **Overall Senior Readiness:** 65 / 100
 
-## Weekly Progress
+## Historical Weekly Progress
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|
