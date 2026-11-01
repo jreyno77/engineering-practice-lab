@@ -8,7 +8,7 @@
 - Original learner start: `f1952250f4b40b7dc94ab07899d3e56b2ec690d2`.
 - Prompt: [Day 06](prompt.md), with the in-chat agreement accepting per-function invocation states.
 - Submitted design: [immutable submission](https://github.com/jreyno77/engineering-practice-lab/blob/98abfacc3c8b3c7c24e63a52a6396d2d444836d5/cycles/cycle-001/day-06-architecture-lifecycle/submission.md) and [ResultsRelay.expec](https://github.com/jreyno77/engineering-practice-lab/blob/98abfacc3c8b3c7c24e63a52a6396d2d444836d5/cycles/cycle-001/day-06-architecture-lifecycle/ResultsRelay.expec).
-- State: reviewed incomplete attempt; awaiting understanding/disagreement. No completion or merge claimed.
+- Current state as of 2026-11-01: review discussion closed for progression; incomplete attempt and provisional assessment preserved. See the progression acknowledgment below.
 - Reassessment published: [updated PR review](https://github.com/jreyno77/engineering-practice-lab/pull/25#pullrequestreview-5714855173).
 
 ## Reassessment — 2026-10-30
@@ -106,15 +106,24 @@ The learner reported approximately three hours of family interruption, about 25 
 
 Focus: make each per-invocation invariant agree with one concrete success or interruption trace. Preserve this first attempt and feedback. Await the learner's understanding or disagreement before proposing another assignment. This review does not require rewriting the artifact into the coach's preferred solution, and no new learner clock is started.
 
+## Progression acknowledgment — 2026-11-01
+
+The learner said “ready for next.” This closes the review discussion for progression; it does not complete missing test descriptions or other unsubmitted material, endorse every unresolved design policy, or change the 73-points-across-90-assessed subtotal.
+
+PR #25 merged on 2026-10-30 at 15:53:16 UTC; PR #26 merged at 16:22:12 UTC. These later events supersede the open-PR status in the historical review above. The original learner start and reviewed revision remain unchanged. Later changes in PR #27 are not assessed by this review.
+
+Next assignment: [Day 07 communication](../day-07-communication/prompt.md), ID `cycle-001/day-07/communication-r01`, kind `communication`, 30 minutes. Its fictional scenario targets caller-visible failure communication without another state-table exercise. The learner receives the npm start command; no learner branch/start is created by the coach.
+
 ## Session checkpoint
 
 | Field | Current evidence |
 |---|---|
-| State | Reassessed the submitted revision using the clarified meaning; awaiting understanding/disagreement |
-| Assigned work | Day 06 architecture lifecycle; one learner PR; original marker retained |
-| Submission | PR #25, reviewed head `98abfacc3c8b3c7c24e63a52a6396d2d444836d5` |
+| State | Day 06 discussion closed for progression; Day 07 assigned and awaiting submission |
+| Assigned work | Day 07 communication, 30 minutes, independent with linked articles; one learner PR; start not performed by coach |
+| Latest reviewed submission — Day 06 | PR #25, reviewed head `98abfacc3c8b3c7c24e63a52a6396d2d444836d5` |
+| Day 07 submission | Not submitted; no learner start performed by coach |
 | Assessment | 73 points across 90 assessed; tests 10 unassessed; original rubric 100 and historical readiness 65 unchanged; previous 51 subtotal superseded |
 | Understanding | Learner intended section 1 as state definitions/invariants and section 2 as execution flow using the coach's template. Coach owns the unstated mapping assumption; per-function states and `.expec` remain accepted. |
-| Next focus | Caller-visible outcomes and owned-file guarantees after cancellation or partial-target failure; no new assignment |
-| Timing | PR #25 metadata corrected at learner request; original start and solution unchanged; timing run 41083803656 passed; PR unmerged |
+| Next focus | One precise review comment connecting a supplied partial-download observation to caller impact and a verifiable next action |
+| Timing | Day 06 metadata corrected; original start and reviewed solution retained; PR #25 now merged; Day 07 clock remains learner-controlled |
 | Review administration | Separate `review` PR; original marker `952f57e1fd1f11dd8bc39942c5e1888b99b54ff1`; learner solution excluded |

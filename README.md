@@ -28,7 +28,7 @@ Use the [assignment](templates/assignment-template.md), [API notebook](templates
 
 ### Running practice
 
-Each assignment prompt includes its own copy-paste start command. Run it yourself from a clean checkout on `main` when you are ready to begin studying. Day 06 already has its original start commit and [submission PR #25](https://github.com/jreyno77/engineering-practice-lab/pull/25); continue that attempt without rerunning its start command.
+Each assignment prompt includes its own copy-paste start command. Run it yourself from a clean checkout on `main` when you are ready to begin studying. [Day 07's communication prompt](cycles/cycle-001/day-07-communication/prompt.md) is the current assignment. Day 06 retains its original start commit and [submission PR #25](https://github.com/jreyno77/engineering-practice-lab/pull/25); do not restart it.
 
 With Git, Node.js 22/npm, configured Git identity, and push access through `origin`, this updates `main` by fast-forward, creates and pushes the assignment branch and original start commit, and prints metadata to paste into its PR. No dependency installation is needed for the starter. An existing attempt keeps its original branch and clock. The coach gives you the command and waits; it does not start assignments for you. See the [workflow](docs/assignment-workflow.md#start-an-assignment) for prerequisites, failures, and PR creation.
 
@@ -50,14 +50,14 @@ New TypeScript attempts use `submission.ts` and `submission.test.ts` under Cycle
 | Current Cycle | Cycle 001 |
 | Senior Readiness | 65 / 100 |
 | Weekly Trend | +4 (historical; not recalculated) |
-| Momentum | 🟡 Day 06 review awaiting discussion |
-| Primary Focus | Architecture: caller-visible interruption and file/resource outcomes |
+| Momentum | 🟡 Day 07 assigned; awaiting submission |
+| Primary Focus | Communication: explain one caller-visible failure with evidence and a next action |
 | Last Completed Exercise | Day 05 Architecture Rep |
-| Current / Next Exercise | Day 06 submitted and reviewed; awaiting understanding/disagreement |
+| Current / Next Exercise | [Day 07 communication](cycles/cycle-001/day-07-communication/prompt.md), 30 minutes; learner starts its clock |
 
 ## Latest Review Summary
 
-Day 06's submitted revision was reviewed as an incomplete training attempt. Its `.expec` contract and per-function state representation count as design evidence. The learner confirmed that the current revision should be reviewed. No new assignment is active.
+Day 06's submitted revision was reviewed as an incomplete training attempt. Its `.expec` contract and per-function state representation count as design evidence. On 2026-11-01 the learner said “ready for next,” closing the review discussion for progression while preserving the missing evidence and score. Day 07 is assigned; no submission or learner start is claimed.
 
 | Item | Result |
 |---|---|
@@ -66,9 +66,9 @@ Day 06's submitted revision was reviewed as an incomplete training attempt. Its 
 | Assessment | Reassessed subtotal 73 points across 90 assessed; tests 10 unassessed. Original rubric remains 100; no finalized /100 grade. |
 | Main Strength | Five explicit lifecycle decisions with consequences; detailed failure/retry paths and a concrete `.expec` caller contract |
 | Main Discussion | State facts and execution traces are accepted as separate views; caller outcomes after cancellation/partial writes and public-contract details remain incomplete |
-| Next Focus | Discuss the review, then choose the next practice from that understanding. Preserve the original attempt. |
+| Next Focus | Write one actionable review comment about a supplied partial-download outcome. Preserve Day 06's original attempt. |
 
-The submitted head is `98abfacc3c8b3c7c24e63a52a6396d2d444836d5`. Existing practice CI passes, but does not exercise this design. At the learner's request, PR #25's timing metadata was corrected to its original start marker; [timing CI now passes](https://github.com/jreyno77/engineering-practice-lab/actions/runs/41083803656). Neither start nor solution was rewritten. The PR is unmerged, so no completed elapsed or active-work total is claimed. Overall readiness remains the historical 65/100.
+The reviewed head is `98abfacc3c8b3c7c24e63a52a6396d2d444836d5`. Existing practice CI passed, but did not exercise this design. At the learner's request, PR #25's timing metadata was corrected to its original start marker; [that timing check passed](https://github.com/jreyno77/engineering-practice-lab/actions/runs/41083803656). PR #25 merged on 2026-10-30, followed by [coaching record PR #26](https://github.com/jreyno77/engineering-practice-lab/pull/26). No active-work total is inferred. Later `.expec` changes in [PR #27](https://github.com/jreyno77/engineering-practice-lab/pull/27) are not a newly assessed attempt or a basis for changing the recorded score. Overall readiness remains the historical 65/100.
 
 On 2026-10-30 the learner clarified that section 1 defines states/invariants and section 2 is a step-by-step execution trace using the coach's replacement template. The reassessment removes deductions based on the coach's unstated mapping, table shape, or repeated paths, and credits the API's internal cleanup ownership. The [updated PR review](https://github.com/jreyno77/engineering-practice-lab/pull/25#pullrequestreview-5714855173) supersedes the original 51-point subtotal; the first review and clarification remain visible as history.
 
@@ -109,9 +109,9 @@ The loop is ordered and uses planned multi-day blocks inside each cycle. Each cy
 Current position:
 
 ```txt
-Day 05 is the last closed coaching exercise.
-Day 06's incomplete submitted revision has a provisional review.
-Await understanding or disagreement before advancing the learning loop.
+Day 06's review discussion is closed for progression; its incomplete attempt and provisional score remain preserved.
+Day 07 is assigned: one communication document, one learner PR, one original start.
+Await the learner's submission before reviewing or assigning further work.
 ```
 
 ## Coaching Rules
@@ -196,7 +196,7 @@ Initial product direction:
 
 **Overall Senior Readiness:** 65 / 100
 
-## Weekly Progress
+## Historical Weekly Progress
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|

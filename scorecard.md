@@ -34,6 +34,8 @@ Cycle 001 Day 06 was reviewed at [PR #25](https://github.com/jreyno77/engineerin
 
 Explicit policies, failure/retry paths, and the `.expec` public contract receive credit. Next focus: caller-visible outcomes and owned-file guarantees after cancellation or partial-target failure, plus agreement between the public contract and intended download/status behavior. Other scored gaps are the scope of state facts, retry eligibility, same-payload creation/export ordering, and the missing concise summary; each is charged once. Representation choice and self-reported elapsed effort do not reduce the score. The original start commit is preserved; the coach corrected PR metadata at the learner's request and [timing CI passed](https://github.com/jreyno77/engineering-practice-lab/actions/runs/41083803656). Family interruption and section estimates remain self-reported context; no active total or completed elapsed duration is inferred.
 
+Progression note, 2026-11-01: the learner said “ready for next.” Day 06's discussion is closed for progression with the incomplete attempt and score preserved. [Day 07 communication](cycles/cycle-001/day-07-communication/prompt.md) is assigned and unscored; await submission. PR #25 and record PR #26 have merged. The historical open-PR timing status in the review is retained as dated evidence, not current state.
+
 ## Historical rubric and results
 
 The Senior Readiness Score is a coaching metric. It estimates current senior-engineering readiness. It is not a certification or job title claim.
@@ -43,7 +45,7 @@ The Senior Readiness Score is a coaching metric. It estimates current senior-eng
 | Area | Weight | Current Score | Notes |
 |---|---:|---:|---|
 | Code quality/refactoring | 16% | 9 / 16 | Improved small-helper boundary parsing; keep prior code lessons fresh with short checks. |
-| System design/architecture | 16% | 10 / 16 | Historical area score retained. Day 06 has a separate provisional assignment review awaiting discussion; see the current assignment section above. |
+| System design/architecture | 16% | 10 / 16 | Historical area score retained. Day 06 has a separate provisional assignment score; the learner has moved on with the incomplete attempt preserved. |
 | Debugging/performance | 12% | 7 / 12 | Shows awareness; needs sharper distinction between assembly, streaming, and UI materialization costs. |
 | Testing/reliability | 10% | 7 / 10 | Improved runnable Vitest coverage; continue with targeted tests that expose real edge-case bugs. |
 | Product requirements to pitch shaping | 16% | 8 / 16 | Stays in the loop as its own senior skill area. |
@@ -71,7 +73,7 @@ The Senior Readiness Score is a coaching metric. It estimates current senior-eng
 | 🟠 Needs Attention | Missed work, unclear submission, or a skill gap needs focused practice |
 | 🔴 Recovery Focus | Multiple missed days or a repeated gap requires a reset exercise |
 
-## Weekly Progress
+## Historical Weekly Progress
 
 | Week | Cycle | Readiness | Trend | Momentum | Main Focus |
 |---|---|---:|---:|---|---|
