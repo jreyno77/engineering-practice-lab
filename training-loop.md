@@ -79,7 +79,7 @@ A skill does not need to be mastered before moving on, but its planned block sho
 
 ## Current Position
 
-Day 05 completed the first architecture rep. Day 06's submitted revision in [PR #25](https://github.com/jreyno77/engineering-practice-lab/pull/25) has a [provisional review](cycles/cycle-001/day-06-architecture-lifecycle/review.md). The learner confirmed review of this incomplete attempt; understanding/disagreement is pending. Keep the original attempt and wait before assigning the next day.
+Day 05 completed the first architecture rep. Day 06's submitted revision in [PR #25](https://github.com/jreyno77/engineering-practice-lab/pull/25) has a [provisional review](cycles/cycle-001/day-06-architecture-lifecycle/review.md). On 2026-11-01 the learner said “ready for next.” Close that discussion for progression without treating missing material as completed. [Day 07](cycles/cycle-001/day-07-communication/prompt.md) is now assigned: one 30-minute review-comment exercise carrying forward caller-visible failure outcomes. Wait for submission.
 
 Known code-quality lessons to keep fresh:
 
@@ -91,7 +91,7 @@ Known code-quality lessons to keep fresh:
 Current primary skill area:
 
 ```txt
-System design and architecture
+Communication and disagreement
 ```
 
-The same submission was reassessed on 2026-10-30 using the clarified distinction between section 1's state facts and section 2's execution traces. The current subtotal is 73 points across 90 assessed, with the test criterion's 10 points unassessed and the original 100-point rubric unchanged. The prior 51-point subtotal is superseded, with history preserved. Per-function state, execution traces, and `.expec` remain accepted; internal cleanup ownership receives credit. The next focus is the caller-visible outcome and owned-file guarantees after cancellation or a partial-target failure, then agreement between the public contract and intended behavior. PR timing metadata was corrected without changing the original start. Await understanding or disagreement before the next assignment; no new learner clock is started.
+The same submission was reassessed on 2026-10-30 using the clarified distinction between section 1's state facts and section 2's execution traces. The current subtotal is 73 points across 90 assessed, with the test criterion's 10 points unassessed and the original 100-point rubric unchanged. The prior 51-point subtotal is superseded, with history preserved. Per-function state, execution traces, and `.expec` remain accepted; internal cleanup ownership receives credit. Day 07 practices explaining the caller-visible outcome of a partial-target failure through a supplied fictional case. It does not rewrite Day 06. No learner clock has been started by the coach. After Day 07's review is acknowledged, prioritize a small TypeScript implementation rep within the broader rotation; that later work is not assigned yet.
